@@ -1,0 +1,435 @@
+{
+  "desktop": "0.2.2-rc.3",
+  "sourceBase": "df4c06e4ee6da5118ec2eee9e4f5a6a35c507745",
+  "candidate": "916487d24cd1ec4142c6628dfc79983845968ecb",
+  "plugins": {
+    "maid": {
+      "name": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+      "version": "0.1.11",
+      "id": "ui-skin-maid-atelier",
+      "baseline": {
+        "hashes": {
+          "skinSha256": "a1d92533ef9ffbe981e56526fcd2fcf5f22a7a765c1c295f06e03879db829355",
+          "marketSha256": "42f9ed679ac96b9e7a2da51721b6071770a19a1f6629c0f09d9e248d2e48885c",
+          "launcherSha256": "93e0e6e31a2db74eb2e4905b3c79e339537f2c7cc9c9ff72eac2ff5d226f6780",
+          "asarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae"
+        },
+        "installedFiles": {
+          "lib/routes.js": "bf0e32380c82e820fab113681501f1602dff4a57c2ba66c01f96b20f1a951ddc",
+          "lib/patch.js": "fddaade2a0300abc54b2d21d8fa0eeb2a17dea0138c0a02f5e436f5273e7d90e",
+          "client/client.js": "0dd3a4527e723e1d8b02e07c38d683bbdba7f58b0f6bc8f1028c3a76586dcb13"
+        },
+        "stages": {
+          "marketOff": {
+            "utc": "2026-11-14T07:30:23.641Z",
+            "patch": "- id: ui-skin-maid-atelier\n  disabled: true",
+            "disabled": true,
+            "bundleSelected": false,
+            "officialComponent": null,
+            "market": "false",
+            "notice": []
+          },
+          "officialBundleOn": {
+            "utc": "2026-11-14T07:30:40.932Z",
+            "patch": "- id: ui-skin-maid-atelier\n  disabled: true",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": []
+          },
+          "officialComponentOn": {
+            "utc": "2026-11-14T07:30:47.390Z",
+            "patch": "[]",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": [
+              "include:ui-skin-maid-atelier 已保存，但被更高优先级的配置覆盖，当前未生效"
+            ]
+          },
+          "marketAfter": {
+            "utc": "2026-11-14T07:32:34.830Z",
+            "patch": "[]",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": null,
+            "market": "false",
+            "notice": []
+          },
+          "restarted": {
+            "utc": "2026-11-14T07:33:05.529Z",
+            "patch": "[]",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": []
+          }
+        },
+        "log": [
+          {
+            "at": "2026-11-14T07:32:54.722Z",
+            "event": "boot",
+            "detail": "plugin kept off: @smalltailqwq/dsh-client-ui-skin-maid-atelier"
+          }
+        ]
+      },
+      "fixed": {
+        "hashes": {
+          "skinSha256": "a1d92533ef9ffbe981e56526fcd2fcf5f22a7a765c1c295f06e03879db829355",
+          "marketSha256": "717a2c09b0fe07a90ae564ce46a0f382a4e0dc7ee5c0a14ea062638e2e19bfda",
+          "launcherSha256": "93e0e6e31a2db74eb2e4905b3c79e339537f2c7cc9c9ff72eac2ff5d226f6780",
+          "asarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae"
+        },
+        "installedFiles": {
+          "lib/routes.js": "2481c5f596282a9d458b0a01955756c54dd90b4689fbca10dce56d6f627aab23",
+          "lib/patch.js": "0af5c6cec4aaf5d63788539b70bb8e6fa14ce4cd05d0ff1cb3602bcd298b869f",
+          "client/client.js": "0dd3a4527e723e1d8b02e07c38d683bbdba7f58b0f6bc8f1028c3a76586dcb13"
+        },
+        "stages": {
+          "marketOff": {
+            "utc": "2026-11-14T07:43:17.886Z",
+            "patch": "- id: ui-skin-maid-atelier\n  disabled: true\n  name: '@smalltailqwq/dsh-client-ui-skin-maid-atelier' # dsh-market",
+            "disabled": true,
+            "bundleSelected": false,
+            "officialComponent": null,
+            "market": "false",
+            "notice": []
+          },
+          "officialBundleOn": {
+            "utc": "2026-11-14T07:43:37.080Z",
+            "patch": "- id: ui-skin-maid-atelier\n  disabled: true\n  name: '@smalltailqwq/dsh-client-ui-skin-maid-atelier' # dsh-market",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": []
+          },
+          "officialComponentOn": {
+            "utc": "2026-11-14T07:43:43.258Z",
+            "patch": "- id: ui-skin-maid-atelier\n  disabled: false\n  name: '@smalltailqwq/dsh-client-ui-skin-maid-atelier' # dsh-market",
+            "disabled": false,
+            "bundleSelected": true,
+            "officialComponent": "true",
+            "market": null,
+            "notice": []
+          },
+          "marketAfter": {
+            "utc": "2026-11-14T07:43:57.010Z",
+            "patch": "- id: ui-skin-maid-atelier\n  disabled: false\n  name: '@smalltailqwq/dsh-client-ui-skin-maid-atelier' # dsh-market",
+            "disabled": false,
+            "bundleSelected": true,
+            "officialComponent": null,
+            "market": "true",
+            "notice": []
+          },
+          "restarted": {
+            "utc": "2026-11-14T07:44:25.183Z",
+            "patch": "- id: ui-skin-maid-atelier\n  disabled: false\n  name: '@smalltailqwq/dsh-client-ui-skin-maid-atelier' # dsh-market",
+            "disabled": false,
+            "bundleSelected": true,
+            "officialComponent": "true",
+            "market": null,
+            "notice": []
+          }
+        },
+        "log": [
+          {
+            "at": "2026-11-14T07:43:40.220Z",
+            "event": "toggle",
+            "detail": "@smalltailqwq/dsh-client-ui-skin-maid-atelier: its rows were re-enabled outside the market (#696) — following that instead of switching it back off"
+          }
+        ]
+      }
+    },
+    "orca": {
+      "name": "@smalltailqwq/dsh-client-ui-skin-orca-link",
+      "version": "0.1.11",
+      "id": "ui-skin-orca-link",
+      "baseline": {
+        "hashes": {
+          "skinSha256": "7a9c6236f00c91cb50b323b82f6f83b0ae21781af979106c9b8f187c4ff6fe26",
+          "marketSha256": "42f9ed679ac96b9e7a2da51721b6071770a19a1f6629c0f09d9e248d2e48885c",
+          "launcherSha256": "93e0e6e31a2db74eb2e4905b3c79e339537f2c7cc9c9ff72eac2ff5d226f6780",
+          "asarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae"
+        },
+        "installedFiles": {
+          "lib/routes.js": "bf0e32380c82e820fab113681501f1602dff4a57c2ba66c01f96b20f1a951ddc",
+          "lib/patch.js": "fddaade2a0300abc54b2d21d8fa0eeb2a17dea0138c0a02f5e436f5273e7d90e",
+          "client/client.js": "0dd3a4527e723e1d8b02e07c38d683bbdba7f58b0f6bc8f1028c3a76586dcb13"
+        },
+        "stages": {
+          "marketOff": {
+            "utc": "2026-11-14T07:35:14.071Z",
+            "patch": "- id: ui-skin-orca-link\n  disabled: true",
+            "disabled": true,
+            "bundleSelected": false,
+            "officialComponent": null,
+            "market": "false",
+            "notice": []
+          },
+          "officialBundleOn": {
+            "utc": "2026-11-14T07:36:19.460Z",
+            "patch": "- id: ui-skin-orca-link\n  disabled: true",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": []
+          },
+          "officialComponentOn": {
+            "utc": "2026-11-14T07:36:26.200Z",
+            "patch": "[]",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": [
+              "include:ui-skin-orca-link 已保存，但被更高优先级的配置覆盖，当前未生效"
+            ]
+          },
+          "marketAfter": {
+            "utc": "2026-11-14T07:36:47.713Z",
+            "patch": "[]",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": null,
+            "market": "false",
+            "notice": []
+          },
+          "restarted": {
+            "utc": "2026-11-14T07:37:19.795Z",
+            "patch": "[]",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": []
+          }
+        },
+        "log": [
+          {
+            "at": "2026-11-14T07:36:05.803Z",
+            "event": "boot",
+            "detail": "plugin kept off: @smalltailqwq/dsh-client-ui-skin-orca-link"
+          },
+          {
+            "at": "2026-11-14T07:37:10.161Z",
+            "event": "boot",
+            "detail": "plugin kept off: @smalltailqwq/dsh-client-ui-skin-orca-link"
+          }
+        ]
+      },
+      "fixed": {
+        "hashes": {
+          "skinSha256": "7a9c6236f00c91cb50b323b82f6f83b0ae21781af979106c9b8f187c4ff6fe26",
+          "marketSha256": "717a2c09b0fe07a90ae564ce46a0f382a4e0dc7ee5c0a14ea062638e2e19bfda",
+          "launcherSha256": "93e0e6e31a2db74eb2e4905b3c79e339537f2c7cc9c9ff72eac2ff5d226f6780",
+          "asarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae"
+        },
+        "installedFiles": {
+          "lib/routes.js": "2481c5f596282a9d458b0a01955756c54dd90b4689fbca10dce56d6f627aab23",
+          "lib/patch.js": "0af5c6cec4aaf5d63788539b70bb8e6fa14ce4cd05d0ff1cb3602bcd298b869f",
+          "client/client.js": "0dd3a4527e723e1d8b02e07c38d683bbdba7f58b0f6bc8f1028c3a76586dcb13"
+        },
+        "stages": {
+          "marketOff": {
+            "utc": "2026-11-14T07:45:27.106Z",
+            "patch": "- id: ui-skin-orca-link\n  disabled: true\n  name: '@smalltailqwq/dsh-client-ui-skin-orca-link' # dsh-market",
+            "disabled": true,
+            "bundleSelected": false,
+            "officialComponent": null,
+            "market": "false",
+            "notice": []
+          },
+          "officialBundleOn": {
+            "utc": "2026-11-14T07:45:43.799Z",
+            "patch": "- id: ui-skin-orca-link\n  disabled: true\n  name: '@smalltailqwq/dsh-client-ui-skin-orca-link' # dsh-market",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": []
+          },
+          "officialComponentOn": {
+            "utc": "2026-11-14T07:45:50.549Z",
+            "patch": "- id: ui-skin-orca-link\n  disabled: false\n  name: '@smalltailqwq/dsh-client-ui-skin-orca-link' # dsh-market",
+            "disabled": false,
+            "bundleSelected": true,
+            "officialComponent": "true",
+            "market": null,
+            "notice": []
+          },
+          "marketAfter": {
+            "utc": "2026-11-14T07:46:05.933Z",
+            "patch": "- id: ui-skin-orca-link\n  disabled: false\n  name: '@smalltailqwq/dsh-client-ui-skin-orca-link' # dsh-market",
+            "disabled": false,
+            "bundleSelected": true,
+            "officialComponent": null,
+            "market": "true",
+            "notice": []
+          },
+          "restarted": {
+            "utc": "2026-11-14T07:46:33.215Z",
+            "patch": "- id: ui-skin-orca-link\n  disabled: false\n  name: '@smalltailqwq/dsh-client-ui-skin-orca-link' # dsh-market",
+            "disabled": false,
+            "bundleSelected": true,
+            "officialComponent": "true",
+            "market": null,
+            "notice": []
+          }
+        },
+        "log": [
+          {
+            "at": "2026-11-14T07:45:47.269Z",
+            "event": "toggle",
+            "detail": "@smalltailqwq/dsh-client-ui-skin-orca-link: its rows were re-enabled outside the market (#696) — following that instead of switching it back off"
+          }
+        ]
+      }
+    },
+    "attune": {
+      "name": "dsh-attune",
+      "version": "0.1.0",
+      "id": "dsh-attune",
+      "baseline": {
+        "hashes": {
+          "skinSha256": "6a1e988b95975cfc38d6af8ebbcd10c8d1d2cdb1b214fba9f2886466e9af5844",
+          "marketSha256": "42f9ed679ac96b9e7a2da51721b6071770a19a1f6629c0f09d9e248d2e48885c",
+          "launcherSha256": "93e0e6e31a2db74eb2e4905b3c79e339537f2c7cc9c9ff72eac2ff5d226f6780",
+          "asarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae"
+        },
+        "installedFiles": {
+          "lib/routes.js": "bf0e32380c82e820fab113681501f1602dff4a57c2ba66c01f96b20f1a951ddc",
+          "lib/patch.js": "fddaade2a0300abc54b2d21d8fa0eeb2a17dea0138c0a02f5e436f5273e7d90e",
+          "client/client.js": "0dd3a4527e723e1d8b02e07c38d683bbdba7f58b0f6bc8f1028c3a76586dcb13"
+        },
+        "stages": {
+          "marketOff": {
+            "utc": "2026-11-14T07:36:50.594Z",
+            "patch": "- id: dsh-attune\n  disabled: true",
+            "disabled": true,
+            "bundleSelected": false,
+            "officialComponent": null,
+            "market": "false",
+            "notice": []
+          },
+          "officialBundleOn": {
+            "utc": "2026-11-14T07:39:03.752Z",
+            "patch": "- id: dsh-attune\n  disabled: true",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": []
+          },
+          "officialComponentOn": {
+            "utc": "2026-11-14T07:39:09.299Z",
+            "patch": "[]",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": [
+              "include:dsh-attune 已保存，但被更高优先级的配置覆盖，当前未生效"
+            ]
+          },
+          "marketAfter": {
+            "utc": "2026-11-14T07:39:21.149Z",
+            "patch": "[]",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": null,
+            "market": "false",
+            "notice": []
+          },
+          "restarted": {
+            "utc": "2026-11-14T07:40:20.087Z",
+            "patch": "[]",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": []
+          }
+        },
+        "log": [
+          {
+            "at": "2026-11-14T07:39:37.740Z",
+            "event": "boot",
+            "detail": "plugin kept off: dsh-attune"
+          }
+        ]
+      },
+      "fixed": {
+        "hashes": {
+          "skinSha256": "6a1e988b95975cfc38d6af8ebbcd10c8d1d2cdb1b214fba9f2886466e9af5844",
+          "marketSha256": "717a2c09b0fe07a90ae564ce46a0f382a4e0dc7ee5c0a14ea062638e2e19bfda",
+          "launcherSha256": "93e0e6e31a2db74eb2e4905b3c79e339537f2c7cc9c9ff72eac2ff5d226f6780",
+          "asarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae"
+        },
+        "installedFiles": {
+          "lib/routes.js": "2481c5f596282a9d458b0a01955756c54dd90b4689fbca10dce56d6f627aab23",
+          "lib/patch.js": "0af5c6cec4aaf5d63788539b70bb8e6fa14ce4cd05d0ff1cb3602bcd298b869f",
+          "client/client.js": "0dd3a4527e723e1d8b02e07c38d683bbdba7f58b0f6bc8f1028c3a76586dcb13"
+        },
+        "stages": {
+          "marketOff": {
+            "utc": "2026-11-14T07:47:17.261Z",
+            "patch": "- id: dsh-attune\n  disabled: true\n  name: 'dsh-attune' # dsh-market",
+            "disabled": true,
+            "bundleSelected": false,
+            "officialComponent": null,
+            "market": "false",
+            "notice": []
+          },
+          "officialBundleOn": {
+            "utc": "2026-11-14T07:47:28.350Z",
+            "patch": "- id: dsh-attune\n  disabled: true\n  name: 'dsh-attune' # dsh-market",
+            "disabled": true,
+            "bundleSelected": true,
+            "officialComponent": "false",
+            "market": null,
+            "notice": []
+          },
+          "officialComponentOn": {
+            "utc": "2026-11-14T07:47:32.088Z",
+            "patch": "- id: dsh-attune\n  disabled: false\n  name: 'dsh-attune' # dsh-market",
+            "disabled": false,
+            "bundleSelected": true,
+            "officialComponent": "true",
+            "market": null,
+            "notice": []
+          },
+          "marketAfter": {
+            "utc": "2026-11-14T07:47:41.614Z",
+            "patch": "- id: dsh-attune\n  disabled: false\n  name: 'dsh-attune' # dsh-market",
+            "disabled": false,
+            "bundleSelected": true,
+            "officialComponent": null,
+            "market": "true",
+            "notice": []
+          },
+          "restarted": {
+            "utc": "2026-11-14T07:47:59.656Z",
+            "patch": "- id: dsh-attune\n  disabled: false\n  name: 'dsh-attune' # dsh-market",
+            "disabled": false,
+            "bundleSelected": true,
+            "officialComponent": "true",
+            "market": null,
+            "notice": []
+          }
+        },
+        "log": [
+          {
+            "at": "2026-11-14T07:47:30.814Z",
+            "event": "toggle",
+            "detail": "dsh-attune: its rows were re-enabled outside the market (#696) — following that instead of switching it back off"
+          }
+        ]
+      }
+    }
+  }
+}
