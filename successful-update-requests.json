@@ -1,0 +1,2456 @@
+{
+  "commit": "838296cb462e6a9eeb77b9589351402cc6426bba",
+  "desktop": "0.2.2-rc.3",
+  "windows": "10.0.26300",
+  "profile": "isolated desktop",
+  "market": "1.73.19",
+  "packageRoles": {
+    "single": "dshm-local-1200-single",
+    "batchNames": [
+      "dshm-local-1200-batch-a",
+      "dshm-local-1200-batch-b"
+    ],
+    "disabled": "dshm-local-1200-disabled"
+  },
+  "provenance": {
+    "marketTarballSha256": "d8b06a61eb228d133fddb2d55ec837e8357146d0ef51bb6da86e71f07acadaef",
+    "officialAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae"
+  },
+  "stages": [
+    {
+      "stage": "healthy-open",
+      "label": "01-installed-original",
+      "time": "2026-11-14T09:17:10.928Z",
+      "versions": {
+        "dshm-local-1200-single": "1.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": "1.0.0"
+      },
+      "live": {
+        "dshm-local-1200-single": "1.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": null
+      },
+      "entrySha256": {
+        "dshm-local-1200-single": "0132bbdeca4939d41a6bbdae8a62594bd246a25c06ff59e45b8ecc30c1cf7519",
+        "dshm-local-1200-batch-a": "8cfd82007e95a5e845440fce8d7f47bbe950cd8bc37f0d8a48df4f64f74233e0",
+        "dshm-local-1200-batch-b": "e148ebea9fdc8ce9ca393dfd146c360e56b4082c356bae681744dd32fede8457",
+        "dshm-local-1200-disabled": "0f86d1c242587f69ef6261b33108461fbd90f52df0c7d82f416446a277e210b5"
+      },
+      "dependencies": {
+        "dshm-local-1200-single": "1.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": "1.0.0"
+      },
+      "bundles": [
+        "dshm-local-1200-single",
+        "dshm-local-1200-batch-a",
+        "dshm-local-1200-batch-b"
+      ],
+      "lockfileFixtureLines": [
+        "      dshm-local-1200-batch-a:",
+        "      dshm-local-1200-batch-b:",
+        "      dshm-local-1200-disabled:",
+        "      dshm-local-1200-single:",
+        "  dshm-local-1200-batch-a@1.0.0:",
+        "  dshm-local-1200-batch-b@1.0.0:",
+        "  dshm-local-1200-disabled@1.0.0:",
+        "  dshm-local-1200-single@1.0.0:",
+        "  dshm-local-1200-batch-a@1.0.0: {}",
+        "  dshm-local-1200-batch-b@1.0.0: {}",
+        "  dshm-local-1200-disabled@1.0.0: {}",
+        "  dshm-local-1200-single@1.0.0: {}"
+      ],
+      "ui": {
+        "tab": "installed",
+        "buttons": []
+      }
+    },
+    {
+      "stage": "single-offer",
+      "label": "02-single-offered",
+      "time": "2026-11-14T09:17:13.251Z",
+      "versions": {
+        "dshm-local-1200-single": "1.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": "1.0.0"
+      },
+      "live": {
+        "dshm-local-1200-single": "1.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": null
+      },
+      "entrySha256": {
+        "dshm-local-1200-single": "0132bbdeca4939d41a6bbdae8a62594bd246a25c06ff59e45b8ecc30c1cf7519",
+        "dshm-local-1200-batch-a": "8cfd82007e95a5e845440fce8d7f47bbe950cd8bc37f0d8a48df4f64f74233e0",
+        "dshm-local-1200-batch-b": "e148ebea9fdc8ce9ca393dfd146c360e56b4082c356bae681744dd32fede8457",
+        "dshm-local-1200-disabled": "0f86d1c242587f69ef6261b33108461fbd90f52df0c7d82f416446a277e210b5"
+      },
+      "dependencies": {
+        "dshm-local-1200-single": "1.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": "1.0.0"
+      },
+      "bundles": [
+        "dshm-local-1200-single",
+        "dshm-local-1200-batch-a",
+        "dshm-local-1200-batch-b"
+      ],
+      "lockfileFixtureLines": [
+        "      dshm-local-1200-batch-a:",
+        "      dshm-local-1200-batch-b:",
+        "      dshm-local-1200-disabled:",
+        "      dshm-local-1200-single:",
+        "  dshm-local-1200-batch-a@1.0.0:",
+        "  dshm-local-1200-batch-b@1.0.0:",
+        "  dshm-local-1200-disabled@1.0.0:",
+        "  dshm-local-1200-single@1.0.0:",
+        "  dshm-local-1200-batch-a@1.0.0: {}",
+        "  dshm-local-1200-batch-b@1.0.0: {}",
+        "  dshm-local-1200-disabled@1.0.0: {}",
+        "  dshm-local-1200-single@1.0.0: {}"
+      ],
+      "ui": {
+        "tab": "installed",
+        "buttons": [
+          "全部更新 (1)",
+          "更新内容 ›",
+          "更新 v2.0.0"
+        ]
+      }
+    },
+    {
+      "stage": "single-update",
+      "label": "03-single-installed",
+      "time": "2026-11-14T09:17:29.52Z",
+      "versions": {
+        "dshm-local-1200-single": "2.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": "1.0.0"
+      },
+      "live": {
+        "dshm-local-1200-single": "2.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": null
+      },
+      "entrySha256": {
+        "dshm-local-1200-single": "0132bbdeca4939d41a6bbdae8a62594bd246a25c06ff59e45b8ecc30c1cf7519",
+        "dshm-local-1200-batch-a": "8cfd82007e95a5e845440fce8d7f47bbe950cd8bc37f0d8a48df4f64f74233e0",
+        "dshm-local-1200-batch-b": "e148ebea9fdc8ce9ca393dfd146c360e56b4082c356bae681744dd32fede8457",
+        "dshm-local-1200-disabled": "0f86d1c242587f69ef6261b33108461fbd90f52df0c7d82f416446a277e210b5"
+      },
+      "dependencies": {
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": "1.0.0",
+        "dshm-local-1200-single": "2.0.0"
+      },
+      "bundles": [
+        "dshm-local-1200-batch-a",
+        "dshm-local-1200-batch-b",
+        "dshm-local-1200-single"
+      ],
+      "lockfileFixtureLines": [
+        "      dshm-local-1200-batch-a:",
+        "      dshm-local-1200-batch-b:",
+        "      dshm-local-1200-disabled:",
+        "      dshm-local-1200-single:",
+        "  dshm-local-1200-batch-a@1.0.0:",
+        "  dshm-local-1200-batch-b@1.0.0:",
+        "  dshm-local-1200-disabled@1.0.0:",
+        "  dshm-local-1200-single@2.0.0:",
+        "  dshm-local-1200-batch-a@1.0.0: {}",
+        "  dshm-local-1200-batch-b@1.0.0: {}",
+        "  dshm-local-1200-disabled@1.0.0: {}",
+        "  dshm-local-1200-single@2.0.0: {}"
+      ],
+      "ui": {
+        "tab": "installed",
+        "buttons": []
+      }
+    },
+    {
+      "stage": "batch-offer",
+      "label": "04-batch-offered",
+      "time": "2026-11-14T09:17:36.838Z",
+      "versions": {
+        "dshm-local-1200-single": "2.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": "1.0.0"
+      },
+      "live": {
+        "dshm-local-1200-single": "2.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": null
+      },
+      "entrySha256": {
+        "dshm-local-1200-single": "0132bbdeca4939d41a6bbdae8a62594bd246a25c06ff59e45b8ecc30c1cf7519",
+        "dshm-local-1200-batch-a": "8cfd82007e95a5e845440fce8d7f47bbe950cd8bc37f0d8a48df4f64f74233e0",
+        "dshm-local-1200-batch-b": "e148ebea9fdc8ce9ca393dfd146c360e56b4082c356bae681744dd32fede8457",
+        "dshm-local-1200-disabled": "0f86d1c242587f69ef6261b33108461fbd90f52df0c7d82f416446a277e210b5"
+      },
+      "dependencies": {
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": "1.0.0",
+        "dshm-local-1200-single": "2.0.0"
+      },
+      "bundles": [
+        "dshm-local-1200-batch-a",
+        "dshm-local-1200-batch-b",
+        "dshm-local-1200-single"
+      ],
+      "lockfileFixtureLines": [
+        "      dshm-local-1200-batch-a:",
+        "      dshm-local-1200-batch-b:",
+        "      dshm-local-1200-disabled:",
+        "      dshm-local-1200-single:",
+        "  dshm-local-1200-batch-a@1.0.0:",
+        "  dshm-local-1200-batch-b@1.0.0:",
+        "  dshm-local-1200-disabled@1.0.0:",
+        "  dshm-local-1200-single@2.0.0:",
+        "  dshm-local-1200-batch-a@1.0.0: {}",
+        "  dshm-local-1200-batch-b@1.0.0: {}",
+        "  dshm-local-1200-disabled@1.0.0: {}",
+        "  dshm-local-1200-single@2.0.0: {}"
+      ],
+      "ui": {
+        "tab": "installed",
+        "buttons": [
+          "全部更新 (2)",
+          "更新内容 ›",
+          "更新 v2.0.0",
+          "更新内容 ›",
+          "更新 v2.0.0",
+          "更新内容 ›",
+          "更新 v2.0.0"
+        ]
+      }
+    },
+    {
+      "stage": "batch-check-upstream-503",
+      "label": "05-batch-upstream-failure",
+      "time": "2026-11-14T09:17:39.054Z",
+      "versions": {
+        "dshm-local-1200-single": "2.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": "1.0.0"
+      },
+      "live": {
+        "dshm-local-1200-single": "2.0.0",
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": null
+      },
+      "entrySha256": {
+        "dshm-local-1200-single": "0132bbdeca4939d41a6bbdae8a62594bd246a25c06ff59e45b8ecc30c1cf7519",
+        "dshm-local-1200-batch-a": "8cfd82007e95a5e845440fce8d7f47bbe950cd8bc37f0d8a48df4f64f74233e0",
+        "dshm-local-1200-batch-b": "e148ebea9fdc8ce9ca393dfd146c360e56b4082c356bae681744dd32fede8457",
+        "dshm-local-1200-disabled": "0f86d1c242587f69ef6261b33108461fbd90f52df0c7d82f416446a277e210b5"
+      },
+      "dependencies": {
+        "dshm-local-1200-batch-a": "1.0.0",
+        "dshm-local-1200-batch-b": "1.0.0",
+        "dshm-local-1200-disabled": "1.0.0",
+        "dshm-local-1200-single": "2.0.0"
+      },
+      "bundles": [
+        "dshm-local-1200-batch-a",
+        "dshm-local-1200-batch-b",
+        "dshm-local-1200-single"
+      ],
+      "lockfileFixtureLines": [
+        "      dshm-local-1200-batch-a:",
+        "      dshm-local-1200-batch-b:",
+        "      dshm-local-1200-disabled:",
+        "      dshm-local-1200-single:",
+        "  dshm-local-1200-batch-a@1.0.0:",
+        "  dshm-local-1200-batch-b@1.0.0:",
+        "  dshm-local-1200-disabled@1.0.0:",
+        "  dshm-local-1200-single@2.0.0:",
+        "  dshm-local-1200-batch-a@1.0.0: {}",
+        "  dshm-local-1200-batch-b@1.0.0: {}",
+        "  dshm-local-1200-disabled@1.0.0: {}",
+        "  dshm-local-1200-single@2.0.0: {}"
+      ],
+      "ui": {
+        "tab": "discover",
+        "buttons": [
+          "全部更新 (2)",
+          "重试"
+        ],
+        "warning": "暂时无法检查更新"
+      }
+    },
+    {
+      "stage": "batch-update",
+      "label": "06-batch-installed",
+      "time": "2026-11-14T09:18:07.132Z",
+      "versions": {
+        "dshm-local-1200-single": "2.0.0",
+        "dshm-local-1200-batch-a": "2.0.0",
+        "dshm-local-1200-batch-b": "2.0.0",
+        "dshm-local-1200-disabled": "1.0.0"
+      },
+      "live": {
+        "dshm-local-1200-single": "2.0.0",
+        "dshm-local-1200-batch-a": "2.0.0",
+        "dshm-local-1200-batch-b": "2.0.0",
+        "dshm-local-1200-disabled": null
+      },
+      "entrySha256": {
+        "dshm-local-1200-single": "0132bbdeca4939d41a6bbdae8a62594bd246a25c06ff59e45b8ecc30c1cf7519",
+        "dshm-local-1200-batch-a": "8cfd82007e95a5e845440fce8d7f47bbe950cd8bc37f0d8a48df4f64f74233e0",
+        "dshm-local-1200-batch-b": "e148ebea9fdc8ce9ca393dfd146c360e56b4082c356bae681744dd32fede8457",
+        "dshm-local-1200-disabled": "0f86d1c242587f69ef6261b33108461fbd90f52df0c7d82f416446a277e210b5"
+      },
+      "dependencies": {
+        "dshm-local-1200-batch-a": "2.0.0",
+        "dshm-local-1200-batch-b": "2.0.0",
+        "dshm-local-1200-disabled": "1.0.0",
+        "dshm-local-1200-single": "2.0.0"
+      },
+      "bundles": [
+        "dshm-local-1200-single",
+        "dshm-local-1200-batch-a",
+        "dshm-local-1200-batch-b"
+      ],
+      "lockfileFixtureLines": [
+        "      dshm-local-1200-batch-a:",
+        "      dshm-local-1200-batch-b:",
+        "      dshm-local-1200-disabled:",
+        "      dshm-local-1200-single:",
+        "  dshm-local-1200-batch-a@2.0.0:",
+        "  dshm-local-1200-batch-b@2.0.0:",
+        "  dshm-local-1200-disabled@1.0.0:",
+        "  dshm-local-1200-single@2.0.0:",
+        "  dshm-local-1200-batch-a@2.0.0: {}",
+        "  dshm-local-1200-batch-b@2.0.0: {}",
+        "  dshm-local-1200-disabled@1.0.0: {}",
+        "  dshm-local-1200-single@2.0.0: {}"
+      ],
+      "ui": {
+        "tab": "installed",
+        "buttons": [
+          "更新内容 ›",
+          "更新 v2.0.0"
+        ]
+      }
+    },
+    {
+      "stage": "restart",
+      "label": "07-restarted-new-builds",
+      "time": "2026-11-14T09:18:24.498Z",
+      "versions": {
+        "dshm-local-1200-single": "2.0.0",
+        "dshm-local-1200-batch-a": "2.0.0",
+        "dshm-local-1200-batch-b": "2.0.0",
+        "dshm-local-1200-disabled": "1.0.0"
+      },
+      "live": {
+        "dshm-local-1200-single": "2.0.0",
+        "dshm-local-1200-batch-a": "2.0.0",
+        "dshm-local-1200-batch-b": "2.0.0",
+        "dshm-local-1200-disabled": null
+      },
+      "entrySha256": {
+        "dshm-local-1200-single": "0132bbdeca4939d41a6bbdae8a62594bd246a25c06ff59e45b8ecc30c1cf7519",
+        "dshm-local-1200-batch-a": "8cfd82007e95a5e845440fce8d7f47bbe950cd8bc37f0d8a48df4f64f74233e0",
+        "dshm-local-1200-batch-b": "e148ebea9fdc8ce9ca393dfd146c360e56b4082c356bae681744dd32fede8457",
+        "dshm-local-1200-disabled": "0f86d1c242587f69ef6261b33108461fbd90f52df0c7d82f416446a277e210b5"
+      },
+      "dependencies": {
+        "dshm-local-1200-batch-a": "2.0.0",
+        "dshm-local-1200-batch-b": "2.0.0",
+        "dshm-local-1200-disabled": "1.0.0",
+        "dshm-local-1200-single": "2.0.0"
+      },
+      "bundles": [
+        "dshm-local-1200-single",
+        "dshm-local-1200-batch-a",
+        "dshm-local-1200-batch-b"
+      ],
+      "lockfileFixtureLines": [
+        "      dshm-local-1200-batch-a:",
+        "      dshm-local-1200-batch-b:",
+        "      dshm-local-1200-disabled:",
+        "      dshm-local-1200-single:",
+        "  dshm-local-1200-batch-a@2.0.0:",
+        "  dshm-local-1200-batch-b@2.0.0:",
+        "  dshm-local-1200-disabled@1.0.0:",
+        "  dshm-local-1200-single@2.0.0:",
+        "  dshm-local-1200-batch-a@2.0.0: {}",
+        "  dshm-local-1200-batch-b@2.0.0: {}",
+        "  dshm-local-1200-disabled@1.0.0: {}",
+        "  dshm-local-1200-single@2.0.0: {}"
+      ],
+      "ui": {
+        "tab": "installed",
+        "buttons": [
+          "更新内容 ›",
+          "更新 v2.0.0"
+        ]
+      }
+    }
+  ],
+  "requests": [
+    {
+      "stage": "healthy-open",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:17:09.026Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:09.078Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-single": "1.0.0",
+          "dshm-local-1200-batch-a": "1.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-single": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-a": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "healthy-open",
+      "method": "GET",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T09:17:09.027Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:09.125Z",
+      "body": {
+        "available": [],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "healthy-open",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:17:10.885Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:10.935Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-single": "1.0.0",
+          "dshm-local-1200-batch-a": "1.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-single": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-a": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "healthy-open",
+      "method": "GET",
+      "path": "/dsh-market/updates?force=1",
+      "startedAt": "2026-11-14T09:17:10.885Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:10.935Z",
+      "body": {
+        "available": [],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "single-offer",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:17:12.863Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:12.923Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-single": "1.0.0",
+          "dshm-local-1200-batch-a": "1.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-single": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-a": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "single-offer",
+      "method": "GET",
+      "path": "/dsh-market/updates?force=1",
+      "startedAt": "2026-11-14T09:17:12.864Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:13.08Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-single"
+        ],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "single-update",
+      "method": "POST",
+      "path": "/dsh-market/update",
+      "startedAt": "2026-11-14T09:17:20.439Z",
+      "payload": {
+        "name": "dshm-local-1200-single",
+        "eligibleVersion": "2.0.0",
+        "busyPolicy": "drain"
+      },
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:28.239Z",
+      "body": {
+        "ok": true,
+        "activation": {
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        },
+        "exitCode": 0,
+        "timedOut": false,
+        "installed": {
+          "dshm-local-1200-batch-a": "1.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        }
+      }
+    },
+    {
+      "stage": "single-update",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:17:28.243Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:28.607Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "1.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "single-update",
+      "method": "GET",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T09:17:28.243Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:28.608Z",
+      "body": {
+        "available": [],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "batch-offer",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:17:36.738Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:36.765Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "1.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "batch-offer",
+      "method": "GET",
+      "path": "/dsh-market/updates?force=1",
+      "startedAt": "2026-11-14T09:17:36.738Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:36.778Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-batch-a",
+          "dshm-local-1200-batch-b",
+          "dshm-local-1200-disabled"
+        ],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "batch-check-upstream-503",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:17:38.937Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:38.997Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "1.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "batch-check-upstream-503",
+      "method": "GET",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T09:17:38.937Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:38.999Z",
+      "body": {
+        "available": [],
+        "checkFailed": [
+          "dshm-local-1200-batch-a",
+          "dshm-local-1200-batch-b",
+          "dshm-local-1200-disabled",
+          "dshm-local-1200-single"
+        ]
+      }
+    },
+    {
+      "stage": "batch-check-retry",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:17:43.13Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:43.327Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "1.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "batch-check-retry",
+      "method": "GET",
+      "path": "/dsh-market/updates?force=1",
+      "startedAt": "2026-11-14T09:17:43.13Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:43.359Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-batch-a",
+          "dshm-local-1200-batch-b",
+          "dshm-local-1200-disabled"
+        ],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "POST",
+      "path": "/dsh-market/update",
+      "startedAt": "2026-11-14T09:17:45.406Z",
+      "payload": {
+        "name": "dshm-local-1200-batch-a",
+        "eligibleVersion": "2.0.0",
+        "busyPolicy": "drain"
+      },
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:57.996Z",
+      "body": {
+        "ok": true,
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        },
+        "exitCode": 0,
+        "timedOut": false,
+        "installed": {
+          "dshm-local-1200-batch-a": "2.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        }
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:17:58.002Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:58.118Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "2.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:17:58.017Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:58.13Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "2.0.0",
+          "dshm-local-1200-batch-b": "1.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T09:17:58.002Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:59.584Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-batch-b",
+          "dshm-local-1200-disabled"
+        ],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T09:17:58.017Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:17:59.586Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-batch-b",
+          "dshm-local-1200-disabled"
+        ],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "POST",
+      "path": "/dsh-market/update",
+      "startedAt": "2026-11-14T09:17:58.002Z",
+      "payload": {
+        "name": "dshm-local-1200-batch-b",
+        "eligibleVersion": "2.0.0",
+        "busyPolicy": "drain"
+      },
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:07.073Z",
+      "body": {
+        "ok": true,
+        "activation": {
+          "dshm-local-1200-batch-b": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        },
+        "exitCode": 0,
+        "timedOut": false,
+        "installed": {
+          "dshm-local-1200-batch-a": "2.0.0",
+          "dshm-local-1200-batch-b": "2.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        }
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:18:07.076Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:07.177Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "2.0.0",
+          "dshm-local-1200-batch-b": "2.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:18:07.077Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:07.178Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "2.0.0",
+          "dshm-local-1200-batch-b": "2.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:18:07.092Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:07.178Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "2.0.0",
+          "dshm-local-1200-batch-b": "2.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:18:07.092Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:07.178Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "2.0.0",
+          "dshm-local-1200-batch-b": "2.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "restart",
+            "reasons": [
+              "新版本已就位,但运行中的进程仍在使用启动时加载的旧模块——重启后生效(页面本身会立即变成新版,服务端不会) / the new build is in place, but the running process still serves the module it imported at boot — restart to apply (the page itself updates immediately; the server half does not)"
+            ],
+            "bundle": true,
+            "hot": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/updates?force=1",
+      "startedAt": "2026-11-14T09:18:07.077Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:07.669Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-disabled"
+        ],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T09:18:07.077Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:07.67Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-disabled"
+        ],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T09:18:07.092Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:07.672Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-disabled"
+        ],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "batch-update",
+      "method": "GET",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T09:18:07.092Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:07.674Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-disabled"
+        ],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "restart",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:18:22.602Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:22.657Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "2.0.0",
+          "dshm-local-1200-batch-b": "2.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          }
+        }
+      }
+    },
+    {
+      "stage": "restart",
+      "method": "GET",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T09:18:22.602Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:22.817Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-disabled"
+        ],
+        "checkFailed": []
+      }
+    },
+    {
+      "stage": "restart",
+      "method": "GET",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T09:18:24.461Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:24.513Z",
+      "body": {
+        "installed": {
+          "dshm-local-1200-batch-a": "2.0.0",
+          "dshm-local-1200-batch-b": "2.0.0",
+          "dshm-local-1200-disabled": "1.0.0",
+          "dshm-local-1200-single": "2.0.0"
+        },
+        "disabled": [
+          "dshm-local-1200-disabled"
+        ],
+        "activation": {
+          "dshm-local-1200-batch-a": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-batch-b": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          },
+          "dshm-local-1200-disabled": {
+            "state": "disabled",
+            "reasons": [
+              "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+            ],
+            "bundle": false,
+            "hot": false
+          },
+          "dshm-local-1200-single": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          }
+        }
+      }
+    },
+    {
+      "stage": "restart",
+      "method": "GET",
+      "path": "/dsh-market/updates?force=1",
+      "startedAt": "2026-11-14T09:18:24.461Z",
+      "status": 200,
+      "responseAt": "2026-11-14T09:18:24.514Z",
+      "body": {
+        "available": [
+          "dshm-local-1200-disabled"
+        ],
+        "checkFailed": []
+      }
+    }
+  ],
+  "npm": [
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:45.446Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:45.449Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:45.449Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:45.45Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:52.007Z",
+      "method": "GET",
+      "path": "/js-yaml",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:52.008Z",
+      "method": "GET",
+      "path": "/undici",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:52.012Z",
+      "method": "GET",
+      "path": "/argparse",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:52.107Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/-/dshm-local-1200-single-1.0.0.tgz",
+      "status": 200,
+      "kind": "tarball",
+      "bytes": 1943,
+      "sha256": "d18f33b2a2c4437576e7532c485a652e086b0bc0c7927a0e3b0b5cac40587350"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:52.108Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/-/dshm-local-1200-batch-a-1.0.0.tgz",
+      "status": 200,
+      "kind": "tarball",
+      "bytes": 1943,
+      "sha256": "eceac2b54f0beca2e41c6bb8516a675ad0707f6beb3d7c4efd769bb650cb33c3"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:52.459Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/-/dshm-local-1200-batch-b-1.0.0.tgz",
+      "status": 200,
+      "kind": "tarball",
+      "bytes": 1943,
+      "sha256": "340c866356595df110bcd74e64a89597bd923f4f882702dcacbdb264072050e2"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:52.584Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/-/dshm-local-1200-disabled-1.0.0.tgz",
+      "status": 200,
+      "kind": "tarball",
+      "bytes": 1942,
+      "sha256": "fc36c5906683a5f9fc9296de2e7759678ed00f22202c988afeb71502925ae6a5"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:52.584Z",
+      "method": "GET",
+      "path": "/js-yaml/-/js-yaml-4.3.2.tgz",
+      "status": 200,
+      "kind": "tarball",
+      "bytes": 229355,
+      "sha256": "9b1a2cbcdc387c591bba81fa3b04640cd733be1dd70aa41c67275cb74f7b074f"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:52.631Z",
+      "method": "GET",
+      "path": "/undici/-/undici-7.30.2.tgz",
+      "status": 200,
+      "kind": "tarball",
+      "bytes": 408941,
+      "sha256": "65f13545a4aef6420ddfed58bc3fb40a024dce8f645ff49e297cb23422abffea"
+    },
+    {
+      "stage": "bootstrap-pnpm",
+      "time": "2026-11-14T09:16:52.632Z",
+      "method": "GET",
+      "path": "/argparse/-/argparse-2.0.1.tgz",
+      "status": 200,
+      "kind": "tarball",
+      "bytes": 39838,
+      "sha256": "79faade53672037f1113251c84b18a7a2ebda455d3ab476042511376df401374"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:09.08Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:09.08Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:09.08Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:09.081Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:09.121Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:09.122Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:09.122Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:09.123Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:10.906Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:10.906Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:10.907Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "healthy-open",
+      "time": "2026-11-14T09:17:10.907Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "single-offer",
+      "time": "2026-11-14T09:17:12.893Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "single-offer",
+      "time": "2026-11-14T09:17:12.893Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "single-offer",
+      "time": "2026-11-14T09:17:12.893Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "single-offer",
+      "time": "2026-11-14T09:17:12.893Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "single-offer",
+      "time": "2026-11-14T09:17:12.895Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "single-update",
+      "time": "2026-11-14T09:17:20.429Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "single-update",
+      "time": "2026-11-14T09:17:20.431Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "single-update",
+      "time": "2026-11-14T09:17:20.433Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/2.0.0",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "single-update",
+      "time": "2026-11-14T09:17:24.958Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "single-update",
+      "time": "2026-11-14T09:17:25.927Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "single-update",
+      "time": "2026-11-14T09:17:26.55Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/-/dshm-local-1200-single-2.0.0.tgz",
+      "status": 200,
+      "kind": "tarball",
+      "bytes": 1943,
+      "sha256": "ee60ad3ac9d306a792f50fd63bbb3fab09f84900399c131bc8c0cff57b84104a"
+    },
+    {
+      "stage": "single-update",
+      "time": "2026-11-14T09:17:28.278Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "single-update",
+      "time": "2026-11-14T09:17:28.278Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "single-update",
+      "time": "2026-11-14T09:17:28.279Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "single-update",
+      "time": "2026-11-14T09:17:28.279Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-offer",
+      "time": "2026-11-14T09:17:36.769Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-offer",
+      "time": "2026-11-14T09:17:36.769Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-offer",
+      "time": "2026-11-14T09:17:36.769Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-offer",
+      "time": "2026-11-14T09:17:36.77Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-offer",
+      "time": "2026-11-14T09:17:36.771Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-offer",
+      "time": "2026-11-14T09:17:36.773Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-offer",
+      "time": "2026-11-14T09:17:36.774Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-check-upstream-503",
+      "time": "2026-11-14T09:17:38.98Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 503,
+      "kind": "controlled-upstream"
+    },
+    {
+      "stage": "batch-check-upstream-503",
+      "time": "2026-11-14T09:17:38.981Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 503,
+      "kind": "controlled-upstream"
+    },
+    {
+      "stage": "batch-check-upstream-503",
+      "time": "2026-11-14T09:17:38.981Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 503,
+      "kind": "controlled-upstream"
+    },
+    {
+      "stage": "batch-check-upstream-503",
+      "time": "2026-11-14T09:17:38.981Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 503,
+      "kind": "controlled-upstream"
+    },
+    {
+      "stage": "batch-check-retry",
+      "time": "2026-11-14T09:17:43.341Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-check-retry",
+      "time": "2026-11-14T09:17:43.343Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-check-retry",
+      "time": "2026-11-14T09:17:43.343Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-check-retry",
+      "time": "2026-11-14T09:17:43.343Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-check-retry",
+      "time": "2026-11-14T09:17:43.346Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-check-retry",
+      "time": "2026-11-14T09:17:43.352Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-check-retry",
+      "time": "2026-11-14T09:17:43.353Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:45.394Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:45.398Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:45.402Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/2.0.0",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:54.168Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:55.068Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:55.564Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/-/dshm-local-1200-batch-a-2.0.0.tgz",
+      "status": 200,
+      "kind": "tarball",
+      "bytes": 1943,
+      "sha256": "f854a8e6923a666a6b89919ecc6a91146a26776f8354844e379ae00ec07f1e33"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:58.061Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:58.129Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:58.15Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.017Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.018Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.018Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.019Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/2.0.0",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.553Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.553Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.553Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.554Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.555Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.555Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.563Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:17:59.563Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:04.104Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:04.996Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:05.33Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/-/dshm-local-1200-batch-b-2.0.0.tgz",
+      "status": 200,
+      "kind": "tarball",
+      "bytes": 1944,
+      "sha256": "f3fd986703195c7ac7623945a9174fe3f48251771d3e4f92dc6f04437f63eb08"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.289Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.29Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.302Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.303Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.303Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.303Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.303Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.303Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.655Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.655Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.655Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.656Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.656Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.656Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.656Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.656Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.663Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.663Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.663Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "batch-update",
+      "time": "2026-11-14T09:18:07.664Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "restart",
+      "time": "2026-11-14T09:18:22.78Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "restart",
+      "time": "2026-11-14T09:18:22.78Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "restart",
+      "time": "2026-11-14T09:18:22.78Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "restart",
+      "time": "2026-11-14T09:18:22.78Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "restart",
+      "time": "2026-11-14T09:18:22.785Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    },
+    {
+      "stage": "restart",
+      "time": "2026-11-14T09:18:24.474Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-a/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "restart",
+      "time": "2026-11-14T09:18:24.474Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-batch-b/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "restart",
+      "time": "2026-11-14T09:18:24.474Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "restart",
+      "time": "2026-11-14T09:18:24.474Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-single/latest",
+      "status": 200,
+      "kind": "manifest"
+    },
+    {
+      "stage": "restart",
+      "time": "2026-11-14T09:18:24.475Z",
+      "method": "GET",
+      "path": "/dshm-local-1200-disabled",
+      "status": 200,
+      "kind": "packument"
+    }
+  ],
+  "beforeRuntime": {
+    "version": "1.73.19",
+    "boot": "20252-1794647820999",
+    "runtime": "desktop"
+  },
+  "afterRuntime": {
+    "version": "1.73.19",
+    "boot": "12324-1794647895145",
+    "runtime": "desktop"
+  },
+  "pass": true
+}

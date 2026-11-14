@@ -1,0 +1,433 @@
+{
+  "desktop": "DSH Desktop 0.2.2-rc.3",
+  "windows": "10.0.26300",
+  "fixtures": "19 installed including market, 9 eligible before UI excludes 1 disabled",
+  "baseline": {
+    "run": "baseline-1794646214314",
+    "source": "df4c06e4ee6da5118ec2eee9e4f5a6a35c507745",
+    "observations": "baseline-requests.json",
+    "sha256": {
+      "desktopAsar": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+      "marketTarball": "42f9ed679ac96b9e7a2da51721b6071770a19a1f6629c0f09d9e248d2e48885c",
+      "marketClient": "0dd3a4527e723e1d8b02e07c38d683bbdba7f58b0f6bc8f1028c3a76586dcb13",
+      "marketRoutes": "bf0e32380c82e820fab113681501f1602dff4a57c2ba66c01f96b20f1a951ddc",
+      "marketUpdates": "fd38dd1520e055ccde28c7721c86b4468df6503b502ead4c631d17b6b1e545a4"
+    }
+  },
+  "candidate": {
+    "run": "candidate-final-1794646912670",
+    "source": "df4c06e + fix/update-check-failures worktree",
+    "commit": "838296cb462e6a9eeb77b9589351402cc6426bba",
+    "observations": "fixed-requests.json",
+    "sha256": {
+      "desktopAsar": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+      "marketTarball": "d8b06a61eb228d133fddb2d55ec837e8357146d0ef51bb6da86e71f07acadaef",
+      "marketClient": "fc9d941ba3aed9a76b41b685bd437355fa8589f38febe62994146f94dab3d5f8",
+      "marketRoutes": "8435007d8d125eb7e3fee25b6fc52add8e31f30598bfc1c8e0c94807affd9b56",
+      "marketUpdates": "a1433f4f0ba8c9402cdea6a2d66fb2945b891cc5dcb5bdfb4f71e191c2c66ec0"
+    }
+  },
+  "results": [
+    {
+      "case": "warm-upstream-503",
+      "before": {
+        "request": {
+          "path": "/dsh-market/updates",
+          "status": 200,
+          "startedAt": "2026-11-14T08:50:43.756Z",
+          "responseAt": "2026-11-14T08:50:46.081Z",
+          "durationMs": 2325,
+          "available": 0,
+          "checkFailed": 0,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 18,
+          "http200": 0,
+          "http503": 18
+        },
+        "ui": {
+          "hasEight": false,
+          "warning": false,
+          "retry": false
+        }
+      },
+      "after": {
+        "request": {
+          "path": "/dsh-market/updates",
+          "status": 200,
+          "startedAt": "2026-11-14T09:02:41.393Z",
+          "responseAt": "2026-11-14T09:02:43.814Z",
+          "durationMs": 2421,
+          "available": 0,
+          "checkFailed": 18,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 18,
+          "http200": 0,
+          "http503": 18
+        },
+        "ui": {
+          "hasEight": true,
+          "warning": true,
+          "retry": true
+        }
+      }
+    },
+    {
+      "case": "warm-503-recovery-ordinary",
+      "before": {
+        "request": {
+          "path": "/dsh-market/updates",
+          "status": 200,
+          "startedAt": "2026-11-14T08:51:54.126Z",
+          "responseAt": "2026-11-14T08:51:54.157Z",
+          "durationMs": 31,
+          "available": 0,
+          "checkFailed": 0
+        },
+        "upstream": {
+          "total": 0,
+          "http200": 0,
+          "http503": 0
+        }
+      },
+      "after": {
+        "request": {
+          "path": "/dsh-market/updates",
+          "status": 200,
+          "startedAt": "2026-11-14T09:02:46.301Z",
+          "responseAt": "2026-11-14T09:02:46.337Z",
+          "durationMs": 36,
+          "available": 9,
+          "checkFailed": 0
+        },
+        "upstream": {
+          "total": 27,
+          "http200": 27,
+          "http503": 0
+        }
+      }
+    },
+    {
+      "case": "warm-503-recovery-force",
+      "before": {
+        "request": {
+          "path": "/dsh-market/updates?force=1",
+          "status": 200,
+          "startedAt": "2026-11-14T08:51:56.191Z",
+          "responseAt": "2026-11-14T08:51:56.435Z",
+          "durationMs": 244,
+          "available": 9,
+          "checkFailed": 0,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 27,
+          "http200": 27,
+          "http503": 0
+        },
+        "ui": {
+          "hasEight": true,
+          "warning": false,
+          "retry": false
+        }
+      },
+      "after": {
+        "request": {
+          "path": "/dsh-market/updates?force=1",
+          "status": 200,
+          "startedAt": "2026-11-14T09:02:46.359Z",
+          "responseAt": "2026-11-14T09:02:46.465Z",
+          "durationMs": 106,
+          "available": 9,
+          "checkFailed": 0,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 27,
+          "http200": 27,
+          "http503": 0
+        },
+        "ui": {
+          "hasEight": true,
+          "warning": false,
+          "retry": false
+        }
+      }
+    },
+    {
+      "case": "warm-route-500",
+      "before": {
+        "request": {
+          "path": "/dsh-market/updates",
+          "status": 500,
+          "startedAt": "2026-11-14T08:52:04.273Z",
+          "responseAt": "2026-11-14T08:52:04.426Z",
+          "durationMs": 153,
+          "available": null,
+          "checkFailed": null,
+          "installedStatus": 400,
+          "error": "Cannot read properties of null (reading 'toLowerCase')"
+        },
+        "upstream": {
+          "total": 26,
+          "http200": 26,
+          "http503": 0
+        },
+        "ui": {
+          "hasEight": false,
+          "warning": false,
+          "retry": false
+        }
+      },
+      "after": {
+        "request": {
+          "path": "/dsh-market/updates",
+          "status": 500,
+          "startedAt": "2026-11-14T09:02:52.518Z",
+          "responseAt": "2026-11-14T09:02:52.573Z",
+          "durationMs": 55,
+          "available": null,
+          "checkFailed": null,
+          "installedStatus": 400,
+          "error": "Cannot read properties of null (reading 'toLowerCase')"
+        },
+        "upstream": {
+          "total": 26,
+          "http200": 26,
+          "http503": 0
+        },
+        "ui": {
+          "hasEight": true,
+          "warning": true,
+          "retry": true
+        }
+      }
+    },
+    {
+      "case": "warm-route-recovery-force",
+      "before": {
+        "request": {
+          "path": "/dsh-market/updates?force=1",
+          "status": 200,
+          "startedAt": "2026-11-14T08:52:07.325Z",
+          "responseAt": "2026-11-14T08:52:07.484Z",
+          "durationMs": 159,
+          "available": 9,
+          "checkFailed": 0,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 27,
+          "http200": 27,
+          "http503": 0
+        },
+        "ui": {
+          "hasEight": true,
+          "warning": false,
+          "retry": false
+        }
+      },
+      "after": {
+        "request": {
+          "path": "/dsh-market/updates?force=1",
+          "status": 200,
+          "startedAt": "2026-11-14T09:02:56.689Z",
+          "responseAt": "2026-11-14T09:02:56.865Z",
+          "durationMs": 176,
+          "available": 9,
+          "checkFailed": 0,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 36,
+          "http200": 36,
+          "http503": 0
+        },
+        "ui": {
+          "hasEight": true,
+          "warning": false,
+          "retry": false
+        }
+      }
+    },
+    {
+      "case": "cold-upstream-503",
+      "before": {
+        "request": {
+          "path": "/dsh-market/updates",
+          "status": 200,
+          "startedAt": "2026-11-14T08:53:25.285Z",
+          "responseAt": "2026-11-14T08:53:25.506Z",
+          "durationMs": 221,
+          "available": 0,
+          "checkFailed": 0,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 18,
+          "http200": 0,
+          "http503": 18
+        },
+        "ui": {
+          "hasEight": false,
+          "warning": false,
+          "retry": false
+        }
+      },
+      "after": {
+        "request": {
+          "path": "/dsh-market/updates",
+          "status": 200,
+          "startedAt": "2026-11-14T09:03:14.06Z",
+          "responseAt": "2026-11-14T09:03:14.274Z",
+          "durationMs": 214,
+          "available": 0,
+          "checkFailed": 18,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 18,
+          "http200": 0,
+          "http503": 18
+        },
+        "ui": {
+          "hasEight": false,
+          "warning": true,
+          "retry": true
+        }
+      }
+    },
+    {
+      "case": "cold-503-recovery-ordinary",
+      "before": {
+        "request": {
+          "path": "/dsh-market/updates",
+          "status": 200,
+          "startedAt": "2026-11-14T08:53:30.33Z",
+          "responseAt": "2026-11-14T08:53:30.341Z",
+          "durationMs": 11,
+          "available": 0,
+          "checkFailed": 0
+        },
+        "upstream": {
+          "total": 0,
+          "http200": 0,
+          "http503": 0
+        }
+      },
+      "after": {
+        "request": {
+          "path": "/dsh-market/updates",
+          "status": 200,
+          "startedAt": "2026-11-14T09:03:19.393Z",
+          "responseAt": "2026-11-14T09:03:19.534Z",
+          "durationMs": 141,
+          "available": 9,
+          "checkFailed": 0
+        },
+        "upstream": {
+          "total": 27,
+          "http200": 27,
+          "http503": 0
+        }
+      }
+    },
+    {
+      "case": "cold-503-recovery-force",
+      "before": {
+        "request": {
+          "path": "/dsh-market/updates?force=1",
+          "status": 200,
+          "startedAt": "2026-11-14T08:53:32.409Z",
+          "responseAt": "2026-11-14T08:53:32.557Z",
+          "durationMs": 148,
+          "available": 9,
+          "checkFailed": 0,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 27,
+          "http200": 27,
+          "http503": 0
+        },
+        "ui": {
+          "hasEight": true,
+          "warning": false,
+          "retry": false
+        }
+      },
+      "after": {
+        "request": {
+          "path": "/dsh-market/updates?force=1",
+          "status": 200,
+          "startedAt": "2026-11-14T09:03:21.303Z",
+          "responseAt": "2026-11-14T09:03:21.427Z",
+          "durationMs": 124,
+          "available": 9,
+          "checkFailed": 0,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 27,
+          "http200": 27,
+          "http503": 0
+        },
+        "ui": {
+          "hasEight": true,
+          "warning": false,
+          "retry": false
+        }
+      }
+    },
+    {
+      "case": "confirmed-no-updates",
+      "before": {
+        "request": {
+          "path": "/dsh-market/updates?force=1",
+          "status": 200,
+          "startedAt": "2026-11-14T08:53:38.381Z",
+          "responseAt": "2026-11-14T08:53:38.472Z",
+          "durationMs": 91,
+          "available": 0,
+          "checkFailed": 0,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 18,
+          "http200": 18,
+          "http503": 0
+        },
+        "ui": {
+          "hasEight": false,
+          "warning": false,
+          "retry": false
+        }
+      },
+      "after": {
+        "request": {
+          "path": "/dsh-market/updates?force=1",
+          "status": 200,
+          "startedAt": "2026-11-14T09:03:26.524Z",
+          "responseAt": "2026-11-14T09:03:26.582Z",
+          "durationMs": 58,
+          "available": 0,
+          "checkFailed": 0,
+          "installedStatus": 200
+        },
+        "upstream": {
+          "total": 18,
+          "http200": 18,
+          "http503": 0
+        },
+        "ui": {
+          "hasEight": false,
+          "warning": false,
+          "retry": false
+        }
+      }
+    }
+  ]
+}

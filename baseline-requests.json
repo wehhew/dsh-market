@@ -1,0 +1,4443 @@
+{
+  "run": "baseline-1794646214314",
+  "variant": "baseline",
+  "host": "DSH Desktop 0.2.2-rc.3",
+  "windows": "10.0.26300",
+  "market": "1.73.19",
+  "source": "df4c06e4ee6da5118ec2eee9e4f5a6a35c507745",
+  "upstream": [
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.856Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-02/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.857Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-03/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.858Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-04/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.859Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-05/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.859Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-06/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.860Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-07/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.860Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-08/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.861Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-09/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.861Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-10/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.861Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-11/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.862Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-12/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.862Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-13/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.862Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-14/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.862Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-15/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.863Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-16/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.863Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-17/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.863Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-18/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.863Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.880Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-02",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.892Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-03",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.892Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-04",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.893Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-05",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.893Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-06",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.893Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-07",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.894Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-08",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.894Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-09",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.894Z"
+    },
+    {
+      "stage": "healthy-open",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01/latest",
+      "status": 200,
+      "at": "2026-11-14T08:50:34.899Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-01/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.866Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-02/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.866Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-03/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.866Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-04/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.866Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-05/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-06/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-07/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-08/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-09/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-10/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-11/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-12/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-13/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-14/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-15/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-16/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-17/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.867Z"
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "phase": "delayed-failure",
+      "path": "/dsh-updates-probe-18/latest",
+      "status": 503,
+      "at": "2026-11-14T08:50:43.868Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.404Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-02/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.405Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-03/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.405Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-04/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.405Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-05/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.405Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-06/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.406Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-07/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.406Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-08/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.406Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-09/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.406Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-10/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.406Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-11/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.407Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-12/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.407Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-13/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.407Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-14/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.408Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-15/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.408Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-16/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.408Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-17/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.408Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-18/latest",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.409Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.422Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-02",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.428Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-03",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.428Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-04",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.428Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-05",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.429Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-06",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.429Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-07",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.429Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-08",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.429Z"
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-09",
+      "status": 200,
+      "at": "2026-11-14T08:51:56.429Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.418Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-02/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.420Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-03/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.421Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-04/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.421Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-05/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.422Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-06/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.422Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-07/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.422Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-08/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.422Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-09/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.423Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-10/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.423Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-11/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.423Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-12/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.424Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-13/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.424Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-14/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.424Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-15/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.425Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-16/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.425Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-17/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.425Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.436Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-02",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.446Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-03",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.446Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-04",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.446Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-05",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.446Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-06",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.447Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-07",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.447Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-08",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.447Z"
+    },
+    {
+      "stage": "warm-route-http-500",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-09",
+      "status": 200,
+      "at": "2026-11-14T08:52:04.447Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.397Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-02/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.397Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-03/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.398Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-04/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.398Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-05/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.398Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-06/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.398Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-07/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.399Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-08/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.399Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-09/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.399Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-10/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.399Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-11/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.399Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-12/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.400Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-13/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.400Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-14/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.400Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-15/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.401Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-16/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.401Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-17/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.401Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-18/latest",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.401Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.401Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-02",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.472Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-03",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.472Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-04",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.472Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-05",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.473Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-06",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.477Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-07",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.477Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-08",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.477Z"
+    },
+    {
+      "stage": "warm-route-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-09",
+      "status": 200,
+      "at": "2026-11-14T08:52:07.477Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-01/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.470Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-02/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.470Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-03/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.471Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-04/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.471Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-05/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.472Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-06/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.472Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-07/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.472Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-08/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.472Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-09/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.473Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-10/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.473Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-11/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.473Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-12/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.474Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-13/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.474Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-14/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.474Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-15/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.475Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-16/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.475Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-17/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.476Z"
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "phase": "failure",
+      "path": "/dsh-updates-probe-18/latest",
+      "status": 503,
+      "at": "2026-11-14T08:53:25.476Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.480Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-02/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.481Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-03/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.481Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-04/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.481Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-05/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.481Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-06/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.481Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-07/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.482Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-08/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.482Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-09/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.482Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-10/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.482Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-11/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.482Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-12/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.483Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-13/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.483Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-14/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.483Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-15/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.483Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-16/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.483Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-17/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.483Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-18/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.483Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-01",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.498Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-02",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.502Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-03",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.502Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-04",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.502Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-05",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.502Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-06",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.502Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-07",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.502Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-08",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.502Z"
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "phase": "healthy",
+      "path": "/dsh-updates-probe-09",
+      "status": 200,
+      "at": "2026-11-14T08:53:32.503Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-01/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.466Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-02/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.467Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-03/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.467Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-04/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.467Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-05/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.467Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-06/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.468Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-07/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.468Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-08/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.468Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-09/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.468Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-10/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.469Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-11/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.469Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-12/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.469Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-13/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.469Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-14/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.469Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-15/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.469Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-16/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.469Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-17/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.469Z"
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "phase": "current-versions",
+      "path": "/dsh-updates-probe-18/latest",
+      "status": 200,
+      "at": "2026-11-14T08:53:38.469Z"
+    }
+  ],
+  "requests": [
+    {
+      "stage": "healthy-open",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T08:50:34.576Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:50:34.791Z",
+      "installed": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "disabled": [
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12"
+      ],
+      "patchDisabled": [],
+      "unbundled": [],
+      "updateExempt": [],
+      "blocked": []
+    },
+    {
+      "stage": "healthy-open",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T08:50:34.582Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:50:34.909Z",
+      "rowCount": 19,
+      "available": [
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09"
+      ],
+      "unknown": [
+        "dshmarket"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          }
+        }
+      }
+    },
+    {
+      "stage": "healthy-open",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T08:50:39.690Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:50:39.793Z",
+      "installed": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "disabled": [
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12"
+      ],
+      "patchDisabled": [],
+      "unbundled": [],
+      "updateExempt": [],
+      "blocked": []
+    },
+    {
+      "stage": "healthy-open",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T08:50:39.804Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:50:39.814Z",
+      "rowCount": 19,
+      "available": [
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09"
+      ],
+      "unknown": [
+        "dshmarket"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          }
+        }
+      }
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T08:50:43.756Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:50:43.852Z",
+      "installed": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "disabled": [
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12"
+      ],
+      "patchDisabled": [],
+      "unbundled": [],
+      "updateExempt": [],
+      "blocked": []
+    },
+    {
+      "stage": "warm-reopen-delayed-upstream-503",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T08:50:43.756Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:50:46.081Z",
+      "rowCount": 19,
+      "available": [],
+      "unknown": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "warm-upstream-recovered-normal-get",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T08:51:54.126Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:51:54.157Z",
+      "rowCount": 19,
+      "available": [],
+      "unknown": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T08:51:56.190Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:51:56.390Z",
+      "installed": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "disabled": [
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12"
+      ],
+      "patchDisabled": [],
+      "unbundled": [],
+      "updateExempt": [],
+      "blocked": []
+    },
+    {
+      "stage": "warm-upstream-retry",
+      "path": "/dsh-market/updates?force=1",
+      "startedAt": "2026-11-14T08:51:56.191Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:51:56.435Z",
+      "rowCount": 19,
+      "available": [
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09"
+      ],
+      "unknown": [
+        "dshmarket"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          }
+        }
+      }
+    },
+    {
+      "stage": "warm-route-http-500",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T08:52:04.272Z",
+      "status": 400,
+      "responseAt": "2026-11-14T08:52:04.398Z",
+      "body": null
+    },
+    {
+      "stage": "warm-route-http-500",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T08:52:04.273Z",
+      "status": 500,
+      "responseAt": "2026-11-14T08:52:04.426Z",
+      "body": {
+        "error": "Cannot read properties of null (reading 'toLowerCase')"
+      }
+    },
+    {
+      "stage": "warm-route-retry",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T08:52:07.325Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:52:07.392Z",
+      "installed": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "disabled": [
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12"
+      ],
+      "patchDisabled": [],
+      "unbundled": [],
+      "updateExempt": [],
+      "blocked": []
+    },
+    {
+      "stage": "warm-route-retry",
+      "path": "/dsh-market/updates?force=1",
+      "startedAt": "2026-11-14T08:52:07.325Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:52:07.484Z",
+      "rowCount": 19,
+      "available": [
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09"
+      ],
+      "unknown": [
+        "dshmarket"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          }
+        }
+      }
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T08:53:25.285Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:53:25.417Z",
+      "installed": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "disabled": [
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12"
+      ],
+      "patchDisabled": [],
+      "unbundled": [],
+      "updateExempt": [],
+      "blocked": []
+    },
+    {
+      "stage": "cold-restart-upstream-503",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T08:53:25.285Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:53:25.506Z",
+      "rowCount": 19,
+      "available": [],
+      "unknown": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "upstream-recovered-normal-get",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T08:53:30.330Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:53:30.341Z",
+      "rowCount": 19,
+      "available": [],
+      "unknown": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          }
+        }
+      }
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T08:53:32.408Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:53:32.474Z",
+      "installed": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "disabled": [
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12"
+      ],
+      "patchDisabled": [],
+      "unbundled": [],
+      "updateExempt": [],
+      "blocked": []
+    },
+    {
+      "stage": "cold-upstream-retry",
+      "path": "/dsh-market/updates?force=1",
+      "startedAt": "2026-11-14T08:53:32.409Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:53:32.557Z",
+      "rowCount": 19,
+      "available": [
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09"
+      ],
+      "unknown": [
+        "dshmarket"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          }
+        }
+      }
+    },
+    {
+      "stage": "ordinary-get-after-force",
+      "path": "/dsh-market/updates",
+      "startedAt": "2026-11-14T08:53:36.404Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:53:36.413Z",
+      "rowCount": 19,
+      "available": [
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09"
+      ],
+      "unknown": [
+        "dshmarket"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          }
+        }
+      }
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "path": "/dsh-market/installed",
+      "startedAt": "2026-11-14T08:53:38.381Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:53:38.458Z",
+      "installed": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "disabled": [
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12"
+      ],
+      "patchDisabled": [],
+      "unbundled": [],
+      "updateExempt": [],
+      "blocked": []
+    },
+    {
+      "stage": "confirmed-no-updates",
+      "path": "/dsh-market/updates?force=1",
+      "startedAt": "2026-11-14T08:53:38.381Z",
+      "status": 200,
+      "responseAt": "2026-11-14T08:53:38.472Z",
+      "rowCount": 19,
+      "available": [],
+      "unknown": [
+        "dshmarket"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          }
+        }
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "label": "01-healthy-eight",
+      "stage": "healthy-open",
+      "at": "2026-11-14T08:50:35.413Z",
+      "batchEight": true,
+      "warning": false,
+      "retry": false,
+      "surface": "full",
+      "screenshotSha256": "da420dc29bd4d71bfb79b73272c9b07051f8d778b2866f597f38cfb4ffc02e61"
+    },
+    {
+      "stage": "healthy-open",
+      "path": "/dsh-market/installed",
+      "status": 200,
+      "installed": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "disabled": [
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12"
+      ],
+      "patchDisabled": [],
+      "unbundled": [],
+      "updateExempt": [],
+      "blocked": []
+    },
+    {
+      "stage": "healthy-open",
+      "path": "/dsh-market/updates",
+      "status": 200,
+      "rowCount": 19,
+      "available": [
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09"
+      ],
+      "unknown": [
+        "dshmarket"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          }
+        }
+      }
+    },
+    {
+      "label": "02-warm-reopen-eight",
+      "stage": "warm-reopen-delayed-upstream-503",
+      "at": "2026-11-14T08:50:43.767Z",
+      "batchEight": true
+    },
+    {
+      "label": "03-warm-upstream-failure",
+      "stage": "warm-reopen-delayed-upstream-503",
+      "at": "2026-11-14T08:50:46.118Z",
+      "batchEight": false,
+      "warning": false,
+      "retry": false,
+      "surface": "plugins",
+      "screenshotSha256": "4940bdbe693738414cecccd72aa853fcf25c1905490e4f268eb8b0ad54842d2d"
+    },
+    {
+      "stage": "warm-upstream-recovered-normal-get",
+      "path": "/dsh-market/updates",
+      "status": 200,
+      "rowCount": 19,
+      "available": [],
+      "unknown": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          }
+        }
+      }
+    },
+    {
+      "label": "04-warm-upstream-retry",
+      "stage": "warm-upstream-retry",
+      "at": "2026-11-14T08:51:56.520Z",
+      "batchEight": true,
+      "warning": false,
+      "retry": false,
+      "surface": "plugins",
+      "screenshotSha256": "5161bb9c7b8bb3a6899c493d3d1133869c69d2634d07468d9e3c3ffbe65364f2"
+    },
+    {
+      "label": "05-warm-route-http-500",
+      "stage": "warm-route-http-500",
+      "at": "2026-11-14T08:52:04.498Z",
+      "batchEight": false,
+      "warning": false,
+      "retry": false,
+      "surface": "plugins",
+      "screenshotSha256": "d12ebb13b7dd8185d2bd88d0ce9931b8c417697b4f2a41d6e494053d6ee48c34"
+    },
+    {
+      "label": "06-warm-route-retry",
+      "stage": "warm-route-retry",
+      "at": "2026-11-14T08:52:07.583Z",
+      "batchEight": true,
+      "warning": false,
+      "retry": false,
+      "surface": "plugins",
+      "screenshotSha256": "fe067dcf8aac23005539c6bae74866c72e759881e453126dd82b10a72aea16e9"
+    },
+    {
+      "label": "07-cold-upstream-failure",
+      "stage": "cold-restart-upstream-503",
+      "at": "2026-11-14T08:53:25.626Z",
+      "batchEight": false,
+      "warning": false,
+      "retry": false,
+      "surface": "full",
+      "screenshotSha256": "d9f5837154d263dd8f6cf1450b427c6b7abd4d545fb281e6e208e29ddb1abd4b"
+    },
+    {
+      "stage": "upstream-recovered-normal-get",
+      "path": "/dsh-market/updates",
+      "status": 200,
+      "rowCount": 19,
+      "available": [],
+      "unknown": [
+        "dshmarket",
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09",
+        "dsh-updates-probe-10",
+        "dsh-updates-probe-11",
+        "dsh-updates-probe-12",
+        "dsh-updates-probe-13",
+        "dsh-updates-probe-14",
+        "dsh-updates-probe-15",
+        "dsh-updates-probe-16",
+        "dsh-updates-probe-17",
+        "dsh-updates-probe-18"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          }
+        }
+      }
+    },
+    {
+      "label": "08-cold-upstream-retry",
+      "stage": "cold-upstream-retry",
+      "at": "2026-11-14T08:53:32.648Z",
+      "batchEight": true,
+      "warning": false,
+      "retry": false,
+      "surface": "full",
+      "screenshotSha256": "aa5986e8fabbcd6c41bcecbe4e1a98eb56b07f6855543995d1e38506ede635fc"
+    },
+    {
+      "stage": "ordinary-get-after-force",
+      "path": "/dsh-market/updates",
+      "status": 200,
+      "rowCount": 19,
+      "available": [
+        "dsh-updates-probe-01",
+        "dsh-updates-probe-02",
+        "dsh-updates-probe-03",
+        "dsh-updates-probe-04",
+        "dsh-updates-probe-05",
+        "dsh-updates-probe-06",
+        "dsh-updates-probe-07",
+        "dsh-updates-probe-08",
+        "dsh-updates-probe-09"
+      ],
+      "unknown": [
+        "dshmarket"
+      ],
+      "checkFailed": [],
+      "body": {
+        "updates": {
+          "dshmarket": {
+            "kind": "linked",
+            "version": "1.73.19",
+            "current": null,
+            "latest": null,
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-10": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-11": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-12": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-13": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-14": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-15": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-16": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-17": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-18": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "1.0.0",
+            "updateAvailable": false
+          },
+          "dsh-updates-probe-01": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-02": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-03": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-04": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-05": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-06": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-07": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-08": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          },
+          "dsh-updates-probe-09": {
+            "kind": "npm",
+            "version": "1.0.0",
+            "current": "1.0.0",
+            "latest": "2.0.0",
+            "updateAvailable": true,
+            "eligibleVersion": "2.0.0"
+          }
+        }
+      }
+    },
+    {
+      "label": "09-confirmed-no-updates",
+      "stage": "confirmed-no-updates",
+      "at": "2026-11-14T08:53:38.572Z",
+      "batchEight": false,
+      "warning": false,
+      "retry": false,
+      "surface": "full",
+      "screenshotSha256": "eb00433887af7544360012420fcd37854c715703110afc46a8bdff1139ca7641"
+    }
+  ],
+  "uiTimeline": [
+    {
+      "at": "2026-11-14T08:50:22.095Z",
+      "state": []
+    },
+    {
+      "at": "2026-11-14T08:50:34.572Z",
+      "state": [
+        {
+          "surface": "full",
+          "batch": [],
+          "error": false
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T08:50:34.914Z",
+      "state": [
+        {
+          "surface": "full",
+          "batch": [
+            "全部更新 (8)"
+          ],
+          "error": false
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T08:50:39.863Z",
+      "state": []
+    },
+    {
+      "at": "2026-11-14T08:50:43.749Z",
+      "state": [
+        {
+          "surface": "plugins",
+          "batch": [
+            "全部更新 (8)"
+          ],
+          "error": false
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T08:50:46.084Z",
+      "state": [
+        {
+          "surface": "plugins",
+          "batch": [],
+          "error": false
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T08:51:56.442Z",
+      "state": [
+        {
+          "surface": "plugins",
+          "batch": [
+            "全部更新 (8)"
+          ],
+          "error": false
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T08:52:00.201Z",
+      "state": []
+    },
+    {
+      "at": "2026-11-14T08:52:04.266Z",
+      "state": [
+        {
+          "surface": "plugins",
+          "batch": [
+            "全部更新 (8)"
+          ],
+          "error": false
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T08:52:04.431Z",
+      "state": [
+        {
+          "surface": "plugins",
+          "batch": [],
+          "error": false
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T08:52:07.492Z",
+      "state": [
+        {
+          "surface": "plugins",
+          "batch": [
+            "全部更新 (8)"
+          ],
+          "error": false
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T08:53:10.916Z",
+      "state": []
+    },
+    {
+      "at": "2026-11-14T08:53:25.282Z",
+      "state": [
+        {
+          "surface": "full",
+          "batch": [],
+          "error": false
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T08:53:32.568Z",
+      "state": [
+        {
+          "surface": "full",
+          "batch": [
+            "全部更新 (8)"
+          ],
+          "error": false
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T08:53:38.481Z",
+      "state": [
+        {
+          "surface": "full",
+          "batch": [],
+          "error": false
+        }
+      ]
+    }
+  ],
+  "sha256": {
+    "desktopAsar": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+    "marketTarball": "42f9ed679ac96b9e7a2da51721b6071770a19a1f6629c0f09d9e248d2e48885c",
+    "marketClient": "0dd3a4527e723e1d8b02e07c38d683bbdba7f58b0f6bc8f1028c3a76586dcb13",
+    "marketRoutes": "bf0e32380c82e820fab113681501f1602dff4a57c2ba66c01f96b20f1a951ddc",
+    "marketUpdates": "fd38dd1520e055ccde28c7721c86b4468df6503b502ead4c631d17b6b1e545a4"
+  },
+  "runtime": {
+    "version": "1.73.19",
+    "runtime": "desktop",
+    "profile": "desktop",
+    "boot": "5328-1794646225003"
+  },
+  "restartedRuntime": {
+    "version": "1.73.19",
+    "runtime": "desktop",
+    "profile": "desktop",
+    "boot": "28532-1794646395203"
+  },
+  "pass": true
+}
