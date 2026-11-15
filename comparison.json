@@ -1,0 +1,239 @@
+{
+  "case": "ordinary-bundle-numeric-entry",
+  "host": {
+    "desktop": "0.2.2-rc.3",
+    "electron": "44.7.0",
+    "node": "24.21.0",
+    "mode": "headless"
+  },
+  "archives": {
+    "formal": "fbf58ac3ff1de6da4d0ec547f15680f60ba4ad79f3a52a07eb0380fa0e9cc082",
+    "fixed": "f758704eeef6922aac2bffe263dd323a76331a1ca93058952205db34a347a135"
+  },
+  "runs": {
+    "formal": {
+      "market": "formal",
+      "scenario": "numeric-guard",
+      "electron": "44.7.0",
+      "node": "24.21.0",
+      "guardId": 42,
+      "guardedBefore": {
+        "__jsExpr": "true"
+      },
+      "guardedAfter": null,
+      "guardFieldExistsAfter": false,
+      "initially": {
+        "manifest": {
+          "private": true,
+          "dependencies": {
+            "dsh-test-multi-component": "1.0.0",
+            "dsh-test-independent": "1.0.0"
+          },
+          "dsh": {
+            "profile": {
+              "bundles": [
+                "dsh-test-multi-component",
+                "dsh-test-independent"
+              ]
+            }
+          }
+        },
+        "patch": "[]\n",
+        "state": null,
+        "rows": [
+          {
+            "id": "main",
+            "fullId": "include:main",
+            "disabled": false,
+            "active": true
+          },
+          {
+            "id": 42,
+            "fullId": "include:42",
+            "disabled": true,
+            "active": false
+          },
+          {
+            "id": "independent",
+            "fullId": "include:independent",
+            "disabled": false,
+            "active": true
+          }
+        ]
+      },
+      "reply": {
+        "status": 200,
+        "restart": false,
+        "disabled": [],
+        "activation": {
+          "dsh-test-multi-component": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          }
+        }
+      },
+      "afterward": {
+        "manifest": {
+          "private": true,
+          "dependencies": {
+            "dsh-test-multi-component": "1.0.0",
+            "dsh-test-independent": "1.0.0"
+          },
+          "dsh": {
+            "profile": {
+              "bundles": [
+                "dsh-test-multi-component",
+                "dsh-test-independent"
+              ]
+            }
+          }
+        },
+        "patch": "# []\n- id: main\n  disabled: false\n",
+        "state": {
+          "disabled": [],
+          "groups": {},
+          "groupOrder": []
+        },
+        "rows": [
+          {
+            "id": "main",
+            "fullId": "include:main",
+            "disabled": false,
+            "active": true
+          },
+          {
+            "id": 42,
+            "fullId": "include:42",
+            "disabled": false,
+            "active": true
+          },
+          {
+            "id": "independent",
+            "fullId": "include:independent",
+            "disabled": false,
+            "active": true
+          }
+        ]
+      }
+    },
+    "fixed": {
+      "market": "fixed",
+      "scenario": "numeric-guard",
+      "electron": "44.7.0",
+      "node": "24.21.0",
+      "guardId": 42,
+      "guardedBefore": {
+        "__jsExpr": "true"
+      },
+      "guardedAfter": {
+        "__jsExpr": "true"
+      },
+      "guardFieldExistsAfter": true,
+      "initially": {
+        "manifest": {
+          "private": true,
+          "dependencies": {
+            "dsh-test-multi-component": "1.0.0",
+            "dsh-test-independent": "1.0.0"
+          },
+          "dsh": {
+            "profile": {
+              "bundles": [
+                "dsh-test-multi-component",
+                "dsh-test-independent"
+              ]
+            }
+          }
+        },
+        "patch": "[]\n",
+        "state": null,
+        "rows": [
+          {
+            "id": "main",
+            "fullId": "include:main",
+            "disabled": false,
+            "active": true
+          },
+          {
+            "id": 42,
+            "fullId": "include:42",
+            "disabled": true,
+            "active": false
+          },
+          {
+            "id": "independent",
+            "fullId": "include:independent",
+            "disabled": false,
+            "active": true
+          }
+        ]
+      },
+      "reply": {
+        "status": 200,
+        "restart": false,
+        "disabled": [],
+        "activation": {
+          "dsh-test-multi-component": {
+            "state": "live",
+            "reasons": [
+              "已热加载(bundle patch)/ live via its bundle patch"
+            ],
+            "bundle": true,
+            "hot": true
+          }
+        }
+      },
+      "afterward": {
+        "manifest": {
+          "private": true,
+          "dependencies": {
+            "dsh-test-multi-component": "1.0.0",
+            "dsh-test-independent": "1.0.0"
+          },
+          "dsh": {
+            "profile": {
+              "bundles": [
+                "dsh-test-multi-component",
+                "dsh-test-independent"
+              ]
+            }
+          }
+        },
+        "patch": "# []\n- id: main\n  disabled: false\n",
+        "state": {
+          "disabled": [],
+          "groups": {},
+          "groupOrder": []
+        },
+        "rows": [
+          {
+            "id": "main",
+            "fullId": "include:main",
+            "disabled": false,
+            "active": true
+          },
+          {
+            "id": 42,
+            "fullId": "include:42",
+            "disabled": true,
+            "active": false
+          },
+          {
+            "id": "independent",
+            "fullId": "include:independent",
+            "disabled": false,
+            "active": true
+          }
+        ]
+      }
+    }
+  },
+  "revisions": {
+    "baseline": "88de9575946485c1dac5e1a5fbe57fa1f3c3988c",
+    "candidate": "b9c3b0025d8f4f25a05ece40a5f6fe31d5d26810"
+  }
+}
