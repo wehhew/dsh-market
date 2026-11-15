@@ -1,0 +1,86 @@
+[
+  {
+    "label": "official-root",
+    "run": "official-stable/dshmarket-root-1794764084308",
+    "commit": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+    "marketSha256": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+    "desktopAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+    "at": "2026-11-15T17:42:14.194Z",
+    "request": {
+      "url": "https://github.com/zjukop3/dsh-verify-kit",
+      "busyPolicy": "drain"
+    },
+    "status": 502,
+    "hostError": "{\"code\":\"not-bundle\"}",
+    "message": null,
+    "rootOnDisk": true,
+    "childVersion": null,
+    "addedRoot": true,
+    "packageManagerLogCount": 3,
+    "installedPluginDeps": []
+  },
+  {
+    "label": "official-path",
+    "run": "official-stable/dshmarket-path-1794764084296",
+    "commit": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+    "marketSha256": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+    "desktopAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+    "at": "2026-11-15T17:42:15.668Z",
+    "request": {
+      "url": "https://github.com/zjukop3/dsh-verify-kit/tree/main/packages/dsh-citelint",
+      "busyPolicy": "drain"
+    },
+    "status": 200,
+    "hostError": null,
+    "message": null,
+    "rootOnDisk": false,
+    "childVersion": "0.1.3",
+    "addedRoot": false,
+    "packageManagerLogCount": 3,
+    "installedPluginDeps": [
+      "dsh-citelint"
+    ]
+  },
+  {
+    "label": "fixed-root",
+    "run": "stable-fixed/dshmarket-root-1794764660407",
+    "commit": "bf3ec97a998dfb6ae5508725e732fcb44457f5c7",
+    "marketSha256": "a9e5f4eafbaf4c7666ef5826a9eadcaed1aa258a7330964c6a24e92479f57f1b",
+    "desktopAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+    "at": "2026-11-15T17:45:15.996Z",
+    "request": {
+      "url": "https://github.com/zjukop3/dsh-verify-kit",
+      "busyPolicy": "drain"
+    },
+    "status": 400,
+    "hostError": null,
+    "message": "这条收录链接指向仓库根包「dsh-verify-kit」。请到收录仓库反馈，补上「dsh-citelint」的子目录或 npm 来源。 / This entry points to the repository root (dsh-verify-kit). Ask the catalog maintainers to link the subdirectory or npm release for dsh-citelint.",
+    "rootOnDisk": false,
+    "childVersion": null,
+    "addedRoot": false,
+    "packageManagerLogCount": 1,
+    "installedPluginDeps": []
+  },
+  {
+    "label": "fixed-path",
+    "run": "stable-fixed/dshmarket-path-1794764660407",
+    "commit": "bf3ec97a998dfb6ae5508725e732fcb44457f5c7",
+    "marketSha256": "a9e5f4eafbaf4c7666ef5826a9eadcaed1aa258a7330964c6a24e92479f57f1b",
+    "desktopAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+    "at": "2026-11-15T17:46:03.520Z",
+    "request": {
+      "url": "https://github.com/zjukop3/dsh-verify-kit/tree/main/packages/dsh-citelint",
+      "busyPolicy": "drain"
+    },
+    "status": 200,
+    "hostError": null,
+    "message": null,
+    "rootOnDisk": false,
+    "childVersion": "0.1.3",
+    "addedRoot": false,
+    "packageManagerLogCount": 3,
+    "installedPluginDeps": [
+      "dsh-citelint"
+    ]
+  }
+]
