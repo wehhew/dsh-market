@@ -1,0 +1,60 @@
+{
+  "before": {
+    "title": "这个新版本要求更新的 DSH",
+    "request": {
+      "path": "/dsh-market/install",
+      "status": 400,
+      "request": {
+        "url": "https://github.com/Anionex/agent-vision-toolkit",
+        "busyPolicy": "drain"
+      },
+      "response": {
+        "hostIncompatible": {
+          "name": "@anionex/dsh-vision-toolkit",
+          "version": "0.1.51",
+          "requirement": ">=0.1.0-rc.8 <0.2.0 || ^0.1.1-rc.1 || ^0.1.2-alpha.1 || ^0.1.5-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2",
+          "hostVersion": "0.2.2-rc.3",
+          "npmName": "@anionex/dsh-vision-toolkit"
+        },
+        "error": "@anionex/dsh-vision-toolkit 0.1.51 要求的 DSH 版本是 >=0.1.0-rc.8 <0.2.0 || ^0.1.1-rc.1 || ^0.1.2-alpha.1 || ^0.1.5-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2，而当前运行的是 0.2.2-rc.3，装上多半会直接报错。已停止，没有安装任何东西。 / @anionex/dsh-vision-toolkit 0.1.51 declares it needs DSH >=0.1.0-rc.8 <0.2.0 || ^0.1.1-rc.1 || ^0.1.2-alpha.1 || ^0.1.5-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2, and this host is 0.2.2-rc.3; installing it would most likely break the plugin. Nothing was installed."
+      }
+    },
+    "toolkitOnDisk": false,
+    "sha256": {
+      "asar": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+      "tarball": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+      "client": "889f7c17d50d09e988487d4426c5292cc56175257301642fe1011441d110e3bf"
+    },
+    "commit": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+    "screenshot": "01-stable-preflight.png"
+  },
+  "after": {
+    "title": "这个插件版本与当前 DSH 不兼容",
+    "request": {
+      "path": "/dsh-market/install",
+      "status": 400,
+      "request": {
+        "url": "https://github.com/Anionex/agent-vision-toolkit",
+        "busyPolicy": "drain"
+      },
+      "response": {
+        "hostIncompatible": {
+          "name": "@anionex/dsh-vision-toolkit",
+          "version": "0.1.51",
+          "requirement": ">=0.1.0-rc.8 <0.2.0 || ^0.1.1-rc.1 || ^0.1.2-alpha.1 || ^0.1.5-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2",
+          "hostVersion": "0.2.2-rc.3",
+          "npmName": "@anionex/dsh-vision-toolkit"
+        },
+        "error": "@anionex/dsh-vision-toolkit 0.1.51 要求的 DSH 版本是 >=0.1.0-rc.8 <0.2.0 || ^0.1.1-rc.1 || ^0.1.2-alpha.1 || ^0.1.5-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2，而当前运行的是 0.2.2-rc.3，装上多半会直接报错。已停止，没有安装任何东西。 / @anionex/dsh-vision-toolkit 0.1.51 declares it needs DSH >=0.1.0-rc.8 <0.2.0 || ^0.1.1-rc.1 || ^0.1.2-alpha.1 || ^0.1.5-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2, and this host is 0.2.2-rc.3; installing it would most likely break the plugin. Nothing was installed."
+      }
+    },
+    "toolkitOnDisk": false,
+    "sha256": {
+      "asar": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+      "tarball": "12e41c6f009a1baf4001af22c8a7ba742849f93ec4b972a66aff3bdd314a75a5",
+      "client": "7fd3632a9aeebf18b02e005b5846294754c826e3863919d46181c481abe6dd6b"
+    },
+    "commit": "7bbe314e85bc7bc83a975a770f4e23498b4947b3",
+    "screenshot": "02-fixed-preflight.png"
+  }
+}
