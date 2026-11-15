@@ -1,0 +1,26 @@
+{
+  "variant": "before",
+  "runtime": "DSH Desktop 0.2.2-rc.1 on Windows",
+  "market": "1.73.20",
+  "archiveSha256": "fbf58ac3ff1de6da4d0ec547f15680f60ba4ad79f3a52a07eb0380fa0e9cc082",
+  "catalogSha256": "c2ddeb089054124b90ad269b09fa6a3ded86f7705ab65eb4aa5ab8b3bac544c7",
+  "catalogUpdated": "2026-11-15",
+  "search": "deepseek-time",
+  "asarSha256": "5fa8a6b21bceb8f3e99e30efa2270efd0cc773a11e42aa0488f804a64b34e637",
+  "registryStatus": 200,
+  "cards": [
+    {
+      "id": "deepseek-time-price",
+      "url": "https://github.com/TSRYWHY/deepseek-time-price",
+      "title": "deepseek-time-price",
+      "install": "dsh plugin --profile web add github:TSRYWHY/deepseek-time-price"
+    },
+    {
+      "id": "deepseek-time#dsh",
+      "url": "https://github.com/Cheeserackery/deepseek-time/tree/master/adapters/dsh",
+      "title": "dsh",
+      "install": "dsh plugin --profile web add github:Cheeserackery/deepseek-time#path:/adapters/dsh"
+    }
+  ],
+  "outcome": "pass"
+}
