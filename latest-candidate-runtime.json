@@ -1,0 +1,63 @@
+{
+  "commit": "46d4d8eaae0e2e058358a6b12922e281538821a5",
+  "desktop": "44.7.0",
+  "harness": "0.2.2-rc.3",
+  "hotJsSha256": "0e13050572130104d11cf9fdf3991a68b0d0667e5f716c339a669dfe80ed4f86",
+  "mountTimeoutOverrideMs": 90000,
+  "result": {
+    "ok": false,
+    "reason": "组件 mkt-duplicate 启动失败。请在诊断中查看原因。 / Components failed to start (mkt-duplicate). Check Diagnostics for the error.",
+    "retained": true
+  },
+  "repeatedResult": null,
+  "currentActivation": {
+    "state": "failed",
+    "reasons": [
+      "组件 mkt-duplicate 启动失败。请在诊断中查看原因。 / Components failed to start (mkt-duplicate). Check Diagnostics for the error."
+    ],
+    "bundle": true,
+    "hot": false
+  },
+  "initial": [
+    {
+      "id": "mkt-working",
+      "owner": true,
+      "entryFibre": "ACTIVE"
+    },
+    {
+      "id": "mkt-duplicate",
+      "owner": true,
+      "entryFibre": "FAILED"
+    },
+    {
+      "id": "mkt-waits",
+      "owner": true,
+      "entryFibre": "PENDING"
+    }
+  ],
+  "afterProvider": [
+    {
+      "id": "mkt-working",
+      "owner": true,
+      "entryFibre": "ACTIVE"
+    },
+    {
+      "id": "mkt-duplicate",
+      "owner": true,
+      "entryFibre": "FAILED"
+    },
+    {
+      "id": "mkt-waits",
+      "owner": true,
+      "entryFibre": "ACTIVE"
+    }
+  ],
+  "unmounted": true,
+  "afterUnmount": {
+    "working": 1,
+    "waiting": 1,
+    "cleanups": 1,
+    "other": 1,
+    "otherCleanups": 0
+  }
+}
