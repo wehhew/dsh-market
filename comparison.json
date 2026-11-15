@@ -1,0 +1,89 @@
+{
+  "issue": "https://github.com/dsh-market/dsh-market/issues/1191",
+  "officialBase": "88de9575946485c1dac5e1a5fbe57fa1f3c3988c",
+  "runtime": "Official DSH Desktop 0.2.2-rc.1 on Windows",
+  "marketVersion": "1.73.20",
+  "condition": "After the real Desktop host successfully replaced the isolated link with the same published archive, the browser-side fetch wrapper rejected that one POST reply. Capture the market task panel 12 seconds after the HTTP reply.",
+  "builds": {
+    "before": {
+      "sha256": {
+        "market": "fbf58ac3ff1de6da4d0ec547f15680f60ba4ad79f3a52a07eb0380fa0e9cc082",
+        "release": "857e3ba8da5d6abdbace956f47e7d8c2333bdb38edc737928cde789cb6b097a0",
+        "asar": "5fa8a6b21bceb8f3e99e30efa2270efd0cc773a11e42aa0488f804a64b34e637"
+      },
+      "request": {
+        "method": "POST",
+        "path": "/dsh-market/update",
+        "body": {
+          "name": "dsh-chat-in-harness",
+          "restore": true
+        }
+      },
+      "hostReply": {
+        "status": 200,
+        "ok": true,
+        "exitCode": 0
+      },
+      "hostReplyMs": 5755,
+      "status": [
+        {
+          "ms": 533,
+          "active": true,
+          "busy": true,
+          "error": null
+        },
+        {
+          "ms": 5764,
+          "active": false,
+          "busy": false,
+          "error": null
+        }
+      ],
+      "installedVersion": "1.1.1",
+      "markerAt12s": null,
+      "taskStillRunningAt12s": true,
+      "taskPanelAt12s": "正在安装 1/1\n任务\n正在安装 1/1\n可离开本页面，完成后将通知你\n更新\ndsh-chat-in-harness\n正在处理\n取消",
+      "screenshot": "before-tasks-at-12s.png"
+    },
+    "after": {
+      "sha256": {
+        "market": "222b479318ab97397b3d810df2508facab88ab96601b6890d3348ccd97f46659",
+        "release": "857e3ba8da5d6abdbace956f47e7d8c2333bdb38edc737928cde789cb6b097a0",
+        "asar": "5fa8a6b21bceb8f3e99e30efa2270efd0cc773a11e42aa0488f804a64b34e637"
+      },
+      "request": {
+        "method": "POST",
+        "path": "/dsh-market/update",
+        "body": {
+          "name": "dsh-chat-in-harness",
+          "restore": true
+        }
+      },
+      "hostReply": {
+        "status": 200,
+        "ok": true,
+        "exitCode": 0
+      },
+      "hostReplyMs": 2297,
+      "status": [
+        {
+          "ms": 510,
+          "active": true,
+          "busy": true,
+          "error": null
+        },
+        {
+          "ms": 2297,
+          "active": false,
+          "busy": false,
+          "error": null
+        }
+      ],
+      "installedVersion": "1.1.1",
+      "markerAt12s": null,
+      "taskStillRunningAt12s": false,
+      "taskPanelAt12s": "任务\n任务\n暂无进行中的操作\n安装、更新与卸载的进度将显示在这里",
+      "screenshot": "after-tasks-at-12s.png"
+    }
+  }
+}
