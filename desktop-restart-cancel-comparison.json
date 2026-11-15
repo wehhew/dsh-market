@@ -1,0 +1,290 @@
+[
+  {
+    "label": "before",
+    "hashes": {
+      "archive": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+      "asar": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+      "dataset": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+      "client": "0c7e05fb3fb0a0dad12f6e69d6439147fafb8d646097b169a55afabe35f777f9"
+    },
+    "cold": {
+      "runtime": "desktop",
+      "posts": 1,
+      "items": 32,
+      "verdictSha": "94fb7afbdf43e55968b28754928b321c94c02874376619f24dbc8e63575f37b4",
+      "upstreamNpmManifests": 32
+    },
+    "warm": {
+      "runtime": "desktop",
+      "posts": 1,
+      "items": 32,
+      "verdictSha": "94fb7afbdf43e55968b28754928b321c94c02874376619f24dbc8e63575f37b4",
+      "upstreamNpmManifests": 0
+    },
+    "cacheBeforeRestart": {
+      "discovery-compatibility-v1.json": {
+        "count": 32,
+        "bytes": 6052,
+        "modifiedMs": 1794773951174.8442,
+        "sha256": "55927f7f8fe3aacbeb672fab1949f5faecc0f9b975560fe8c5867a11ec8bde89"
+      }
+    },
+    "cacheAfterRestart": {
+      "discovery-compatibility-v1.json": {
+        "count": 32,
+        "bytes": 6052,
+        "modifiedMs": 1794773951174.8442,
+        "sha256": "55927f7f8fe3aacbeb672fab1949f5faecc0f9b975560fe8c5867a11ec8bde89"
+      }
+    },
+    "cancel": {
+      "at": 1794773991490,
+      "observationMs": 12000,
+      "startedAfter": 0,
+      "outsidePageStartedAfter": 0,
+      "inFlightAtCancel": [
+        {
+          "index": 8,
+          "status": 200,
+          "returnedAfterMs": 594
+        }
+      ]
+    },
+    "shutdowns": [
+      {
+        "method": "CDP Browser.close",
+        "exitCode": 0
+      },
+      {
+        "method": "taskkill-isolated-host",
+        "exitCode": null
+      }
+    ],
+    "requests": [
+      {
+        "index": 1,
+        "phase": "cold-visible",
+        "at": 1794773951166,
+        "outsidePage": 0,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794773951263,
+        "items": 32
+      },
+      {
+        "index": 2,
+        "phase": "warm-visible",
+        "at": 1794773981291,
+        "outsidePage": 0,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794773981416,
+        "items": 32
+      },
+      {
+        "index": 3,
+        "phase": "full-scan",
+        "at": 1794773987147,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794773988293,
+        "items": 64
+      },
+      {
+        "index": 4,
+        "phase": "full-scan",
+        "at": 1794773988292,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794773989052,
+        "items": 64
+      },
+      {
+        "index": 5,
+        "phase": "full-scan",
+        "at": 1794773989052,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794773989648,
+        "items": 64
+      },
+      {
+        "index": 6,
+        "phase": "full-scan",
+        "at": 1794773989647,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794773990570,
+        "items": 64
+      },
+      {
+        "index": 7,
+        "phase": "full-scan",
+        "at": 1794773990570,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794773991136,
+        "items": 64
+      },
+      {
+        "index": 8,
+        "phase": "full-scan",
+        "at": 1794773991135,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794773992084,
+        "items": 64
+      }
+    ]
+  },
+  {
+    "label": "after",
+    "hashes": {
+      "archive": "979404cfd9e0c0767fbe7a7b72d3a20a6c85289cf80090329c8ab1f73ffeb677",
+      "asar": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+      "dataset": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+      "client": "0c7e05fb3fb0a0dad12f6e69d6439147fafb8d646097b169a55afabe35f777f9"
+    },
+    "cold": {
+      "runtime": "desktop",
+      "posts": 1,
+      "items": 32,
+      "verdictSha": "94fb7afbdf43e55968b28754928b321c94c02874376619f24dbc8e63575f37b4",
+      "upstreamNpmManifests": 32
+    },
+    "warm": {
+      "runtime": "desktop",
+      "posts": 1,
+      "items": 32,
+      "verdictSha": "94fb7afbdf43e55968b28754928b321c94c02874376619f24dbc8e63575f37b4",
+      "upstreamNpmManifests": 0
+    },
+    "cacheBeforeRestart": {
+      "discovery-compatibility-v1.json.journal": {
+        "count": 32,
+        "bytes": 6105,
+        "modifiedMs": 1794774039167.9429,
+        "sha256": "5b7c5724c568f2a21ff72ee58b8f44d75ff340a8fe66cc557b2c34f46734a7e0"
+      }
+    },
+    "cacheAfterRestart": {
+      "discovery-compatibility-v1.json.journal": {
+        "count": 32,
+        "bytes": 6105,
+        "modifiedMs": 1794774039167.9429,
+        "sha256": "5b7c5724c568f2a21ff72ee58b8f44d75ff340a8fe66cc557b2c34f46734a7e0"
+      }
+    },
+    "cancel": {
+      "at": 1794774085478,
+      "observationMs": 12000,
+      "startedAfter": 0,
+      "outsidePageStartedAfter": 0,
+      "inFlightAtCancel": [
+        {
+          "index": 8,
+          "status": 200,
+          "returnedAfterMs": 549
+        }
+      ]
+    },
+    "shutdowns": [
+      {
+        "method": "taskkill-isolated-host",
+        "exitCode": 1
+      },
+      {
+        "method": "taskkill-isolated-host",
+        "exitCode": 1
+      }
+    ],
+    "requests": [
+      {
+        "index": 1,
+        "phase": "cold-visible",
+        "at": 1794774039055,
+        "outsidePage": 0,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794774039270,
+        "items": 32
+      },
+      {
+        "index": 2,
+        "phase": "warm-visible",
+        "at": 1794774075661,
+        "outsidePage": 0,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794774075689,
+        "items": 32
+      },
+      {
+        "index": 3,
+        "phase": "full-scan",
+        "at": 1794774081151,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794774082231,
+        "items": 64
+      },
+      {
+        "index": 4,
+        "phase": "full-scan",
+        "at": 1794774082230,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794774082978,
+        "items": 64
+      },
+      {
+        "index": 5,
+        "phase": "full-scan",
+        "at": 1794774082978,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794774083565,
+        "items": 64
+      },
+      {
+        "index": 6,
+        "phase": "full-scan",
+        "at": 1794774083564,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794774084525,
+        "items": 64
+      },
+      {
+        "index": 7,
+        "phase": "full-scan",
+        "at": 1794774084525,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794774085093,
+        "items": 64
+      },
+      {
+        "index": 8,
+        "phase": "full-scan",
+        "at": 1794774085092,
+        "outsidePage": 64,
+        "status": 200,
+        "hostVersion": "0.2.2-rc.3",
+        "finishedAt": 1794774086027,
+        "items": 64
+      }
+    ]
+  }
+]

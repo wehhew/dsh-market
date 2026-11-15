@@ -1,0 +1,206 @@
+[
+  {
+    "label": "nightly-round-3-ntfs",
+    "mode": "cold",
+    "provenance": {
+      "runtime": "web",
+      "market": "1.73.19",
+      "dsh": "0.2.2-rc.3",
+      "variant": "nightly-baseline",
+      "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+      "tarballSha": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+      "installedSha": "faae591d32934f11466f08a1070e06c33e1144e002c510560f00169299ff9cc7",
+      "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+      "npmExisting": 5537,
+      "githubExisting": 4796,
+      "pinnedForTest": 368,
+      "profileDirectory": "C:\\Users\\86138\\AppData\\Local\\Temp\\dshm-audit-1170-nightly-round-3-ntfs\\home\\profiles\\web"
+    },
+    "posts": 169,
+    "keys": 10775,
+    "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+    "elapsedMs": 5724.100799999998,
+    "writes": 338,
+    "writesBytes": 285774292,
+    "cumulativeProcessCpuSeconds": 5.219,
+    "measuredThreadCpuSeconds": 4.437,
+    "diskSamplesDuringRun": 6,
+    "systemDiskPeakWritesBytesPerSecond": 3633333.3,
+    "systemDiskPeakActivePercent": 6,
+    "processTreePeakOneCorePercent": 100.007,
+    "compatibilityDisk": {
+      "discovery-compatibility-v1.json": {
+        "bytes": 1917315,
+        "entries": 5539,
+        "fresh": 5539,
+        "sha": "8f6485527f286c087791ee57b88bd67068b175da29ca94075ebea5e4eafef349"
+      },
+      "discovery-github-compatibility-v1.json": {
+        "bytes": 1492175,
+        "entries": 5236,
+        "fresh": 5236,
+        "sha": "9dd1c118e901ea69001aa79d5222e557eea202a0794b3542ddabb361cecbd52c"
+      }
+    },
+    "fixtureCounts": {
+      "catalog200": 0,
+      "catalog304": 169,
+      "npm": 5539,
+      "github": 5236,
+      "other": 0
+    }
+  },
+  {
+    "label": "nightly-fixed-round-3-ntfs",
+    "mode": "cold",
+    "provenance": {
+      "runtime": "web",
+      "market": "1.73.19",
+      "dsh": "0.2.2-rc.3",
+      "variant": "nightly-fixed",
+      "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+      "tarballSha": "979404cfd9e0c0767fbe7a7b72d3a20a6c85289cf80090329c8ab1f73ffeb677",
+      "installedSha": "f519f5b3c29b3041982b9f48da77b6c9a3c5ef0049d35648b81811e064d1d21e",
+      "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+      "npmExisting": 5537,
+      "githubExisting": 4796,
+      "pinnedForTest": 368,
+      "profileDirectory": "C:\\Users\\86138\\AppData\\Local\\Temp\\dshm-audit-1170-nightly-fixed-round-3-ntfs\\home\\profiles\\web"
+    },
+    "posts": 169,
+    "keys": 10775,
+    "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+    "elapsedMs": 3231.3997999999992,
+    "writes": 60,
+    "writesBytes": 3431076,
+    "cumulativeProcessCpuSeconds": 2.687,
+    "measuredThreadCpuSeconds": 1.875,
+    "diskSamplesDuringRun": 4,
+    "systemDiskPeakWritesBytesPerSecond": 1809867.1,
+    "systemDiskPeakActivePercent": 12,
+    "processTreePeakOneCorePercent": 87.229,
+    "compatibilityDisk": {
+      "discovery-compatibility-v1.json": {
+        "bytes": 1928411,
+        "entries": 5539,
+        "fresh": 5539,
+        "sha": "62522af3205f6e903bb4385b13730aed9f885009a00f8c0d4d3b2b667a880965"
+      },
+      "discovery-github-compatibility-v1.json": {
+        "bytes": 1502665,
+        "entries": 5236,
+        "fresh": 5236,
+        "sha": "89db8851fcba61d37d996da1ea0795be4a72fe7aa21ea37d2a0526140bef916f"
+      }
+    },
+    "fixtureCounts": {
+      "catalog200": 0,
+      "catalog304": 169,
+      "npm": 5539,
+      "github": 5236,
+      "other": 0
+    }
+  },
+  {
+    "label": "nightly-round-3-ntfs",
+    "mode": "expired",
+    "provenance": {
+      "runtime": "web",
+      "market": "1.73.19",
+      "dsh": "0.2.2-rc.3",
+      "variant": "nightly-baseline",
+      "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+      "tarballSha": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+      "installedSha": "faae591d32934f11466f08a1070e06c33e1144e002c510560f00169299ff9cc7",
+      "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+      "npmExisting": 5537,
+      "githubExisting": 4796,
+      "pinnedForTest": 368,
+      "profileDirectory": "C:\\Users\\86138\\AppData\\Local\\Temp\\dshm-audit-1170-nightly-round-3-ntfs\\home\\profiles\\web"
+    },
+    "posts": 169,
+    "keys": 10775,
+    "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+    "elapsedMs": 7005.8087000000005,
+    "writes": 338,
+    "writesBytes": 576203810,
+    "cumulativeProcessCpuSeconds": 6.578,
+    "measuredThreadCpuSeconds": 5.672,
+    "diskSamplesDuringRun": 7,
+    "systemDiskPeakWritesBytesPerSecond": 5203442.4,
+    "systemDiskPeakActivePercent": 9,
+    "processTreePeakOneCorePercent": 105.193,
+    "compatibilityDisk": {
+      "discovery-compatibility-v1.json": {
+        "bytes": 1917315,
+        "entries": 5539,
+        "fresh": 5539,
+        "sha": "07661f1da1e74859909b2debdf8e5898c156a400a263c1ff02b7fa057f7196ec"
+      },
+      "discovery-github-compatibility-v1.json": {
+        "bytes": 1492175,
+        "entries": 5236,
+        "fresh": 5236,
+        "sha": "3120531be7d14e9f54abeb5774f8014687556b820b4bb05942a1e29c20389eaf"
+      }
+    },
+    "fixtureCounts": {
+      "catalog200": 0,
+      "catalog304": 169,
+      "npm": 5539,
+      "github": 5236,
+      "other": 0
+    }
+  },
+  {
+    "label": "nightly-fixed-round-3-ntfs",
+    "mode": "expired",
+    "provenance": {
+      "runtime": "web",
+      "market": "1.73.19",
+      "dsh": "0.2.2-rc.3",
+      "variant": "nightly-fixed",
+      "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+      "tarballSha": "979404cfd9e0c0767fbe7a7b72d3a20a6c85289cf80090329c8ab1f73ffeb677",
+      "installedSha": "f519f5b3c29b3041982b9f48da77b6c9a3c5ef0049d35648b81811e064d1d21e",
+      "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+      "npmExisting": 5537,
+      "githubExisting": 4796,
+      "pinnedForTest": 368,
+      "profileDirectory": "C:\\Users\\86138\\AppData\\Local\\Temp\\dshm-audit-1170-nightly-fixed-round-3-ntfs\\home\\profiles\\web"
+    },
+    "posts": 169,
+    "keys": 10775,
+    "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+    "elapsedMs": 3366.5481999999997,
+    "writes": 62,
+    "writesBytes": 3430966,
+    "cumulativeProcessCpuSeconds": 2.547,
+    "measuredThreadCpuSeconds": 1.953,
+    "diskSamplesDuringRun": 4,
+    "systemDiskPeakWritesBytesPerSecond": 2732107.6,
+    "systemDiskPeakActivePercent": 11,
+    "processTreePeakOneCorePercent": 70.197,
+    "compatibilityDisk": {
+      "discovery-compatibility-v1.json": {
+        "bytes": 3856738,
+        "entries": 5539,
+        "fresh": 5539,
+        "sha": "e177e18c7063ca2a2f393e377ce10bd7f1464517ef0960aa209cc1e1cf894821"
+      },
+      "discovery-github-compatibility-v1.json": {
+        "bytes": 3005246,
+        "entries": 5236,
+        "fresh": 5236,
+        "sha": "00d8b90dba0692b3a7ec5a2740cd588412d45d140a317d4d7317c01173b90a53"
+      }
+    },
+    "fixtureCounts": {
+      "catalog200": 0,
+      "catalog304": 169,
+      "npm": 5539,
+      "github": 5236,
+      "other": 0
+    }
+  }
+]

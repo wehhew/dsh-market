@@ -15,4 +15,10 @@
 
 先行版第 2 轮冷扫，服务进程累计 CPU 为 11.50 → 4.78 秒，事件循环 p95 为 400.29 → 19.05 ms。同轮 Win32 全机磁盘写入速率 p95 为 24.15 → 5.51 MB/s，活动率 p95 为 66% → 50%，采样数为 84 / 8。CPU 和全机磁盘采样受同机负载影响。判断写入量以文件探针为准。
 
-`desktop-cold.json` 与 `desktop-cold-complete.png` 记录修后包在官方 Desktop 的真实冷扫。169 个 POST 均返回 HTTP 200，未确认条目为零。后续配对、热重启和取消实机未完成，测试环境曾停在宿主加载插件阶段。
+`desktop-cold.json` 与 `desktop-cold-complete.png` 记录修后包在官方 Desktop 的真实冷扫。169 个 POST 均返回 HTTP 200，未确认条目为零。真机全量冷扫记录取自修后包。
+
+## 第三轮 Web 与补测 Desktop
+
+第三轮 Web 的四个场景均在同一台机器的 C: NTFS 独立 profile 上完成。冷扫应用写入从 272.54 MiB 降至 3.27 MiB，全过期重查从 549.51 MiB 降至 3.27 MiB。四组 169 个 POST，10,775 项判定哈希一致。完整 CPU、文件探针和系统物理盘观测见 [第三轮对比](ntfs-round-3-comparison.json)。
+
+在另两组隔离 Desktop 中，首页冷读均请求 32 个 manifest；重启后的热读均为零上游请求，缓存修改时间和判定哈希不变。换回「显示全部」后两边同样观察 12 秒，新增全目录请求均为零。切换前已发出的请求分别在 594 ms 和 549 ms 后返回 200。热重启在确认缓存已落盘后进行。 [Desktop 重启和取消对照](desktop-restart-cancel-comparison.json)
