@@ -1,0 +1,1030 @@
+[
+  {
+    "branch": "stable",
+    "round": 1,
+    "mode": "cold",
+    "byteReductionFraction": 0.987982662488538,
+    "before": {
+      "elapsedMs": 122949.50469999999,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "official-stable",
+        "baseline": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+        "tarballSha": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+        "installedSha": "a8ac7772b56c92644ba7fc8c14d39e54114ad6b3c6a296ed67623cf3b3de9c06",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 1885.5935999999638,
+      "concurrentGetP95Ms": 969.1537999999709,
+      "eventLoopP95Ms": 448.790527,
+      "daemonCpuMs": 8532,
+      "mainThreadCpuMs": 6219,
+      "writes": 338,
+      "cacheWriteBytes": 265543761,
+      "syncRewrites": 338,
+      "syncPersistenceMs": 80329.47170000004,
+      "snapshots": 0,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1677265,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "a784364efa9b6c92cccd2452914e67b77d35e423d8d58287f5caca17d21736b0"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1492175,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "f036495fb638bd23e81d084b8c4ed02294f0c224bb92c3c69973d3c53bff2218"
+        }
+      },
+      "windowsCounters": null
+    },
+    "after": {
+      "elapsedMs": 32770.413899999985,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "stable-fixed",
+        "baseline": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+        "tarballSha": "eca155fd2a6bd9be40243610d56d30ab7e4333f06e88203654d6e6d4999785ed",
+        "installedSha": "b97ed6f732a3e373027dce3f51e37844cc8a41ce14e3e002bee6d005ceb67ce3",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 451.31440000000293,
+      "concurrentGetP95Ms": 397.1223999999929,
+      "eventLoopP95Ms": 211.288063,
+      "daemonCpuMs": 3672,
+      "mainThreadCpuMs": 2734,
+      "writes": 163,
+      "cacheWriteBytes": 3191129,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 2,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1688412,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "98f3f93d05723ddffe21f1b57b01142e4ef45b1c2a368cf798d1263eb28785f2"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1502717,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "a9f70eced361f098adad2231ac028f780104f9c92ed5a29df1dbb9b71e51a59b"
+        }
+      },
+      "windowsCounters": null
+    }
+  },
+  {
+    "branch": "stable",
+    "round": 1,
+    "mode": "expired",
+    "byteReductionFraction": 0.9940426375136996,
+    "before": {
+      "elapsedMs": 111928.4631,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "official-stable",
+        "baseline": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+        "tarballSha": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+        "installedSha": "a8ac7772b56c92644ba7fc8c14d39e54114ad6b3c6a296ed67623cf3b3de9c06",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 1218.2985000000044,
+      "concurrentGetP95Ms": 744.8987000000052,
+      "eventLoopP95Ms": 403.963903,
+      "daemonCpuMs": 10421,
+      "mainThreadCpuMs": 8500,
+      "writes": 338,
+      "cacheWriteBytes": 535635360,
+      "syncRewrites": 338,
+      "syncPersistenceMs": 77455.23579999992,
+      "snapshots": 0,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1677265,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "efb2d182b8b4e50cfcba2864eea54ace53d4a51d8798d2cf1a37df417fd19c00"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1492175,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "fd9a296bb251dad9d606fce031c7eb431369fb74381410282e3b754d541b28f7"
+        }
+      },
+      "windowsCounters": null
+    },
+    "after": {
+      "elapsedMs": 10120.713800000012,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "stable-fixed",
+        "baseline": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+        "tarballSha": "eca155fd2a6bd9be40243610d56d30ab7e4333f06e88203654d6e6d4999785ed",
+        "installedSha": "b97ed6f732a3e373027dce3f51e37844cc8a41ce14e3e002bee6d005ceb67ce3",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 110.87119999999413,
+      "concurrentGetP95Ms": 80.98219999999856,
+      "eventLoopP95Ms": 46.366719,
+      "daemonCpuMs": 4843,
+      "mainThreadCpuMs": 3609,
+      "writes": 120,
+      "cacheWriteBytes": 3190974,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 0,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 3376666,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "ffdd0e27644de1c9e8faca7290c8b200cad18310f0c50205031a9c2546275317"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 3005276,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "c2274433d52bd76e305eb3c7d0e2710c08cbef12b1b1973d77706908b98e7ddf"
+        }
+      },
+      "windowsCounters": null
+    }
+  },
+  {
+    "branch": "stable",
+    "round": 1,
+    "mode": "warm",
+    "byteReductionFraction": null,
+    "before": {
+      "elapsedMs": 28471.51819999999,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "official-stable",
+        "baseline": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+        "tarballSha": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+        "installedSha": "a8ac7772b56c92644ba7fc8c14d39e54114ad6b3c6a296ed67623cf3b3de9c06",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 478.8953000000038,
+      "concurrentGetP95Ms": 457.89130000000296,
+      "eventLoopP95Ms": 234.881023,
+      "daemonCpuMs": 1718,
+      "mainThreadCpuMs": 1343,
+      "writes": 0,
+      "cacheWriteBytes": 0,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 0,
+      "npmUpstream": 0,
+      "githubUpstream": 0,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1677265,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "efb2d182b8b4e50cfcba2864eea54ace53d4a51d8798d2cf1a37df417fd19c00"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1492175,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "fd9a296bb251dad9d606fce031c7eb431369fb74381410282e3b754d541b28f7"
+        }
+      },
+      "windowsCounters": null
+    },
+    "after": {
+      "elapsedMs": 12356.093200000003,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "stable-fixed",
+        "baseline": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+        "tarballSha": "eca155fd2a6bd9be40243610d56d30ab7e4333f06e88203654d6e6d4999785ed",
+        "installedSha": "b97ed6f732a3e373027dce3f51e37844cc8a41ce14e3e002bee6d005ceb67ce3",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 131.92639999999665,
+      "concurrentGetP95Ms": 101.97879999999714,
+      "eventLoopP95Ms": 96.272383,
+      "daemonCpuMs": 1360,
+      "mainThreadCpuMs": 1125,
+      "writes": 0,
+      "cacheWriteBytes": 0,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 0,
+      "npmUpstream": 0,
+      "githubUpstream": 0,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 3376666,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "ffdd0e27644de1c9e8faca7290c8b200cad18310f0c50205031a9c2546275317"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 3005276,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "c2274433d52bd76e305eb3c7d0e2710c08cbef12b1b1973d77706908b98e7ddf"
+        }
+      },
+      "windowsCounters": null
+    }
+  },
+  {
+    "branch": "stable",
+    "round": 1,
+    "mode": "one-change",
+    "byteReductionFraction": 0.9998791584633248,
+    "before": {
+      "elapsedMs": 1795.1463999999978,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "official-stable",
+        "baseline": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+        "tarballSha": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+        "installedSha": "a8ac7772b56c92644ba7fc8c14d39e54114ad6b3c6a296ed67623cf3b3de9c06",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 1,
+      "verdictSha": "34a1bd81d52c5ef23dae6ce60ad551cf0d3bea2200656e161916ca3d33c77fe7",
+      "identities": 64,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 1764.8051000000123,
+      "concurrentGetP95Ms": 1323.729600000006,
+      "eventLoopP95Ms": 243.531775,
+      "daemonCpuMs": 282,
+      "mainThreadCpuMs": 125,
+      "writes": 2,
+      "cacheWriteBytes": 3169440,
+      "syncRewrites": 2,
+      "syncPersistenceMs": 1139.9379000000044,
+      "snapshots": 0,
+      "npmUpstream": 1,
+      "githubUpstream": 1,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1677265,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "8020fd1f301f27b53c95716623478a731b27f17080c97d1ef2f4b135c0055a4e"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1492175,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "55aa2ce3378120491aa33bc9d1f14426f5cab46819030f68e9daf36f70dd925f"
+        }
+      },
+      "windowsCounters": null
+    },
+    "after": {
+      "elapsedMs": 137.7042000000074,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "stable-fixed",
+        "baseline": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+        "tarballSha": "eca155fd2a6bd9be40243610d56d30ab7e4333f06e88203654d6e6d4999785ed",
+        "installedSha": "b97ed6f732a3e373027dce3f51e37844cc8a41ce14e3e002bee6d005ceb67ce3",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 1,
+      "verdictSha": "34a1bd81d52c5ef23dae6ce60ad551cf0d3bea2200656e161916ca3d33c77fe7",
+      "identities": 64,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 131.4762999999948,
+      "concurrentGetP95Ms": 31.679300000003423,
+      "eventLoopP95Ms": 19.660799,
+      "daemonCpuMs": 140,
+      "mainThreadCpuMs": 109,
+      "writes": 2,
+      "cacheWriteBytes": 383,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 0,
+      "npmUpstream": 1,
+      "githubUpstream": 1,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1688543,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "1eb5390aa312aea255a710be53fd0cdaafdd85c0f3637d60c9cc616d1de8751f"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1502808,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "040ff87927800b547a0d354442c85d3e605906fc89734510c6103f7dbc223f91"
+        }
+      },
+      "windowsCounters": null
+    }
+  },
+  {
+    "branch": "nightly",
+    "round": 1,
+    "mode": "cold",
+    "byteReductionFraction": 0.9879935946092729,
+    "before": {
+      "elapsedMs": 75367.27069999996,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-baseline",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+        "installedSha": "faae591d32934f11466f08a1070e06c33e1144e002c510560f00169299ff9cc7",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 936.6267999999982,
+      "concurrentGetP95Ms": 581.8317000000388,
+      "eventLoopP95Ms": 268.959743,
+      "daemonCpuMs": 9047,
+      "mainThreadCpuMs": 7343,
+      "writes": 338,
+      "cacheWriteBytes": 285774292,
+      "syncRewrites": 338,
+      "syncPersistenceMs": 51247.88729999993,
+      "snapshots": 0,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1917315,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "a8e938b5440df272bffc8f2e728227dc9d5b5bd0f5add41b80133f397d00b63a"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1492175,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "3d7f15db799ed5ec6c63a9418e09c2425b0a3602e1d7ec0bda4924228146dd7b"
+        }
+      },
+      "windowsCounters": null
+    },
+    "after": {
+      "elapsedMs": 12031.257199999993,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-fixed",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "979404cfd9e0c0767fbe7a7b72d3a20a6c85289cf80090329c8ab1f73ffeb677",
+        "installedSha": "f519f5b3c29b3041982b9f48da77b6c9a3c5ef0049d35648b81811e064d1d21e",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 270.8380999999936,
+      "concurrentGetP95Ms": 230.69319999999425,
+      "eventLoopP95Ms": 26.623999,
+      "daemonCpuMs": 4797,
+      "mainThreadCpuMs": 3766,
+      "writes": 106,
+      "cacheWriteBytes": 3431122,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 2,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1928434,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "d7541281d2659949f468ffdfa38753442f17d97da35d222df39cd3a20803966d"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1502688,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "e2e815ffeb650b94457ecd0e06a157bcc66ad736491d11797b908f2a3318e9b2"
+        }
+      },
+      "windowsCounters": null
+    }
+  },
+  {
+    "branch": "nightly",
+    "round": 1,
+    "mode": "expired",
+    "byteReductionFraction": 0.9940455131665998,
+    "before": {
+      "elapsedMs": 132305.5539,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-baseline",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+        "installedSha": "faae591d32934f11466f08a1070e06c33e1144e002c510560f00169299ff9cc7",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 1653.283899999995,
+      "concurrentGetP95Ms": 939.1720999999961,
+      "eventLoopP95Ms": 455.081983,
+      "daemonCpuMs": 10328,
+      "mainThreadCpuMs": 7891,
+      "writes": 338,
+      "cacheWriteBytes": 576203810,
+      "syncRewrites": 338,
+      "syncPersistenceMs": 89901.1149000002,
+      "snapshots": 0,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1917315,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "045a874c78fb0d1829a139a1c20293eab505cb724ad793572190d3b60a3b6f59"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1492175,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "30a79d851b6107cf62131dcb39e6bec6a63724f22aafc4e26ed22e6db9b45b39"
+        }
+      },
+      "windowsCounters": null
+    },
+    "after": {
+      "elapsedMs": 11829.584300000002,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-fixed",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "979404cfd9e0c0767fbe7a7b72d3a20a6c85289cf80090329c8ab1f73ffeb677",
+        "installedSha": "f519f5b3c29b3041982b9f48da77b6c9a3c5ef0049d35648b81811e064d1d21e",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 217.03089999999793,
+      "concurrentGetP95Ms": 186.59580000000278,
+      "eventLoopP95Ms": 106.430463,
+      "daemonCpuMs": 3469,
+      "mainThreadCpuMs": 2642,
+      "writes": 94,
+      "cacheWriteBytes": 3430998,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 0,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 3856755,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "d692203726262b8111d86a2b36af5132e21e4b377e2e0b101a42a8f344509a35"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 3005261,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "dd5937ea0057e4bf728a3e5e7d8b41cbb2a7bf18edf8211130ad371f7bcbfcae"
+        }
+      },
+      "windowsCounters": null
+    }
+  },
+  {
+    "branch": "nightly",
+    "round": 1,
+    "mode": "warm",
+    "byteReductionFraction": null,
+    "before": {
+      "elapsedMs": 19413.067500000005,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-baseline",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+        "installedSha": "faae591d32934f11466f08a1070e06c33e1144e002c510560f00169299ff9cc7",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 270.1573999999964,
+      "concurrentGetP95Ms": 244.75680000000284,
+      "eventLoopP95Ms": 165.281791,
+      "daemonCpuMs": 2016,
+      "mainThreadCpuMs": 1454,
+      "writes": 0,
+      "cacheWriteBytes": 0,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 0,
+      "npmUpstream": 0,
+      "githubUpstream": 0,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1917315,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "045a874c78fb0d1829a139a1c20293eab505cb724ad793572190d3b60a3b6f59"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1492175,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "30a79d851b6107cf62131dcb39e6bec6a63724f22aafc4e26ed22e6db9b45b39"
+        }
+      },
+      "windowsCounters": null
+    },
+    "after": {
+      "elapsedMs": 7963.308699999994,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-fixed",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "979404cfd9e0c0767fbe7a7b72d3a20a6c85289cf80090329c8ab1f73ffeb677",
+        "installedSha": "f519f5b3c29b3041982b9f48da77b6c9a3c5ef0049d35648b81811e064d1d21e",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 215.84489999999641,
+      "concurrentGetP95Ms": 247.52909999999974,
+      "eventLoopP95Ms": 95.027199,
+      "daemonCpuMs": 1749,
+      "mainThreadCpuMs": 1407,
+      "writes": 0,
+      "cacheWriteBytes": 0,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 0,
+      "npmUpstream": 0,
+      "githubUpstream": 0,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 3856755,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "d692203726262b8111d86a2b36af5132e21e4b377e2e0b101a42a8f344509a35"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 3005261,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "dd5937ea0057e4bf728a3e5e7d8b41cbb2a7bf18edf8211130ad371f7bcbfcae"
+        }
+      },
+      "windowsCounters": null
+    }
+  },
+  {
+    "branch": "nightly",
+    "round": 1,
+    "mode": "one-change",
+    "byteReductionFraction": 0.9998750546269384,
+    "before": {
+      "elapsedMs": 840.7728000000061,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-baseline",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+        "installedSha": "faae591d32934f11466f08a1070e06c33e1144e002c510560f00169299ff9cc7",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 1,
+      "verdictSha": "34a1bd81d52c5ef23dae6ce60ad551cf0d3bea2200656e161916ca3d33c77fe7",
+      "identities": 64,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 828.1899000000121,
+      "concurrentGetP95Ms": 379.0993000000017,
+      "eventLoopP95Ms": 181.665791,
+      "daemonCpuMs": 109,
+      "mainThreadCpuMs": 95,
+      "writes": 2,
+      "cacheWriteBytes": 3409490,
+      "syncRewrites": 2,
+      "syncPersistenceMs": 293.35650000000896,
+      "snapshots": 0,
+      "npmUpstream": 1,
+      "githubUpstream": 1,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1917315,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "0b6f11769205c610ce39e0f09d38286415137e8b87b25b21b9e226b468013031"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1492175,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "6b807c442346ad072b77c012f5f5fe990a942a90db29a468fad52bce9552bc2b"
+        }
+      },
+      "windowsCounters": null
+    },
+    "after": {
+      "elapsedMs": 415.0798000000068,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-fixed",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "979404cfd9e0c0767fbe7a7b72d3a20a6c85289cf80090329c8ab1f73ffeb677",
+        "installedSha": "f519f5b3c29b3041982b9f48da77b6c9a3c5ef0049d35648b81811e064d1d21e",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 1,
+      "verdictSha": "34a1bd81d52c5ef23dae6ce60ad551cf0d3bea2200656e161916ca3d33c77fe7",
+      "identities": 64,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 414.86560000000463,
+      "concurrentGetP95Ms": 173.28519999999844,
+      "eventLoopP95Ms": 18.989055,
+      "daemonCpuMs": 187,
+      "mainThreadCpuMs": 125,
+      "writes": 2,
+      "cacheWriteBytes": 426,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 0,
+      "npmUpstream": 1,
+      "githubUpstream": 1,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1928636,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "a591a824f6bd651747b9298713b48620d5f3eeb8b461825d925007ab9a7598be"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1502808,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "1ac702ead432456e25f9def00c9d692172e9008806bcd4ab65b4a9ab423f69dd"
+        }
+      },
+      "windowsCounters": null
+    }
+  },
+  {
+    "branch": "nightly",
+    "round": 2,
+    "mode": "cold",
+    "byteReductionFraction": 0.9879936156048634,
+    "before": {
+      "elapsedMs": 103528.5962,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-baseline",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+        "installedSha": "faae591d32934f11466f08a1070e06c33e1144e002c510560f00169299ff9cc7",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 2574.3280000000086,
+      "concurrentGetP95Ms": 834.132500000007,
+      "eventLoopP95Ms": 400.293887,
+      "daemonCpuMs": 11500,
+      "mainThreadCpuMs": 9688,
+      "writes": 338,
+      "cacheWriteBytes": 285774292,
+      "syncRewrites": 338,
+      "syncPersistenceMs": 62088.13919999993,
+      "snapshots": 0,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1917315,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "5a4b6703cc11dbe5c39452af83e9425af11baf8de3f8ebd6c7ecf444e3ad226f"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1492175,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "1b34ed52d31651d93e6902e4a6e15c6023d81bfb8418ab70f97fc688eb70d8f6"
+        }
+      },
+      "windowsCounters": {
+        "source": "nightly-round-2/cold-metrics.jsonl",
+        "completeSamples": 84,
+        "processTreeWriteTransferBytes": 285774292,
+        "processTreeReadTransferBytes": 6396988,
+        "wholeSystemDiskWriteBpsP95": 24147222.3,
+        "wholeSystemDiskActivePercentP95": 66
+      }
+    },
+    "after": {
+      "elapsedMs": 6711.4012000000075,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-fixed",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "979404cfd9e0c0767fbe7a7b72d3a20a6c85289cf80090329c8ab1f73ffeb677",
+        "installedSha": "f519f5b3c29b3041982b9f48da77b6c9a3c5ef0049d35648b81811e064d1d21e",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 79.761599999998,
+      "concurrentGetP95Ms": 48.15099999999802,
+      "eventLoopP95Ms": 19.054591,
+      "daemonCpuMs": 4781,
+      "mainThreadCpuMs": 3344,
+      "writes": 100,
+      "cacheWriteBytes": 3431116,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 2,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1928431,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "24f136f01fb4826fdeb608302a76843157bd57b6015bc0d5291e16324a5587f2"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1502685,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "8514f3d1fa3f726768090aacc98baabdd9a760e1465976ca36abf860f6753dab"
+        }
+      },
+      "windowsCounters": {
+        "source": "nightly-fixed-round-2/cold-metrics.jsonl",
+        "completeSamples": 8,
+        "processTreeWriteTransferBytes": 3431116,
+        "processTreeReadTransferBytes": 6396988,
+        "wholeSystemDiskWriteBpsP95": 5511502.6,
+        "wholeSystemDiskActivePercentP95": 50
+      }
+    }
+  },
+  {
+    "branch": "nightly",
+    "round": 2,
+    "mode": "expired",
+    "byteReductionFraction": 0.9940454871341444,
+    "before": {
+      "elapsedMs": 146529.3871,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-baseline",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+        "installedSha": "faae591d32934f11466f08a1070e06c33e1144e002c510560f00169299ff9cc7",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 2368.039999999979,
+      "concurrentGetP95Ms": 1082.1880999999994,
+      "eventLoopP95Ms": 544.210943,
+      "daemonCpuMs": 13328,
+      "mainThreadCpuMs": 10626,
+      "writes": 338,
+      "cacheWriteBytes": 576203810,
+      "syncRewrites": 338,
+      "syncPersistenceMs": 95902.65099999998,
+      "snapshots": 0,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 1917315,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "ffcbfc7f3fb8ca2daa4734ba2485cd511f917981c8f319946e6b074d05f9b91f"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 1492175,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "18a292f83e9485e4e881690480cfffcd5414669fc03c88375c5ffa971d442219"
+        }
+      },
+      "windowsCounters": {
+        "source": "nightly-round-2/expired-metrics.jsonl",
+        "completeSamples": 119,
+        "processTreeWriteTransferBytes": 565975340,
+        "processTreeReadTransferBytes": 6283432,
+        "wholeSystemDiskWriteBpsP95": 18028573.3,
+        "wholeSystemDiskActivePercentP95": 65
+      }
+    },
+    "after": {
+      "elapsedMs": 19037.781399999993,
+      "provenance": {
+        "runtime": "web",
+        "market": "1.73.19",
+        "dsh": "0.2.2-rc.3",
+        "variant": "nightly-fixed",
+        "baseline": "3b5a8c92d49ed8037834c2103d4c4e9cb2fc6ece",
+        "tarballSha": "979404cfd9e0c0767fbe7a7b72d3a20a6c85289cf80090329c8ab1f73ffeb677",
+        "installedSha": "f519f5b3c29b3041982b9f48da77b6c9a3c5ef0049d35648b81811e064d1d21e",
+        "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+        "npmExisting": 5537,
+        "githubExisting": 4796,
+        "pinnedForTest": 368
+      },
+      "postCount": 169,
+      "verdictSha": "4335e5551fc875e153532dcc723d10967c6302a4322d322a43e4a9c2de5e74b5",
+      "identities": 10775,
+      "unavailable": 0,
+      "compatibilityPostP95Ms": 330.05049999999756,
+      "concurrentGetP95Ms": 259.873299999992,
+      "eventLoopP95Ms": 138.543103,
+      "daemonCpuMs": 4422,
+      "mainThreadCpuMs": 3438,
+      "writes": 109,
+      "cacheWriteBytes": 3431013,
+      "syncRewrites": 0,
+      "syncPersistenceMs": 0,
+      "snapshots": 0,
+      "npmUpstream": 5539,
+      "githubUpstream": 5236,
+      "finalCache": {
+        "discovery-compatibility-v1.json": {
+          "bytes": 3856761,
+          "entries": 5539,
+          "fresh": 5539,
+          "sha": "ee05404eb527a6c1130e579533b9c91c7f16df3fdb1c42199ad6679bc0ce98ac"
+        },
+        "discovery-github-compatibility-v1.json": {
+          "bytes": 3005270,
+          "entries": 5236,
+          "fresh": 5236,
+          "sha": "653f7a3ffc73073b1ebd3a133ef6eaf2757c92f499efebae5f73811355634778"
+        }
+      },
+      "windowsCounters": {
+        "source": "nightly-fixed-round-2/expired-metrics.jsonl",
+        "completeSamples": 19,
+        "processTreeWriteTransferBytes": 3405648,
+        "processTreeReadTransferBytes": 6245580,
+        "wholeSystemDiskWriteBpsP95": 6629295.5,
+        "wholeSystemDiskActivePercentP95": 62
+      }
+    }
+  }
+]

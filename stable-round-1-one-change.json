@@ -1,0 +1,119 @@
+{
+  "label": "one-change",
+  "elapsedMs": 1795.1463999999978,
+  "provenance": {
+    "runtime": "web",
+    "market": "1.73.19",
+    "dsh": "0.2.2-rc.3",
+    "variant": "official-stable",
+    "baseline": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+    "tarballSha": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+    "installedSha": "a8ac7772b56c92644ba7fc8c14d39e54114ad6b3c6a296ed67623cf3b3de9c06",
+    "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+    "npmExisting": 5537,
+    "githubExisting": 4796,
+    "pinnedForTest": 368
+  },
+  "deltas": {
+    "catalog200": 0,
+    "catalog304": 1,
+    "npm": 1,
+    "github": 1,
+    "other": 0
+  },
+  "posts": [
+    {
+      "at": 1794766452341.3716,
+      "ms": 1764.8051000000123,
+      "npm": 41,
+      "github": 23,
+      "unavailable": 0
+    }
+  ],
+  "pings": [
+    {
+      "at": 1794766452340.575,
+      "ms": 174.90719999998691,
+      "status": 200
+    },
+    {
+      "at": 1794766452536.7837,
+      "ms": 223.58789999999863,
+      "status": 200
+    },
+    {
+      "at": 1794766452783.049,
+      "ms": 1323.729600000006,
+      "status": 200
+    }
+  ],
+  "measured": {
+    "node": "v24.21.0",
+    "release": "44.7.0",
+    "started": 1794766452313.9746,
+    "ended": 1794766454543.9553,
+    "loop": {
+      "50": 11.149311,
+      "95": 243.531775,
+      "99": 1160.773631,
+      "max": 1160.773631
+    },
+    "cpu": {
+      "user": 47000,
+      "system": 78000
+    },
+    "processCpu": {
+      "user": 157000,
+      "system": 125000
+    },
+    "records": [
+      {
+        "t": 1794766452767.2063,
+        "file": "discovery-compatibility-v1.json",
+        "entries": 5539,
+        "kind": "sync-rewrite",
+        "writeOk": true,
+        "mkdirMs": 278.9262000000017,
+        "sortMs": 0.917700000005425,
+        "mapRebuildMs": 0.7836999999999534,
+        "objectMs": 2.492500000007567,
+        "serializeMs": 4.969100000002072,
+        "writeMs": 385.33159999999043,
+        "bytes": 1677265,
+        "cpuMs": 32,
+        "totalMs": 691.030700000003
+      },
+      {
+        "t": 1794766453461.6208,
+        "file": "discovery-github-compatibility-v1.json",
+        "entries": 5236,
+        "kind": "sync-rewrite",
+        "writeOk": true,
+        "mkdirMs": 61.87150000000838,
+        "sortMs": 1.0347000000037951,
+        "mapRebuildMs": 100.2161000000051,
+        "objectMs": 2.9355000000068685,
+        "serializeMs": 3.114499999996042,
+        "writeMs": 278.9093000000139,
+        "bytes": 1492175,
+        "cpuMs": 16,
+        "totalMs": 448.90720000000147
+      }
+    ]
+  },
+  "disk": {
+    "discovery-compatibility-v1.json": {
+      "bytes": 1677265,
+      "entries": 5539,
+      "fresh": 5539,
+      "sha": "8020fd1f301f27b53c95716623478a731b27f17080c97d1ef2f4b135c0055a4e"
+    },
+    "discovery-github-compatibility-v1.json": {
+      "bytes": 1492175,
+      "entries": 5236,
+      "fresh": 5236,
+      "sha": "55aa2ce3378120491aa33bc9d1f14426f5cab46819030f68e9daf36f70dd925f"
+    }
+  },
+  "verdictSha": "34a1bd81d52c5ef23dae6ce60ad551cf0d3bea2200656e161916ca3d33c77fe7"
+}

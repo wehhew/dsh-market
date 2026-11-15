@@ -1,0 +1,1200 @@
+{
+  "desktop": "0.2.2-rc.3",
+  "runtime": {
+    "runtime": "desktop",
+    "version": "1.73.19"
+  },
+  "sha256": {
+    "package": "979404cfd9e0c0767fbe7a7b72d3a20a6c85289cf80090329c8ab1f73ffeb677",
+    "desktopAsar": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+    "dataset": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a"
+  },
+  "coldPosts": 169,
+  "coldJournalBytes": 1049920,
+  "verificationLimit": "Cold scan and screenshot completed. The isolated renderer shutdown did not settle, so warm restart and cancellation were not measured in this run.",
+  "requests": [
+    {
+      "stage": "opening",
+      "startMs": 0,
+      "endMs": 406,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 1678,
+      "endMs": 2423,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 2423,
+      "endMs": 2822,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 2821,
+      "endMs": 2850,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 2849,
+      "endMs": 2875,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 2873,
+      "endMs": 2898,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 2897,
+      "endMs": 3007,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 3006,
+      "endMs": 3047,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 3046,
+      "endMs": 3073,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 3071,
+      "endMs": 3172,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 3171,
+      "endMs": 3203,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 3202,
+      "endMs": 3235,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 3234,
+      "endMs": 3259,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 3258,
+      "endMs": 3400,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 3399,
+      "endMs": 3419,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 3418,
+      "endMs": 3883,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 3801,
+      "endMs": 4045,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4031,
+      "endMs": 4157,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4073,
+      "endMs": 4186,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4186,
+      "endMs": 4211,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4211,
+      "endMs": 4233,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4232,
+      "endMs": 4254,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4253,
+      "endMs": 4479,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4478,
+      "endMs": 4501,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4500,
+      "endMs": 4621,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4620,
+      "endMs": 4753,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4752,
+      "endMs": 4790,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4788,
+      "endMs": 4811,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4810,
+      "endMs": 4827,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4827,
+      "endMs": 4919,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4918,
+      "endMs": 4940,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4940,
+      "endMs": 4964,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4962,
+      "endMs": 4995,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 4994,
+      "endMs": 5017,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5017,
+      "endMs": 5122,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5119,
+      "endMs": 5212,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5212,
+      "endMs": 5330,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5328,
+      "endMs": 5350,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5347,
+      "endMs": 5471,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5470,
+      "endMs": 5492,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5491,
+      "endMs": 5516,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5514,
+      "endMs": 5533,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5533,
+      "endMs": 5674,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5672,
+      "endMs": 5698,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5697,
+      "endMs": 5725,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5723,
+      "endMs": 5749,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5749,
+      "endMs": 5774,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5774,
+      "endMs": 5796,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5795,
+      "endMs": 5818,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5818,
+      "endMs": 5836,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5835,
+      "endMs": 5872,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5871,
+      "endMs": 5889,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 5888,
+      "endMs": 6025,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6025,
+      "endMs": 6146,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6145,
+      "endMs": 6170,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6168,
+      "endMs": 6193,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6192,
+      "endMs": 6212,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6211,
+      "endMs": 6447,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6444,
+      "endMs": 6625,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6623,
+      "endMs": 6650,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6648,
+      "endMs": 6690,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6690,
+      "endMs": 6713,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6713,
+      "endMs": 6850,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6849,
+      "endMs": 6887,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6886,
+      "endMs": 6905,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 6904,
+      "endMs": 7029,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7029,
+      "endMs": 7061,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7061,
+      "endMs": 7088,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7086,
+      "endMs": 7110,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7109,
+      "endMs": 7231,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7231,
+      "endMs": 7254,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7253,
+      "endMs": 7273,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7272,
+      "endMs": 7389,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7389,
+      "endMs": 7412,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7410,
+      "endMs": 7435,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7435,
+      "endMs": 7457,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7457,
+      "endMs": 7476,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7476,
+      "endMs": 7736,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7736,
+      "endMs": 7766,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7765,
+      "endMs": 7789,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7788,
+      "endMs": 7810,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7809,
+      "endMs": 7993,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 7992,
+      "endMs": 8021,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8019,
+      "endMs": 8041,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8039,
+      "endMs": 8183,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8183,
+      "endMs": 8323,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8322,
+      "endMs": 8443,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8442,
+      "endMs": 8466,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8465,
+      "endMs": 8486,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8486,
+      "endMs": 8506,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8505,
+      "endMs": 8635,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8635,
+      "endMs": 8658,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8657,
+      "endMs": 8684,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8683,
+      "endMs": 8703,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8702,
+      "endMs": 8843,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8843,
+      "endMs": 8874,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8873,
+      "endMs": 8903,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8903,
+      "endMs": 8923,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 8922,
+      "endMs": 9044,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9043,
+      "endMs": 9151,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9150,
+      "endMs": 9176,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9174,
+      "endMs": 9200,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9198,
+      "endMs": 9225,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9222,
+      "endMs": 9252,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9250,
+      "endMs": 9276,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9276,
+      "endMs": 9303,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9303,
+      "endMs": 9333,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9333,
+      "endMs": 9364,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9363,
+      "endMs": 9390,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9388,
+      "endMs": 9417,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9416,
+      "endMs": 9448,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9448,
+      "endMs": 9483,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9482,
+      "endMs": 9520,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9519,
+      "endMs": 9543,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9542,
+      "endMs": 9650,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9647,
+      "endMs": 9681,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9680,
+      "endMs": 9709,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9708,
+      "endMs": 9731,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9730,
+      "endMs": 9753,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9753,
+      "endMs": 9774,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9774,
+      "endMs": 9795,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9795,
+      "endMs": 9814,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9813,
+      "endMs": 9845,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9844,
+      "endMs": 9865,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9864,
+      "endMs": 9883,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9882,
+      "endMs": 9902,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 9901,
+      "endMs": 10019,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10018,
+      "endMs": 10042,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10039,
+      "endMs": 10081,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10080,
+      "endMs": 10239,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10238,
+      "endMs": 10280,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10280,
+      "endMs": 10381,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10379,
+      "endMs": 10403,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10402,
+      "endMs": 10430,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10430,
+      "endMs": 10455,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10454,
+      "endMs": 10473,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10472,
+      "endMs": 10575,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10573,
+      "endMs": 10606,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10606,
+      "endMs": 10631,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10630,
+      "endMs": 10654,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10652,
+      "endMs": 10758,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10757,
+      "endMs": 10782,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10780,
+      "endMs": 10808,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10806,
+      "endMs": 10831,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10831,
+      "endMs": 10857,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10856,
+      "endMs": 10887,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10886,
+      "endMs": 10917,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10917,
+      "endMs": 10944,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10944,
+      "endMs": 10972,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10972,
+      "endMs": 10994,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 10994,
+      "endMs": 11017,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11015,
+      "endMs": 11041,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11039,
+      "endMs": 11059,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11059,
+      "endMs": 11092,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11091,
+      "endMs": 11114,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11113,
+      "endMs": 11137,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11137,
+      "endMs": 11156,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11156,
+      "endMs": 11256,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11256,
+      "endMs": 11278,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11277,
+      "endMs": 11298,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11298,
+      "endMs": 11320,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11319,
+      "endMs": 11343,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11342,
+      "endMs": 11370,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11367,
+      "endMs": 11386,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11386,
+      "endMs": 11484,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11484,
+      "endMs": 11591,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11590,
+      "endMs": 11623,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11623,
+      "endMs": 11648,
+      "status": 200,
+      "unknown": 0
+    },
+    {
+      "stage": "cold",
+      "startMs": 11647,
+      "endMs": 11670,
+      "status": 200,
+      "unknown": 0
+    }
+  ]
+}

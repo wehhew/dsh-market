@@ -1,0 +1,103 @@
+{
+  "label": "one-change",
+  "elapsedMs": 137.7042000000074,
+  "provenance": {
+    "runtime": "web",
+    "market": "1.73.19",
+    "dsh": "0.2.2-rc.3",
+    "variant": "stable-fixed",
+    "baseline": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+    "tarballSha": "eca155fd2a6bd9be40243610d56d30ab7e4333f06e88203654d6e6d4999785ed",
+    "installedSha": "b97ed6f732a3e373027dce3f51e37844cc8a41ce14e3e002bee6d005ceb67ce3",
+    "sampleSha": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+    "npmExisting": 5537,
+    "githubExisting": 4796,
+    "pinnedForTest": 368
+  },
+  "deltas": {
+    "catalog200": 0,
+    "catalog304": 1,
+    "npm": 1,
+    "github": 1,
+    "other": 0
+  },
+  "posts": [
+    {
+      "at": 1794766895546.0923,
+      "ms": 131.4762999999948,
+      "npm": 41,
+      "github": 23,
+      "unavailable": 0
+    }
+  ],
+  "pings": [
+    {
+      "at": 1794766895543.1514,
+      "ms": 17.120999999999185,
+      "status": 200
+    },
+    {
+      "at": 1794766895587.5183,
+      "ms": 16.61480000001029,
+      "status": 200
+    },
+    {
+      "at": 1794766895626.387,
+      "ms": 31.679300000003423,
+      "status": 200
+    }
+  ],
+  "measured": {
+    "node": "v24.21.0",
+    "release": "44.7.0",
+    "started": 1794766895534.249,
+    "ended": 1794766896230.9277,
+    "loop": {
+      "50": 10.567679,
+      "95": 19.660799,
+      "99": 24.887295,
+      "max": 25.804799
+    },
+    "cpu": {
+      "user": 47000,
+      "system": 62000
+    },
+    "processCpu": {
+      "user": 46000,
+      "system": 94000
+    },
+    "records": [
+      {
+        "t": 1794766895764.6953,
+        "file": "discovery-github-compatibility-v1.json.journal",
+        "kind": "append",
+        "bytes": 172,
+        "writeOk": true,
+        "totalMs": 23.82970000000205
+      },
+      {
+        "t": 1794766895764.9338,
+        "file": "discovery-compatibility-v1.json.journal",
+        "kind": "append",
+        "bytes": 211,
+        "writeOk": true,
+        "totalMs": 23.69419999999809
+      }
+    ]
+  },
+  "disk": {
+    "discovery-compatibility-v1.json": {
+      "bytes": 1688543,
+      "entries": 5539,
+      "fresh": 5539,
+      "sha": "1eb5390aa312aea255a710be53fd0cdaafdd85c0f3637d60c9cc616d1de8751f"
+    },
+    "discovery-github-compatibility-v1.json": {
+      "bytes": 1502808,
+      "entries": 5236,
+      "fresh": 5236,
+      "sha": "040ff87927800b547a0d354442c85d3e605906fc89734510c6103f7dbc223f91"
+    }
+  },
+  "verdictSha": "34a1bd81d52c5ef23dae6ce60ad551cf0d3bea2200656e161916ca3d33c77fe7"
+}
