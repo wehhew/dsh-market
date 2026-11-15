@@ -1,0 +1,163 @@
+[
+  {
+    "mode": "web",
+    "label": "web-before",
+    "initial": {
+      "posts": 15,
+      "finishedPosts": 14,
+      "statuses": [
+        200,
+        null
+      ],
+      "keys": 927,
+      "outsidePage": 895,
+      "missing": [],
+      "visiblePageFinishedMs": 1557
+    },
+    "upstreamCatalog": [
+      200,
+      200,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304
+    ],
+    "sha256": {
+      "market": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+      "dataset": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+      "host": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+      "client": "0c7e05fb3fb0a0dad12f6e69d6439147fafb8d646097b169a55afabe35f777f9"
+    }
+  },
+  {
+    "mode": "web",
+    "label": "web-after",
+    "initial": {
+      "posts": 1,
+      "finishedPosts": 1,
+      "statuses": [
+        200
+      ],
+      "keys": 32,
+      "outsidePage": 0,
+      "missing": [],
+      "visiblePageFinishedMs": 772
+    },
+    "next": {
+      "posts": 1,
+      "finishedPosts": 1,
+      "statuses": [
+        200
+      ],
+      "keys": 24,
+      "outsidePage": 0,
+      "missing": [],
+      "visiblePageFinishedMs": 585
+    },
+    "upstreamCatalog": [
+      200,
+      200,
+      304
+    ],
+    "sha256": {
+      "market": "931e62feee7949fa47d3b64357a019bf2f994805f03026081c0d9a4c8cf3da8a",
+      "dataset": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+      "host": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+      "client": "00b4fdf49d704d3bf7befbd3ad1751ce768b29975c3fbc62c51e7ba681f7bef9"
+    }
+  },
+  {
+    "mode": "desktop",
+    "label": "desktop-before",
+    "initial": {
+      "posts": 15,
+      "finishedPosts": 14,
+      "statuses": [
+        200,
+        null
+      ],
+      "keys": 927,
+      "outsidePage": 895,
+      "missing": [],
+      "visiblePageFinishedMs": 1522
+    },
+    "upstreamCatalog": [
+      200,
+      200,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304,
+      304
+    ],
+    "sha256": {
+      "market": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+      "dataset": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+      "host": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+      "client": "0c7e05fb3fb0a0dad12f6e69d6439147fafb8d646097b169a55afabe35f777f9"
+    }
+  },
+  {
+    "mode": "desktop",
+    "label": "desktop-after",
+    "initial": {
+      "posts": 1,
+      "finishedPosts": 1,
+      "statuses": [
+        200
+      ],
+      "keys": 32,
+      "outsidePage": 0,
+      "missing": [],
+      "visiblePageFinishedMs": 776
+    },
+    "next": {
+      "posts": 1,
+      "finishedPosts": 1,
+      "statuses": [
+        200
+      ],
+      "keys": 24,
+      "outsidePage": 0,
+      "missing": [],
+      "visiblePageFinishedMs": 571
+    },
+    "upstreamCatalog": [
+      200,
+      200,
+      304
+    ],
+    "sha256": {
+      "market": "931e62feee7949fa47d3b64357a019bf2f994805f03026081c0d9a4c8cf3da8a",
+      "dataset": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+      "host": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+      "client": "00b4fdf49d704d3bf7befbd3ad1751ce768b29975c3fbc62c51e7ba681f7bef9"
+    }
+  }
+]

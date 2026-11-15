@@ -1,0 +1,28 @@
+{
+  "stable": {
+    "before": "issue-1208/official-stable/dshmarket-1.73.19.tgz",
+    "after": "issue-1162/stable-fixed/dshmarket-1.73.19.tgz",
+    "beforeCount": 126,
+    "afterCount": 126,
+    "changed": [
+      "package/client/client.js"
+    ],
+    "beforeClientSha256": "889f7c17d50d09e988487d4426c5292cc56175257301642fe1011441d110e3bf",
+    "afterClientSha256": "d41a09c7eddb6eec58421ff900573739fd1e06e0a988eece1082a9296eb2e1a4",
+    "beforeArchiveSha256": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+    "afterArchiveSha256": "11bfad3d196d6002365f9ad2583614fae2c4d2262d6b5438fb6180c2b220636f"
+  },
+  "3b5a8c9": {
+    "before": "issue-1170/packages/nightly-baseline/dshmarket-1.73.19.tgz",
+    "after": "issue-1162/nightly-fixed/dshmarket-1.73.19.tgz",
+    "beforeCount": 130,
+    "afterCount": 130,
+    "changed": [
+      "package/client/client.js"
+    ],
+    "beforeClientSha256": "0c7e05fb3fb0a0dad12f6e69d6439147fafb8d646097b169a55afabe35f777f9",
+    "afterClientSha256": "00b4fdf49d704d3bf7befbd3ad1751ce768b29975c3fbc62c51e7ba681f7bef9",
+    "beforeArchiveSha256": "cf546fda1abb407ce8f92902637d9e160b6e5cd4eb07fd83e68298e87014024a",
+    "afterArchiveSha256": "931e62feee7949fa47d3b64357a019bf2f994805f03026081c0d9a4c8cf3da8a"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "label": "desktop-after",
+  "mode": "desktop",
+  "variant": "nightly-fixed",
+  "requests": [
+    {
+      "index": 1,
+      "phase": "initial-page",
+      "startedAt": 1794773348204,
+      "keys": [
+        "billion-context",
+        "dsh-windows-mcp",
+        "dsh-pet",
+        "dsh-context",
+        "dsh-whale-widget",
+        "dsh-better-sidebar",
+        "@liustack/modlens",
+        "dsh-ops",
+        "cc-safety-net",
+        "@michengai/dsh-skills-manager",
+        "dsh-cost-meter",
+        "@linxin666/dsh-client-ui-skill-explorer",
+        "dsh-plugin-wallpaper-engine",
+        "@linxin666/dsh-pet",
+        "@xmanrui/dsh-im",
+        "@vectorize-io/hindsight-coding-agents",
+        "dsh-remote",
+        "@linxin666/dsh-client-ui-task-board",
+        "dsh-mnemon",
+        "dsh-genui",
+        "dsh-free-search",
+        "@michengai/dsh-archive-manager",
+        "dsh-connect-workbuddy",
+        "@linxin666/dsh-ssh",
+        "@suifei/dsh-ai-team",
+        "@linyanzhi/dsh-mesh",
+        "dsh-multipane",
+        "qfish",
+        "dsh-icon-library",
+        "dsh-plugin-yushe",
+        "dsh-links-panel",
+        "dsh-redline"
+      ],
+      "status": 200,
+      "finishedAt": 1794773348980,
+      "unknown": 0
+    },
+    {
+      "index": 2,
+      "phase": "next-page",
+      "startedAt": 1794773369791,
+      "keys": [
+        "dsh-session-superagent",
+        "@linxin666/dsh-web-all",
+        "@linxin666/dsh-client-ui-git-graph",
+        "@linxin666/dsh-remote-web-ui",
+        "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+        "dsh-onebot-qq",
+        "dsh-mobile-plugin",
+        "@michengai/dsh-codex-ui",
+        "dsh-meme",
+        "dsh-image-gen",
+        "dsh-bili-scroll",
+        "@liustack/modsearch",
+        "@deepseek-harness-tui/dsh-tui",
+        "dsh-unlag",
+        "dsh-vision-router",
+        "@michengai/dsh-agency-agents",
+        "@changfenhuang/dsh-genui",
+        "@michengai/dsh-im-connect",
+        "dsh-univer-office",
+        "@nanmicoder/dsh-agent-teams",
+        "dsh-soul-md",
+        "ds-harness-remote",
+        "@tt-a1i/archify-dsh",
+        "@wxg-prc-cpg/browser-skill-dsh-plugin"
+      ],
+      "status": 200,
+      "finishedAt": 1794773370362,
+      "unknown": 0
+    }
+  ],
+  "hostCatalog": [
+    {
+      "phase": "initial-page",
+      "status": 200
+    },
+    {
+      "phase": "revalidate",
+      "status": 200
+    }
+  ],
+  "failedResponses": [],
+  "observationMs": 12000,
+  "sha256": {
+    "market": "931e62feee7949fa47d3b64357a019bf2f994805f03026081c0d9a4c8cf3da8a",
+    "dataset": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+    "host": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+    "client": "00b4fdf49d704d3bf7befbd3ad1751ce768b29975c3fbc62c51e7ba681f7bef9"
+  },
+  "runtime": {
+    "name": "desktop",
+    "marketVersion": "1.73.19"
+  },
+  "scope": {
+    "firstGrid": [
+      "billion-context",
+      "dsh-windows-mcp",
+      "dsh-pet",
+      "dsh-context",
+      "dsh-whale-widget",
+      "dsh-better-sidebar",
+      "@liustack/modlens",
+      "dsh-ops",
+      "cc-safety-net",
+      "@michengai/dsh-skills-manager",
+      "dsh-cost-meter",
+      "@linxin666/dsh-client-ui-skill-explorer",
+      "dsh-plugin-wallpaper-engine",
+      "@linxin666/dsh-pet",
+      "@xmanrui/dsh-im",
+      "@vectorize-io/hindsight-coding-agents",
+      "dsh-remote",
+      "@linxin666/dsh-client-ui-task-board",
+      "dsh-mnemon",
+      "dsh-genui",
+      "dsh-free-search",
+      "@michengai/dsh-archive-manager",
+      "dsh-connect-workbuddy",
+      "@linxin666/dsh-ssh"
+    ],
+    "recent": [
+      "@suifei/dsh-ai-team",
+      "@linyanzhi/dsh-mesh",
+      "dsh-multipane",
+      "qfish",
+      "dsh-icon-library",
+      "dsh-plugin-yushe",
+      "dsh-links-panel",
+      "dsh-redline"
+    ],
+    "nextNew": [
+      "dsh-session-superagent",
+      "@linxin666/dsh-web-all",
+      "@linxin666/dsh-client-ui-git-graph",
+      "@linxin666/dsh-remote-web-ui",
+      "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
+      "dsh-onebot-qq",
+      "dsh-mobile-plugin",
+      "@michengai/dsh-codex-ui",
+      "dsh-meme",
+      "dsh-image-gen",
+      "dsh-bili-scroll",
+      "@liustack/modsearch",
+      "@deepseek-harness-tui/dsh-tui",
+      "dsh-unlag",
+      "dsh-vision-router",
+      "@michengai/dsh-agency-agents",
+      "@changfenhuang/dsh-genui",
+      "@michengai/dsh-im-connect",
+      "dsh-univer-office",
+      "@nanmicoder/dsh-agent-teams",
+      "dsh-soul-md",
+      "ds-harness-remote",
+      "@tt-a1i/archify-dsh",
+      "@wxg-prc-cpg/browser-skill-dsh-plugin"
+    ]
+  },
+  "window": {
+    "start": 1794773348204,
+    "end": 1794773360204
+  },
+  "filterPreference": "default compatible",
+  "initial": {
+    "posts": 1,
+    "finishedPosts": 1,
+    "statuses": [
+      200
+    ],
+    "keys": 32,
+    "outsidePage": 0,
+    "missing": [],
+    "visiblePageFinishedMs": 776
+  },
+  "initialNote": "本页已隐藏 0 个与 DSH 0.2.2-rc.3 不兼容的插件。要求未知的插件仍会显示。",
+  "longTasks": [],
+  "screenshotErrors": [
+    {
+      "file": "02-after-12s.png",
+      "reason": "Desktop screenshot timed out"
+    }
+  ],
+  "firstPageCompleteMs": 776,
+  "next": {
+    "posts": 1,
+    "finishedPosts": 1,
+    "statuses": [
+      200
+    ],
+    "keys": 24,
+    "outsidePage": 0,
+    "missing": [],
+    "visiblePageFinishedMs": 571
+  },
+  "revalidatedCatalog": {
+    "status": 200,
+    "count": 10778,
+    "hostVersion": "0.2.2-rc.3"
+  },
+  "upstreamCatalog": [
+    200,
+    200,
+    304
+  ],
+  "passed": true,
+  "seed": "fresh profile with installed dependencies and exact tarball extraction"
+}

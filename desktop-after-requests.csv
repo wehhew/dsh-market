@@ -1,0 +1,3 @@
+index,phase,ms_since_first_post,keys,status,duration_ms
+1,initial-page,0,32,200,776
+2,next-page,21587,24,200,571

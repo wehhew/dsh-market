@@ -1,0 +1,17 @@
+index,phase,ms_since_first_post,keys,status,duration_ms
+1,initial-page,0,64,200,1557
+2,initial-page,1,31,200,1373
+3,observe-12-seconds,1556,64,200,753
+4,observe-12-seconds,2309,64,200,575
+5,observe-12-seconds,2884,64,200,942
+6,observe-12-seconds,3825,64,200,585
+7,observe-12-seconds,4404,64,200,959
+8,observe-12-seconds,5363,64,200,964
+9,observe-12-seconds,6327,64,200,757
+10,observe-12-seconds,7083,64,200,773
+11,observe-12-seconds,7856,64,200,948
+12,observe-12-seconds,8804,64,200,995
+13,observe-12-seconds,9799,64,200,739
+14,observe-12-seconds,10538,64,200,952
+15,observe-12-seconds,11490,64,200,770
+16,revalidate,12258,64,,
