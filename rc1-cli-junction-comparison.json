@@ -1,0 +1,200 @@
+{
+  "package": "dsh-chat-in-harness@1.1.1",
+  "provenance": "Official Windows DSH Desktop embedded CLI, each arm using a fresh disposable profile and the same public release archive copied locally.",
+  "releaseUrl": "https://github.com/qcann/dsh-chat-in-harness/releases/download/v1.1.1/dsh-chat-in-harness.tgz",
+  "changedAction": "After successful official remove, unlink only the junction whose resolved target is this fixture checkout.",
+  "defaultRun": {
+    "desktop": "0.2.2-rc.1",
+    "mode": "stock",
+    "archive": "857e3ba8da5d6abdbace956f47e7d8c2333bdb38edc737928cde789cb6b097a0",
+    "steps": [
+      {
+        "label": "add link directory",
+        "status": 0
+      },
+      {
+        "label": "remove linked package",
+        "status": 0
+      },
+      {
+        "label": "add the release tarball",
+        "status": 0
+      }
+    ],
+    "afterAdd": {
+      "present": true,
+      "junction": true,
+      "sameTarget": true,
+      "declaration": true,
+      "mentionsInLock": 1,
+      "installedVersion": "1.1.1",
+      "checkoutFiles": 13,
+      "checksums": {
+        "LICENSE": "4b02f1cbc84cd2e4c70b00da0a026c7ef6c8805c23c0c4dac5538d8b773a295b",
+        "README.en.md": "4c4a6873c6cf926fd5f07f3a4c575f299d892fa20b1690952937823bb0874d11",
+        "README.md": "abc5d2a0efbea0d8e44dc66978310819811b58583f3d7aba9de089d095bbb3c5",
+        "assets/icon-180.png": "bb1f77ace0fea0ee0a99f6f6857aa991045562e56a4c9aa09bf5274e81dbd66f",
+        "assets/screenshot-window.png": "1cf33997ea2ab6871fbc121563ad598b584232249c3ef2015e114e871d614203",
+        "checkout-sentinel.txt": "e3579d8bd571249d5139cdd2f07cb4d27d09d64f3190929cf1babc0d544f97cb",
+        "cordis.patch.yml": "9e3e791d914719ab596daab711e5817055a9ddbd925f08bb148412874d858696",
+        "icon.svg": "bf1cd091cf1002fbed7c45c54e396c825300812ad5e795d83f144be231b58a9b",
+        "lib/client.js": "09a900689b1f33e559deafe4346e00549eb9bf5a1b0a9f083368084a2f4232b1",
+        "lib/index.js": "ddd93c6c31baa987c93054a64cdb656f3978c05a1e81d5f2cd6142076e7c7954",
+        "locale/en.json": "6e6fbd29a34d24cc603d952b4da6aefa0fc23e2c2730303789cbbe0da811114e",
+        "locale/zh.json": "2063cfae1d236d78ae43fb1d8decd430059e2393dbadc46549b3693185cd6c16",
+        "package.json": "c3353637202adc4fef6e2a3799d51fa1ac9df59c2af758b914b4ad6bd3dbc191"
+      }
+    },
+    "afterRemove": {
+      "present": true,
+      "junction": true,
+      "sameTarget": true,
+      "declaration": false,
+      "mentionsInLock": 0,
+      "installedVersion": "1.1.1",
+      "checkoutFiles": 13,
+      "checksums": {
+        "LICENSE": "4b02f1cbc84cd2e4c70b00da0a026c7ef6c8805c23c0c4dac5538d8b773a295b",
+        "README.en.md": "4c4a6873c6cf926fd5f07f3a4c575f299d892fa20b1690952937823bb0874d11",
+        "README.md": "abc5d2a0efbea0d8e44dc66978310819811b58583f3d7aba9de089d095bbb3c5",
+        "assets/icon-180.png": "bb1f77ace0fea0ee0a99f6f6857aa991045562e56a4c9aa09bf5274e81dbd66f",
+        "assets/screenshot-window.png": "1cf33997ea2ab6871fbc121563ad598b584232249c3ef2015e114e871d614203",
+        "checkout-sentinel.txt": "e3579d8bd571249d5139cdd2f07cb4d27d09d64f3190929cf1babc0d544f97cb",
+        "cordis.patch.yml": "9e3e791d914719ab596daab711e5817055a9ddbd925f08bb148412874d858696",
+        "icon.svg": "bf1cd091cf1002fbed7c45c54e396c825300812ad5e795d83f144be231b58a9b",
+        "lib/client.js": "09a900689b1f33e559deafe4346e00549eb9bf5a1b0a9f083368084a2f4232b1",
+        "lib/index.js": "ddd93c6c31baa987c93054a64cdb656f3978c05a1e81d5f2cd6142076e7c7954",
+        "locale/en.json": "6e6fbd29a34d24cc603d952b4da6aefa0fc23e2c2730303789cbbe0da811114e",
+        "locale/zh.json": "2063cfae1d236d78ae43fb1d8decd430059e2393dbadc46549b3693185cd6c16",
+        "package.json": "c3353637202adc4fef6e2a3799d51fa1ac9df59c2af758b914b4ad6bd3dbc191"
+      }
+    },
+    "afterArchive": {
+      "present": true,
+      "junction": false,
+      "sameTarget": false,
+      "declaration": true,
+      "mentionsInLock": 8,
+      "installedVersion": "1.1.1",
+      "checkoutFiles": 0,
+      "checksums": {}
+    },
+    "archiveEPERM": false
+  },
+  "verifiedJunctionUnlinkedFirst": {
+    "desktop": "0.2.2-rc.1",
+    "mode": "detach",
+    "archive": "857e3ba8da5d6abdbace956f47e7d8c2333bdb38edc737928cde789cb6b097a0",
+    "steps": [
+      {
+        "label": "add link directory",
+        "status": 0
+      },
+      {
+        "label": "remove linked package",
+        "status": 0
+      },
+      {
+        "label": "add the release tarball",
+        "status": 0
+      }
+    ],
+    "afterAdd": {
+      "present": true,
+      "junction": true,
+      "sameTarget": true,
+      "declaration": true,
+      "mentionsInLock": 1,
+      "installedVersion": "1.1.1",
+      "checkoutFiles": 13,
+      "checksums": {
+        "LICENSE": "4b02f1cbc84cd2e4c70b00da0a026c7ef6c8805c23c0c4dac5538d8b773a295b",
+        "README.en.md": "4c4a6873c6cf926fd5f07f3a4c575f299d892fa20b1690952937823bb0874d11",
+        "README.md": "abc5d2a0efbea0d8e44dc66978310819811b58583f3d7aba9de089d095bbb3c5",
+        "assets/icon-180.png": "bb1f77ace0fea0ee0a99f6f6857aa991045562e56a4c9aa09bf5274e81dbd66f",
+        "assets/screenshot-window.png": "1cf33997ea2ab6871fbc121563ad598b584232249c3ef2015e114e871d614203",
+        "checkout-sentinel.txt": "e3579d8bd571249d5139cdd2f07cb4d27d09d64f3190929cf1babc0d544f97cb",
+        "cordis.patch.yml": "9e3e791d914719ab596daab711e5817055a9ddbd925f08bb148412874d858696",
+        "icon.svg": "bf1cd091cf1002fbed7c45c54e396c825300812ad5e795d83f144be231b58a9b",
+        "lib/client.js": "09a900689b1f33e559deafe4346e00549eb9bf5a1b0a9f083368084a2f4232b1",
+        "lib/index.js": "ddd93c6c31baa987c93054a64cdb656f3978c05a1e81d5f2cd6142076e7c7954",
+        "locale/en.json": "6e6fbd29a34d24cc603d952b4da6aefa0fc23e2c2730303789cbbe0da811114e",
+        "locale/zh.json": "2063cfae1d236d78ae43fb1d8decd430059e2393dbadc46549b3693185cd6c16",
+        "package.json": "c3353637202adc4fef6e2a3799d51fa1ac9df59c2af758b914b4ad6bd3dbc191"
+      }
+    },
+    "afterRemove": {
+      "present": true,
+      "junction": true,
+      "sameTarget": true,
+      "declaration": false,
+      "mentionsInLock": 0,
+      "installedVersion": "1.1.1",
+      "checkoutFiles": 13,
+      "checksums": {
+        "LICENSE": "4b02f1cbc84cd2e4c70b00da0a026c7ef6c8805c23c0c4dac5538d8b773a295b",
+        "README.en.md": "4c4a6873c6cf926fd5f07f3a4c575f299d892fa20b1690952937823bb0874d11",
+        "README.md": "abc5d2a0efbea0d8e44dc66978310819811b58583f3d7aba9de089d095bbb3c5",
+        "assets/icon-180.png": "bb1f77ace0fea0ee0a99f6f6857aa991045562e56a4c9aa09bf5274e81dbd66f",
+        "assets/screenshot-window.png": "1cf33997ea2ab6871fbc121563ad598b584232249c3ef2015e114e871d614203",
+        "checkout-sentinel.txt": "e3579d8bd571249d5139cdd2f07cb4d27d09d64f3190929cf1babc0d544f97cb",
+        "cordis.patch.yml": "9e3e791d914719ab596daab711e5817055a9ddbd925f08bb148412874d858696",
+        "icon.svg": "bf1cd091cf1002fbed7c45c54e396c825300812ad5e795d83f144be231b58a9b",
+        "lib/client.js": "09a900689b1f33e559deafe4346e00549eb9bf5a1b0a9f083368084a2f4232b1",
+        "lib/index.js": "ddd93c6c31baa987c93054a64cdb656f3978c05a1e81d5f2cd6142076e7c7954",
+        "locale/en.json": "6e6fbd29a34d24cc603d952b4da6aefa0fc23e2c2730303789cbbe0da811114e",
+        "locale/zh.json": "2063cfae1d236d78ae43fb1d8decd430059e2393dbadc46549b3693185cd6c16",
+        "package.json": "c3353637202adc4fef6e2a3799d51fa1ac9df59c2af758b914b4ad6bd3dbc191"
+      }
+    },
+    "afterDetach": {
+      "present": false,
+      "junction": false,
+      "sameTarget": false,
+      "declaration": false,
+      "mentionsInLock": 0,
+      "installedVersion": null,
+      "checkoutFiles": 13,
+      "checksums": {
+        "LICENSE": "4b02f1cbc84cd2e4c70b00da0a026c7ef6c8805c23c0c4dac5538d8b773a295b",
+        "README.en.md": "4c4a6873c6cf926fd5f07f3a4c575f299d892fa20b1690952937823bb0874d11",
+        "README.md": "abc5d2a0efbea0d8e44dc66978310819811b58583f3d7aba9de089d095bbb3c5",
+        "assets/icon-180.png": "bb1f77ace0fea0ee0a99f6f6857aa991045562e56a4c9aa09bf5274e81dbd66f",
+        "assets/screenshot-window.png": "1cf33997ea2ab6871fbc121563ad598b584232249c3ef2015e114e871d614203",
+        "checkout-sentinel.txt": "e3579d8bd571249d5139cdd2f07cb4d27d09d64f3190929cf1babc0d544f97cb",
+        "cordis.patch.yml": "9e3e791d914719ab596daab711e5817055a9ddbd925f08bb148412874d858696",
+        "icon.svg": "bf1cd091cf1002fbed7c45c54e396c825300812ad5e795d83f144be231b58a9b",
+        "lib/client.js": "09a900689b1f33e559deafe4346e00549eb9bf5a1b0a9f083368084a2f4232b1",
+        "lib/index.js": "ddd93c6c31baa987c93054a64cdb656f3978c05a1e81d5f2cd6142076e7c7954",
+        "locale/en.json": "6e6fbd29a34d24cc603d952b4da6aefa0fc23e2c2730303789cbbe0da811114e",
+        "locale/zh.json": "2063cfae1d236d78ae43fb1d8decd430059e2393dbadc46549b3693185cd6c16",
+        "package.json": "c3353637202adc4fef6e2a3799d51fa1ac9df59c2af758b914b4ad6bd3dbc191"
+      }
+    },
+    "afterArchive": {
+      "present": true,
+      "junction": false,
+      "sameTarget": false,
+      "declaration": true,
+      "mentionsInLock": 8,
+      "installedVersion": "1.1.1",
+      "checkoutFiles": 13,
+      "checksums": {
+        "LICENSE": "4b02f1cbc84cd2e4c70b00da0a026c7ef6c8805c23c0c4dac5538d8b773a295b",
+        "README.en.md": "4c4a6873c6cf926fd5f07f3a4c575f299d892fa20b1690952937823bb0874d11",
+        "README.md": "abc5d2a0efbea0d8e44dc66978310819811b58583f3d7aba9de089d095bbb3c5",
+        "assets/icon-180.png": "bb1f77ace0fea0ee0a99f6f6857aa991045562e56a4c9aa09bf5274e81dbd66f",
+        "assets/screenshot-window.png": "1cf33997ea2ab6871fbc121563ad598b584232249c3ef2015e114e871d614203",
+        "checkout-sentinel.txt": "e3579d8bd571249d5139cdd2f07cb4d27d09d64f3190929cf1babc0d544f97cb",
+        "cordis.patch.yml": "9e3e791d914719ab596daab711e5817055a9ddbd925f08bb148412874d858696",
+        "icon.svg": "bf1cd091cf1002fbed7c45c54e396c825300812ad5e795d83f144be231b58a9b",
+        "lib/client.js": "09a900689b1f33e559deafe4346e00549eb9bf5a1b0a9f083368084a2f4232b1",
+        "lib/index.js": "ddd93c6c31baa987c93054a64cdb656f3978c05a1e81d5f2cd6142076e7c7954",
+        "locale/en.json": "6e6fbd29a34d24cc603d952b4da6aefa0fc23e2c2730303789cbbe0da811114e",
+        "locale/zh.json": "2063cfae1d236d78ae43fb1d8decd430059e2393dbadc46549b3693185cd6c16",
+        "package.json": "c3353637202adc4fef6e2a3799d51fa1ac9df59c2af758b914b4ad6bd3dbc191"
+      }
+    },
+    "archiveEPERM": false
+  }
+}
