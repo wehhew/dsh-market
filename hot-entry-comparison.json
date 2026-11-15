@@ -1,0 +1,190 @@
+{
+  "dshDesktop": "0.2.2-rc.3",
+  "electron": "44.7.0",
+  "scope": "Official Windows Desktop runtime, direct dsh-market hotMount and verifyActivation calls in isolated profiles with a controlled duplicate-service fixture",
+  "before": {
+    "sourceTag": "v1.73.19",
+    "npmTarballSha256": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+    "hotJsSha256": "4657ccba52167106c9110dd739ec4f94028d45bc5fcb5dbc38718f70eb71605e",
+    "timeoutOverrideMs": null,
+    "hotMount": {
+      "ok": true,
+      "reason": null
+    },
+    "reportedActivation": {
+      "state": "live",
+      "reasons": [
+        "已热加载(bundle patch)/ live via its bundle patch"
+      ],
+      "bundle": true,
+      "hot": true
+    },
+    "liveList": [
+      "dsh-fixture-hot-activation",
+      "dsh-fixture-independent"
+    ],
+    "initialEntries": [
+      {
+        "id": "mkt-working",
+        "owner": true,
+        "entryFibre": "ACTIVE"
+      },
+      {
+        "id": "mkt-duplicate",
+        "owner": true,
+        "entryFibre": "FAILED"
+      },
+      {
+        "id": "mkt-waits",
+        "owner": true,
+        "entryFibre": "PENDING"
+      }
+    ],
+    "afterLateService": [
+      {
+        "id": "mkt-working",
+        "owner": true,
+        "entryFibre": "ACTIVE"
+      },
+      {
+        "id": "mkt-duplicate",
+        "owner": true,
+        "entryFibre": "FAILED"
+      },
+      {
+        "id": "mkt-waits",
+        "owner": true,
+        "entryFibre": "ACTIVE"
+      }
+    ],
+    "otherPlugin": {
+      "result": {
+        "ok": true,
+        "reason": null
+      },
+      "initial": [
+        {
+          "id": "mkt-independent",
+          "owner": true,
+          "entryFibre": "PENDING"
+        }
+      ],
+      "afterProvider": [
+        {
+          "id": "mkt-independent",
+          "owner": true,
+          "entryFibre": "ACTIVE"
+        }
+      ],
+      "stillMounted": true
+    },
+    "afterTeardown": {
+      "working": 1,
+      "waiting": 1,
+      "cleanups": 1,
+      "other": 1,
+      "otherCleanups": 0
+    },
+    "unmounted": true,
+    "duplicateServiceWarning": true
+  },
+  "after": {
+    "upstreamBase": "ef14ea19c9e96d3018cdbee420caf228f62cdb4d",
+    "sourceCommit": "f988ee7a0ea86027964a5e4a06b02082a14bf9cb",
+    "hotJsSha256": "2d8e98145ab32021317fee20631796b2b71b30001d33e61ea3fa9f6226abf314",
+    "timeoutOverrideMs": 90000,
+    "hotMount": {
+      "ok": false,
+      "reason": "组件 mkt-duplicate 启动失败。请在诊断中查看原因。 / Components failed to start (mkt-duplicate). Check Diagnostics for the error.",
+      "retained": true
+    },
+    "reportedActivation": {
+      "state": "failed",
+      "reasons": [
+        "组件 mkt-duplicate 启动失败。请在诊断中查看原因。 / Components failed to start (mkt-duplicate). Check Diagnostics for the error."
+      ],
+      "bundle": true,
+      "hot": false
+    },
+    "liveList": [
+      "dsh-fixture-independent"
+    ],
+    "initialEntries": [
+      {
+        "id": "mkt-working",
+        "owner": true,
+        "entryFibre": "ACTIVE"
+      },
+      {
+        "id": "mkt-duplicate",
+        "owner": true,
+        "entryFibre": "FAILED"
+      },
+      {
+        "id": "mkt-waits",
+        "owner": true,
+        "entryFibre": "PENDING"
+      }
+    ],
+    "afterLateService": [
+      {
+        "id": "mkt-working",
+        "owner": true,
+        "entryFibre": "ACTIVE"
+      },
+      {
+        "id": "mkt-duplicate",
+        "owner": true,
+        "entryFibre": "FAILED"
+      },
+      {
+        "id": "mkt-waits",
+        "owner": true,
+        "entryFibre": "ACTIVE"
+      }
+    ],
+    "otherPlugin": {
+      "result": {
+        "ok": true,
+        "reason": null
+      },
+      "initial": [
+        {
+          "id": "mkt-independent",
+          "owner": true,
+          "entryFibre": "PENDING"
+        }
+      ],
+      "afterProvider": [
+        {
+          "id": "mkt-independent",
+          "owner": true,
+          "entryFibre": "ACTIVE"
+        }
+      ],
+      "stillMounted": true
+    },
+    "afterTeardown": {
+      "working": 1,
+      "waiting": 1,
+      "cleanups": 1,
+      "other": 1,
+      "otherCleanups": 0
+    },
+    "unmounted": true,
+    "duplicateServiceWarning": true,
+    "repeatedHotMount": {
+      "ok": false,
+      "reason": "组件 mkt-duplicate 启动失败。请在诊断中查看原因。 / Components failed to start (mkt-duplicate). Check Diagnostics for the error.",
+      "retained": true
+    },
+    "hostWarningRetained": true
+  },
+  "checks": {
+    "focused": 147,
+    "themeRouteFlows": 3,
+    "npmRunCheck": "pass",
+    "formalRegression": "expected fail",
+    "reviewThemeRegression": "expected fail on previous candidate followed by pass"
+  }
+}
