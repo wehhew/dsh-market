@@ -1,0 +1,1409 @@
+{
+  "archives": {
+    "baseline": "fbf58ac3ff1de6da4d0ec547f15680f60ba4ad79f3a52a07eb0380fa0e9cc082",
+    "candidate": "e96bf6e1811a196884de9495a68946731fec838d3aa41d56c3ec6f0ea526ee30"
+  },
+  "runs": {
+    "formal-1.73.20": {
+      "customized": {
+        "toggle": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "formal-1.73.20",
+            "phase": "toggle",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "initially": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-multi-component",
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: optional\n  disabled: true\n  config:\n    preference: user-keeps-this\n- id: opt-in\n  disabled: false\n",
+              "state": null,
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "optional",
+                  "fullId": "include:optional",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "offReply": {
+              "status": 200,
+              "restart": true,
+              "disabled": [
+                "dsh-test-multi-component"
+              ],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "disabled",
+                  "reasons": [
+                    "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+                  ],
+                  "bundle": false,
+                  "hot": false
+                }
+              }
+            },
+            "off": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: optional\n  disabled: true\n  config:\n    preference: user-keeps-this\n- id: opt-in\n  disabled: true\n- id: main\n  disabled: true\n  name: 'dsh-test-multi-component' # dsh-market\n",
+              "state": {
+                "disabled": [
+                  "dsh-test-multi-component"
+                ],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "optional",
+                  "fullId": "include:optional",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "onReply": {
+              "status": 200,
+              "restart": false,
+              "disabled": [],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "live",
+                  "reasons": [
+                    "已热加载(bundle patch)/ live via its bundle patch"
+                  ],
+                  "bundle": true,
+                  "hot": true
+                }
+              }
+            },
+            "on": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: optional\n  disabled: true\n  config:\n    preference: user-keeps-this\n- id: optional\n  disabled: false\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "optional",
+                  "fullId": "include:optional",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        },
+        "reboot": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "formal-1.73.20",
+            "phase": "reboot",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "rebooted": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: optional\n  disabled: true\n  config:\n    preference: user-keeps-this\n- id: optional\n  disabled: false\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "optional",
+                  "fullId": "include:optional",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        }
+      },
+      "default-opt-out": {
+        "toggle": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "formal-1.73.20",
+            "phase": "toggle",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "initially": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-multi-component",
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "[]\n",
+              "state": null,
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "offReply": {
+              "status": 200,
+              "restart": true,
+              "disabled": [
+                "dsh-test-multi-component"
+              ],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "disabled",
+                  "reasons": [
+                    "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+                  ],
+                  "bundle": false,
+                  "hot": false
+                }
+              }
+            },
+            "off": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "# []\n- id: main\n  disabled: true\n  name: 'dsh-test-multi-component' # dsh-market\n- id: opt-in\n  disabled: true\n",
+              "state": {
+                "disabled": [
+                  "dsh-test-multi-component"
+                ],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "onReply": {
+              "status": 200,
+              "restart": false,
+              "disabled": [],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "live",
+                  "reasons": [
+                    "已热加载(bundle patch)/ live via its bundle patch"
+                  ],
+                  "bundle": true,
+                  "hot": true
+                }
+              }
+            },
+            "on": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "[]\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        },
+        "reboot": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "formal-1.73.20",
+            "phase": "reboot",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "rebooted": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "[]\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        }
+      },
+      "explicit-default": {
+        "toggle": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "formal-1.73.20",
+            "phase": "toggle",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "initially": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-multi-component",
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: opt-in\n  disabled: true\n",
+              "state": null,
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "offReply": {
+              "status": 200,
+              "restart": true,
+              "disabled": [
+                "dsh-test-multi-component"
+              ],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "disabled",
+                  "reasons": [
+                    "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+                  ],
+                  "bundle": false,
+                  "hot": false
+                }
+              }
+            },
+            "off": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: opt-in\n  disabled: true\n- id: main\n  disabled: true\n  name: 'dsh-test-multi-component' # dsh-market\n",
+              "state": {
+                "disabled": [
+                  "dsh-test-multi-component"
+                ],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "onReply": {
+              "status": 200,
+              "restart": false,
+              "disabled": [],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "live",
+                  "reasons": [
+                    "已热加载(bundle patch)/ live via its bundle patch"
+                  ],
+                  "bundle": true,
+                  "hot": true
+                }
+              }
+            },
+            "on": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "[]\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        },
+        "reboot": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "formal-1.73.20",
+            "phase": "reboot",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "rebooted": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "[]\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "fixed-v3": {
+      "customized": {
+        "toggle": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "fixed-v3",
+            "phase": "toggle",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "initially": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-multi-component",
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: optional\n  disabled: true\n  config:\n    preference: user-keeps-this\n- id: opt-in\n  disabled: false\n",
+              "state": null,
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "optional",
+                  "fullId": "include:optional",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "offReply": {
+              "status": 200,
+              "restart": true,
+              "disabled": [
+                "dsh-test-multi-component"
+              ],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "disabled",
+                  "reasons": [
+                    "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+                  ],
+                  "bundle": false,
+                  "hot": false
+                }
+              }
+            },
+            "off": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: optional\n  disabled: true\n  config:\n    preference: user-keeps-this\n- id: opt-in\n  disabled: false\n- id: main\n  disabled: true # dsh-market package-switch dsh-test-multi-component\n  name: 'dsh-test-multi-component' # dsh-market\n- id: opt-in\n  disabled: true # dsh-market package-switch dsh-test-multi-component\n  name: 'dsh-test-multi-component/opt-in' # dsh-market\n",
+              "state": {
+                "disabled": [
+                  "dsh-test-multi-component"
+                ],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "optional",
+                  "fullId": "include:optional",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "onReply": {
+              "status": 200,
+              "restart": false,
+              "disabled": [],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "live",
+                  "reasons": [
+                    "已热加载(bundle patch)/ live via its bundle patch"
+                  ],
+                  "bundle": true,
+                  "hot": true
+                }
+              }
+            },
+            "on": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: optional\n  disabled: true\n  config:\n    preference: user-keeps-this\n- id: opt-in\n  disabled: false\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "optional",
+                  "fullId": "include:optional",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        },
+        "reboot": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "fixed-v3",
+            "phase": "reboot",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "rebooted": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: optional\n  disabled: true\n  config:\n    preference: user-keeps-this\n- id: opt-in\n  disabled: false\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "optional",
+                  "fullId": "include:optional",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        }
+      },
+      "default-opt-out": {
+        "toggle": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "fixed-v3",
+            "phase": "toggle",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "initially": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-multi-component",
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "[]\n",
+              "state": null,
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "offReply": {
+              "status": 200,
+              "restart": true,
+              "disabled": [
+                "dsh-test-multi-component"
+              ],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "disabled",
+                  "reasons": [
+                    "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+                  ],
+                  "bundle": false,
+                  "hot": false
+                }
+              }
+            },
+            "off": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "# []\n- id: main\n  disabled: true # dsh-market package-switch dsh-test-multi-component\n  name: 'dsh-test-multi-component' # dsh-market\n- id: opt-in\n  disabled: true # dsh-market package-switch dsh-test-multi-component\n  name: 'dsh-test-multi-component/opt-in' # dsh-market\n",
+              "state": {
+                "disabled": [
+                  "dsh-test-multi-component"
+                ],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "onReply": {
+              "status": 200,
+              "restart": false,
+              "disabled": [],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "live",
+                  "reasons": [
+                    "已热加载(bundle patch)/ live via its bundle patch"
+                  ],
+                  "bundle": true,
+                  "hot": true
+                }
+              }
+            },
+            "on": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "[]\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        },
+        "reboot": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "fixed-v3",
+            "phase": "reboot",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "rebooted": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "[]\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        }
+      },
+      "explicit-default": {
+        "toggle": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "fixed-v3",
+            "phase": "toggle",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "initially": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-multi-component",
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: opt-in\n  disabled: true\n",
+              "state": null,
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "offReply": {
+              "status": 200,
+              "restart": true,
+              "disabled": [
+                "dsh-test-multi-component"
+              ],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "disabled",
+                  "reasons": [
+                    "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+                  ],
+                  "bundle": false,
+                  "hot": false
+                }
+              }
+            },
+            "off": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: opt-in\n  disabled: true\n- id: main\n  disabled: true # dsh-market package-switch dsh-test-multi-component\n  name: 'dsh-test-multi-component' # dsh-market\n",
+              "state": {
+                "disabled": [
+                  "dsh-test-multi-component"
+                ],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            },
+            "onReply": {
+              "status": 200,
+              "restart": false,
+              "disabled": [],
+              "activation": {
+                "dsh-test-multi-component": {
+                  "state": "live",
+                  "reasons": [
+                    "已热加载(bundle patch)/ live via its bundle patch"
+                  ],
+                  "bundle": true,
+                  "hot": true
+                }
+              }
+            },
+            "on": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: opt-in\n  disabled: true\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        },
+        "reboot": {
+          "code": 0,
+          "stderr": "",
+          "result": {
+            "market": "fixed-v3",
+            "phase": "reboot",
+            "electron": "44.7.0",
+            "node": "24.21.0",
+            "rebooted": {
+              "manifest": {
+                "private": true,
+                "dependencies": {
+                  "dsh-test-multi-component": "1.0.0",
+                  "dsh-test-independent": "1.0.0"
+                },
+                "dsh": {
+                  "profile": {
+                    "bundles": [
+                      "dsh-test-independent",
+                      "dsh-test-multi-component"
+                    ]
+                  }
+                }
+              },
+              "patch": "- id: opt-in\n  disabled: true\n",
+              "state": {
+                "disabled": [],
+                "groups": {},
+                "groupOrder": []
+              },
+              "rows": [
+                {
+                  "id": "main",
+                  "fullId": "include:main",
+                  "disabled": false,
+                  "active": true
+                },
+                {
+                  "id": "opt-in",
+                  "fullId": "include:opt-in",
+                  "disabled": true,
+                  "active": false
+                },
+                {
+                  "id": "independent",
+                  "fullId": "include:independent",
+                  "disabled": false,
+                  "active": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "host": {
+    "desktop": "0.2.2-rc.3",
+    "electron": "44.7.0",
+    "node": "24.21.0",
+    "build": "official",
+    "mode": "headless"
+  },
+  "revisions": {
+    "baseline": "88de9575946485c1dac5e1a5fbe57fa1f3c3988c",
+    "candidate": "9b7231e64dcad76d3bd49331cf69d122be2d2cca"
+  }
+}

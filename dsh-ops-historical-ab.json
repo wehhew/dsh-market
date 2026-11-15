@@ -1,0 +1,1649 @@
+{
+  "host": {
+    "package": "@deepseek-ai/dsh",
+    "version": "0.2.1-rc.5",
+    "node": "24.18.0",
+    "mode": "web --no-open"
+  },
+  "media": {
+    "dsh-ops@0.4.4": "36a5bca97085e7522b93c13582c812257d6be6d386a06696699f9c637bab662f",
+    "formal": "fbf58ac3ff1de6da4d0ec547f15680f60ba4ad79f3a52a07eb0380fa0e9cc082",
+    "fixed": "e96bf6e1811a196884de9495a68946731fec838d3aa41d56c3ec6f0ea526ee30"
+  },
+  "runs": {
+    "formal": {
+      "published-defaults": {
+        "initial": {
+          "rows": [
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops",
+            "dsh-ops-1150-probe"
+          ],
+          "patch": "[]\n",
+          "state": null
+        },
+        "offReply": {
+          "status": 200,
+          "ok": true,
+          "name": "dsh-ops",
+          "enabled": false,
+          "disabled": [
+            "dsh-ops"
+          ],
+          "live": [],
+          "activation": {
+            "dsh-ops": {
+              "state": "disabled",
+              "reasons": [
+                "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+              ],
+              "bundle": false,
+              "hot": false
+            }
+          },
+          "patchRows": [
+            "dsh-ops-mode-minimal",
+            "dsh-ops-mode-standard",
+            "dsh-ops-mode-ptc",
+            "dsh-ops-mode-cordis",
+            "dsh-ops-discovery",
+            "dsh-ops-compat",
+            "dsh-ops-panel",
+            "dsh-ops-tui"
+          ],
+          "patchWrite": {
+            "ok": true,
+            "reason": null
+          },
+          "carrier": [],
+          "bundleSwitch": {
+            "ok": true,
+            "reason": null
+          },
+          "restart": true,
+          "refresh": true
+        },
+        "off": {
+          "rows": [
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe"
+          ],
+          "patch": "# []\n- id: dsh-ops-mode-minimal\n  disabled: true\n- id: dsh-ops-mode-standard\n  disabled: true\n- id: dsh-ops-mode-ptc\n  disabled: true\n- id: dsh-ops-mode-cordis\n  disabled: true\n- id: dsh-ops-discovery\n  disabled: true\n- id: dsh-ops-compat\n  disabled: true\n- id: dsh-ops-panel\n  disabled: true\n- id: dsh-ops-tui\n  disabled: true\n",
+          "state": {
+            "disabled": [
+              "dsh-ops"
+            ],
+            "groups": {},
+            "groupOrder": [],
+            "region": "china",
+            "regionAuto": true
+          }
+        },
+        "onReply": {
+          "status": 200,
+          "ok": true,
+          "name": "dsh-ops",
+          "enabled": true,
+          "disabled": [],
+          "live": [],
+          "activation": {
+            "dsh-ops": {
+              "state": "restart",
+              "reasons": [
+                "bundle patch 里有 config 块,热挂载只重放纯 insert 行;重启后由 bundle 层按原样加载 / the bundle patch has a config block; hot-mount replays plain insert rows only — a restart loads the bundle as written"
+              ],
+              "bundle": true,
+              "hot": false
+            }
+          },
+          "reason": "bundle patch 里有 config 块,热挂载只重放纯 insert 行;重启后由 bundle 层按原样加载 / the bundle patch has a config block; hot-mount replays plain insert rows only — a restart loads the bundle as written",
+          "patchRows": [
+            "dsh-ops-mode-minimal",
+            "dsh-ops-mode-standard",
+            "dsh-ops-mode-ptc",
+            "dsh-ops-mode-cordis",
+            "dsh-ops-discovery",
+            "dsh-ops-compat",
+            "dsh-ops-panel",
+            "dsh-ops-tui"
+          ],
+          "patchWrite": {
+            "ok": true,
+            "reason": null
+          },
+          "carrier": [],
+          "bundleSwitch": {
+            "ok": true,
+            "reason": null
+          },
+          "restart": true,
+          "refresh": true
+        },
+        "on": {
+          "rows": [
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "[]\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "china",
+            "regionAuto": true
+          }
+        },
+        "afterWatcher": {
+          "rows": [
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "[]\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "china",
+            "regionAuto": true
+          }
+        },
+        "rebooted": {
+          "rows": [
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "[]\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "china",
+            "regionAuto": true
+          }
+        }
+      },
+      "user-disabled": {
+        "initial": {
+          "rows": [
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops",
+            "dsh-ops-1150-probe"
+          ],
+          "patch": "- id: dsh-ops-mode-cordis\n  disabled: true\n  config:\n    promptPolicy: false\n",
+          "state": null
+        },
+        "offReply": {
+          "status": 200,
+          "ok": true,
+          "name": "dsh-ops",
+          "enabled": false,
+          "disabled": [
+            "dsh-ops"
+          ],
+          "live": [],
+          "activation": {
+            "dsh-ops": {
+              "state": "disabled",
+              "reasons": [
+                "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+              ],
+              "bundle": false,
+              "hot": false
+            }
+          },
+          "patchRows": [
+            "dsh-ops-mode-minimal",
+            "dsh-ops-mode-standard",
+            "dsh-ops-mode-ptc",
+            "dsh-ops-mode-cordis",
+            "dsh-ops-discovery",
+            "dsh-ops-compat",
+            "dsh-ops-panel",
+            "dsh-ops-tui"
+          ],
+          "patchWrite": {
+            "ok": true,
+            "reason": null
+          },
+          "carrier": [],
+          "bundleSwitch": {
+            "ok": true,
+            "reason": null
+          },
+          "restart": true,
+          "refresh": true
+        },
+        "off": {
+          "rows": [
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe"
+          ],
+          "patch": "- id: dsh-ops-mode-cordis\n  disabled: true\n  config:\n    promptPolicy: false\n- id: dsh-ops-mode-minimal\n  disabled: true\n- id: dsh-ops-mode-standard\n  disabled: true\n- id: dsh-ops-mode-ptc\n  disabled: true\n- id: dsh-ops-discovery\n  disabled: true\n- id: dsh-ops-compat\n  disabled: true\n- id: dsh-ops-panel\n  disabled: true\n- id: dsh-ops-tui\n  disabled: true\n",
+          "state": {
+            "disabled": [
+              "dsh-ops"
+            ],
+            "groups": {},
+            "groupOrder": [],
+            "region": "global",
+            "regionAuto": true
+          }
+        },
+        "onReply": {
+          "status": 200,
+          "ok": true,
+          "name": "dsh-ops",
+          "enabled": true,
+          "disabled": [],
+          "live": [],
+          "activation": {
+            "dsh-ops": {
+              "state": "restart",
+              "reasons": [
+                "bundle patch 里有 config 块,热挂载只重放纯 insert 行;重启后由 bundle 层按原样加载 / the bundle patch has a config block; hot-mount replays plain insert rows only — a restart loads the bundle as written"
+              ],
+              "bundle": true,
+              "hot": false
+            }
+          },
+          "reason": "bundle patch 里有 config 块,热挂载只重放纯 insert 行;重启后由 bundle 层按原样加载 / the bundle patch has a config block; hot-mount replays plain insert rows only — a restart loads the bundle as written",
+          "patchRows": [
+            "dsh-ops-mode-minimal",
+            "dsh-ops-mode-standard",
+            "dsh-ops-mode-ptc",
+            "dsh-ops-mode-cordis",
+            "dsh-ops-discovery",
+            "dsh-ops-compat",
+            "dsh-ops-panel",
+            "dsh-ops-tui"
+          ],
+          "patchWrite": {
+            "ok": true,
+            "reason": null
+          },
+          "carrier": [],
+          "bundleSwitch": {
+            "ok": true,
+            "reason": null
+          },
+          "restart": true,
+          "refresh": true
+        },
+        "on": {
+          "rows": [
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "- id: dsh-ops-mode-cordis\n  disabled: true\n  config:\n    promptPolicy: false\n- id: dsh-ops-mode-cordis\n  disabled: false\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "global",
+            "regionAuto": true
+          }
+        },
+        "afterWatcher": {
+          "rows": [
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "- id: dsh-ops-mode-cordis\n  disabled: true\n  config:\n    promptPolicy: false\n- id: dsh-ops-mode-cordis\n  disabled: false\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "global",
+            "regionAuto": true
+          }
+        },
+        "rebooted": {
+          "rows": [
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "- id: dsh-ops-mode-cordis\n  disabled: true\n  config:\n    promptPolicy: false\n- id: dsh-ops-mode-cordis\n  disabled: false\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "global",
+            "regionAuto": true
+          }
+        }
+      }
+    },
+    "fixed": {
+      "published-defaults": {
+        "initial": {
+          "rows": [
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops",
+            "dsh-ops-1150-probe"
+          ],
+          "patch": "[]\n",
+          "state": null
+        },
+        "offReply": {
+          "status": 200,
+          "elapsedMs": 3216,
+          "ok": true,
+          "name": "dsh-ops",
+          "enabled": false,
+          "disabled": [
+            "dsh-ops"
+          ],
+          "live": [],
+          "activation": {
+            "dsh-ops": {
+              "state": "disabled",
+              "reasons": [
+                "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+              ],
+              "bundle": false,
+              "hot": false
+            }
+          },
+          "patchRows": [
+            "dsh-ops-mode-minimal",
+            "dsh-ops-mode-standard",
+            "dsh-ops-mode-ptc",
+            "dsh-ops-mode-cordis",
+            "dsh-ops-discovery",
+            "dsh-ops-compat",
+            "dsh-ops-panel",
+            "dsh-ops-tui"
+          ],
+          "patchWrite": {
+            "ok": true,
+            "reason": null
+          },
+          "carrier": [],
+          "bundleSwitch": {
+            "ok": true,
+            "reason": null
+          },
+          "restart": true,
+          "refresh": true
+        },
+        "off": {
+          "rows": [
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe"
+          ],
+          "patch": "# []\n- id: dsh-ops-mode-minimal\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/mode-minimal' # dsh-market\n- id: dsh-ops-mode-standard\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/mode-standard' # dsh-market\n- id: dsh-ops-mode-ptc\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/mode-ptc' # dsh-market\n- id: dsh-ops-mode-cordis\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/mode-cordis' # dsh-market\n- id: dsh-ops-discovery\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/discovery' # dsh-market\n- id: dsh-ops-compat\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/compat' # dsh-market\n- id: dsh-ops-panel\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/panel' # dsh-market\n- id: dsh-ops-tui\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/tui' # dsh-market\n",
+          "state": {
+            "disabled": [
+              "dsh-ops"
+            ],
+            "groups": {},
+            "groupOrder": [],
+            "region": "china",
+            "regionAuto": true
+          }
+        },
+        "onReply": {
+          "status": 200,
+          "elapsedMs": 7379,
+          "ok": true,
+          "name": "dsh-ops",
+          "enabled": true,
+          "disabled": [],
+          "live": [],
+          "activation": {
+            "dsh-ops": {
+              "state": "restart",
+              "reasons": [
+                "bundle patch 里有 config 块,热挂载只重放纯 insert 行;重启后由 bundle 层按原样加载 / the bundle patch has a config block; hot-mount replays plain insert rows only — a restart loads the bundle as written"
+              ],
+              "bundle": true,
+              "hot": false
+            }
+          },
+          "reason": "bundle patch 里有 config 块,热挂载只重放纯 insert 行;重启后由 bundle 层按原样加载 / the bundle patch has a config block; hot-mount replays plain insert rows only — a restart loads the bundle as written",
+          "patchRows": [
+            "dsh-ops-mode-minimal",
+            "dsh-ops-mode-standard",
+            "dsh-ops-mode-ptc",
+            "dsh-ops-mode-cordis",
+            "dsh-ops-discovery",
+            "dsh-ops-compat",
+            "dsh-ops-panel",
+            "dsh-ops-tui"
+          ],
+          "patchWrite": {
+            "ok": true,
+            "reason": null
+          },
+          "carrier": [],
+          "bundleSwitch": {
+            "ok": true,
+            "reason": null
+          },
+          "restart": true,
+          "refresh": true
+        },
+        "on": {
+          "rows": [
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "[]\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "china",
+            "regionAuto": true
+          }
+        },
+        "afterWatcher": {
+          "rows": [
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "[]\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "china",
+            "regionAuto": true
+          }
+        },
+        "rebooted": {
+          "rows": [
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "[]\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "china",
+            "regionAuto": true
+          }
+        }
+      },
+      "user-disabled": {
+        "initial": {
+          "rows": [
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops",
+            "dsh-ops-1150-probe"
+          ],
+          "patch": "- id: dsh-ops-mode-cordis\n  disabled: true\n  config:\n    promptPolicy: false\n",
+          "state": null
+        },
+        "offReply": {
+          "status": 200,
+          "elapsedMs": 2587,
+          "ok": true,
+          "name": "dsh-ops",
+          "enabled": false,
+          "disabled": [
+            "dsh-ops"
+          ],
+          "live": [],
+          "activation": {
+            "dsh-ops": {
+              "state": "disabled",
+              "reasons": [
+                "已停用(市场开关或补丁层),重启后保持关闭 / disabled (market toggle or the patch layer) — stays off across restarts"
+              ],
+              "bundle": false,
+              "hot": false
+            }
+          },
+          "patchRows": [
+            "dsh-ops-mode-minimal",
+            "dsh-ops-mode-standard",
+            "dsh-ops-mode-ptc",
+            "dsh-ops-mode-cordis",
+            "dsh-ops-discovery",
+            "dsh-ops-compat",
+            "dsh-ops-panel",
+            "dsh-ops-tui"
+          ],
+          "patchWrite": {
+            "ok": true,
+            "reason": null
+          },
+          "carrier": [],
+          "bundleSwitch": {
+            "ok": true,
+            "reason": null
+          },
+          "restart": true,
+          "refresh": true
+        },
+        "off": {
+          "rows": [
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": true,
+              "fiber": 4,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe"
+          ],
+          "patch": "- id: dsh-ops-mode-cordis\n  disabled: true\n  config:\n    promptPolicy: false\n- id: dsh-ops-mode-minimal\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/mode-minimal' # dsh-market\n- id: dsh-ops-mode-standard\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/mode-standard' # dsh-market\n- id: dsh-ops-mode-ptc\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/mode-ptc' # dsh-market\n- id: dsh-ops-discovery\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/discovery' # dsh-market\n- id: dsh-ops-compat\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/compat' # dsh-market\n- id: dsh-ops-panel\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/panel' # dsh-market\n- id: dsh-ops-tui\n  disabled: true # dsh-market package-switch dsh-ops\n  name: 'dsh-ops/tui' # dsh-market\n",
+          "state": {
+            "disabled": [
+              "dsh-ops"
+            ],
+            "groups": {},
+            "groupOrder": [],
+            "region": "global",
+            "regionAuto": true
+          }
+        },
+        "onReply": {
+          "status": 200,
+          "elapsedMs": 1921,
+          "ok": true,
+          "name": "dsh-ops",
+          "enabled": true,
+          "disabled": [],
+          "live": [],
+          "activation": {
+            "dsh-ops": {
+              "state": "live",
+              "reasons": [
+                "已热加载(bundle patch)/ live via its bundle patch"
+              ],
+              "bundle": true,
+              "hot": true
+            }
+          },
+          "patchRows": [
+            "dsh-ops-mode-minimal",
+            "dsh-ops-mode-standard",
+            "dsh-ops-mode-ptc",
+            "dsh-ops-mode-cordis",
+            "dsh-ops-discovery",
+            "dsh-ops-compat",
+            "dsh-ops-panel",
+            "dsh-ops-tui"
+          ],
+          "patchWrite": {
+            "ok": true,
+            "reason": null
+          },
+          "carrier": [],
+          "bundleSwitch": {
+            "ok": true,
+            "reason": null
+          },
+          "restart": false,
+          "refresh": true
+        },
+        "on": {
+          "rows": [
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "- id: dsh-ops-mode-cordis\n  disabled: true\n  config:\n    promptPolicy: false\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "global",
+            "regionAuto": true
+          }
+        },
+        "afterWatcher": {
+          "rows": [
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "- id: dsh-ops-mode-cordis\n  disabled: true\n  config:\n    promptPolicy: false\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "global",
+            "regionAuto": true
+          }
+        },
+        "rebooted": {
+          "rows": [
+            {
+              "id": "dsh-ops-1150-probe",
+              "name": "dsh-ops-1150-probe",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-minimal",
+              "name": "dsh-ops/mode-minimal",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-standard",
+              "name": "dsh-ops/mode-standard",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-ptc",
+              "name": "dsh-ops/mode-ptc",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-mode-cordis",
+              "name": "dsh-ops/mode-cordis",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-discovery",
+              "name": "dsh-ops/discovery",
+              "disabled": false,
+              "fiber": 2,
+              "active": true
+            },
+            {
+              "id": "dsh-ops-compat",
+              "name": "dsh-ops/compat",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-panel",
+              "name": "dsh-ops/panel",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            },
+            {
+              "id": "dsh-ops-tui",
+              "name": "dsh-ops/tui",
+              "disabled": true,
+              "fiber": null,
+              "active": false
+            }
+          ],
+          "bundles": [
+            "@deepseek-ai/dsh-base",
+            "@deepseek-ai/dsh-web-app",
+            "dshmarket",
+            "dsh-ops-1150-probe",
+            "dsh-ops"
+          ],
+          "patch": "- id: dsh-ops-mode-cordis\n  disabled: true\n  config:\n    promptPolicy: false\n",
+          "state": {
+            "disabled": [],
+            "groups": {},
+            "groupOrder": [],
+            "region": "global",
+            "regionAuto": true
+          }
+        }
+      }
+    }
+  },
+  "revisions": {
+    "formal": "88de9575946485c1dac5e1a5fbe57fa1f3c3988c",
+    "fixed": "9b7231e64dcad76d3bd49331cf69d122be2d2cca"
+  },
+  "sample": {
+    "package": "dsh-ops",
+    "release": "0.4.4",
+    "role": "comparison package named in #1150",
+    "customDisabledRow": "dsh-ops-mode-cordis"
+  },
+  "packageIntegrity": "sha512-HY8SCzrvVBInw5qdsapOz25wdrL/bzZyWUlQR9r+3ImiC+vBbj4/JdmeohmG/nxKU/3M4k83UhxCi15byiAslg=="
+}
