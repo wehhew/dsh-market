@@ -1,0 +1,130 @@
+{
+  "commit": "2a785568f2f41d145a4ae9c1d4d5d069fc5cd2d0",
+  "baseline": "88de9575946485c1dac5e1a5fbe57fa1f3c3988c",
+  "method": "Official Windows Desktop and real startup repair, with identical seeded pending-update journals in separate temporary profiles.",
+  "screenshotSha256": {
+    "01-before.png": "13a1e79975e1bae53a1c40a4910d072800945653e5b2b464ecfd5585ffbc11ba",
+    "02-after.png": "d5788160f5bbba215bd3a3af9b5640aa1417bb888a7e9b40cd3e21def5ea3d14",
+    "03-after-reload.png": "d2b147cd232af7694493ddce5542e00a1382b6362c08cce99a05d9c129e04cd0"
+  },
+  "official": {
+    "desktop": "0.2.2-rc.1",
+    "platform": "win32",
+    "market": "1.73.20",
+    "flavor": "official",
+    "stages": [
+      {
+        "stage": "initial",
+        "badge": "任务",
+        "repairText": null,
+        "status": 200,
+        "report": null,
+        "screenshot": "01-before.png"
+      }
+    ],
+    "hashes": {
+      "market": "fbf58ac3ff1de6da4d0ec547f15680f60ba4ad79f3a52a07eb0380fa0e9cc082",
+      "desktopAsar": "5fa8a6b21bceb8f3e99e30efa2270efd0cc773a11e42aa0488f804a64b34e637",
+      "installedClient": "abfb83a67844237af66b0a1abfd49f48f11019c849a1c80d992ab1323fb469f7"
+    },
+    "fixture": [
+      {
+        "name": "dshmarket",
+        "from": "1.73.20",
+        "to": "1.73.999",
+        "attempts": 0
+      },
+      {
+        "name": "dshm-repair-fixture-not-installed",
+        "from": "1.0.0",
+        "to": "2.0.0",
+        "attempts": 3
+      }
+    ],
+    "remaining": [
+      {
+        "name": "dshm-repair-fixture-not-installed",
+        "attempts": 3
+      }
+    ],
+    "outcome": "pass"
+  },
+  "candidate": {
+    "desktop": "0.2.2-rc.1",
+    "platform": "win32",
+    "market": "1.73.20",
+    "flavor": "candidate",
+    "stages": [
+      {
+        "stage": "initial",
+        "badge": "任务 · 启动恢复",
+        "repairText": "启动时处理的中断更新\ndshmarket\n已核对，现有版本完整。\ndshm-repair-fixture-not-installed\n已停止自动重试。请从「设置 → 插件」重新安装。",
+        "status": 200,
+        "report": {
+          "id": "the-same-report-within-this-run",
+          "revision": 2,
+          "checking": false,
+          "entries": [
+            {
+              "name": "dshmarket",
+              "state": "verified"
+            },
+            {
+              "name": "dshm-repair-fixture-not-installed",
+              "state": "abandoned"
+            }
+          ]
+        },
+        "screenshot": "02-after.png"
+      },
+      {
+        "stage": "after-reload",
+        "badge": "任务 · 启动恢复",
+        "repairText": "启动时处理的中断更新\ndshmarket\n已核对，现有版本完整。\ndshm-repair-fixture-not-installed\n已停止自动重试。请从「设置 → 插件」重新安装。",
+        "status": 200,
+        "report": {
+          "id": "the-same-report-within-this-run",
+          "revision": 2,
+          "checking": false,
+          "entries": [
+            {
+              "name": "dshmarket",
+              "state": "verified"
+            },
+            {
+              "name": "dshm-repair-fixture-not-installed",
+              "state": "abandoned"
+            }
+          ]
+        },
+        "screenshot": "03-after-reload.png"
+      }
+    ],
+    "hashes": {
+      "market": "168ad07b81855bb2db0ffd488a9baaeba69c89cb37c6c125df49255d4d38fca4",
+      "desktopAsar": "5fa8a6b21bceb8f3e99e30efa2270efd0cc773a11e42aa0488f804a64b34e637",
+      "installedClient": "825613b8071d60101c82afd9e18a4dcb4f7f5c0706c6bb4abb19f8d9455889f9"
+    },
+    "fixture": [
+      {
+        "name": "dshmarket",
+        "from": "1.73.20",
+        "to": "1.73.999",
+        "attempts": 0
+      },
+      {
+        "name": "dshm-repair-fixture-not-installed",
+        "from": "1.0.0",
+        "to": "2.0.0",
+        "attempts": 3
+      }
+    ],
+    "remaining": [
+      {
+        "name": "dshm-repair-fixture-not-installed",
+        "attempts": 3
+      }
+    ],
+    "outcome": "pass"
+  }
+}
