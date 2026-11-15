@@ -1,0 +1,6 @@
+build,phase,startedUtc,path,status,conditional,upstreamBodyBytes
+official,open-market,2026-11-15T23:12:36.148Z,/plugins.json,200,false,15067019
+official,open-market,2026-11-15T23:12:36.186Z,/plugins.json,200,false,15067019
+official,separate-revalidation,2026-11-15T23:12:38.206Z,/plugins.json,304,true,0
+candidate,open-market,2026-11-15T23:17:18.582Z,/plugins.json,200,false,15067019
+candidate,separate-revalidation,2026-11-15T23:17:20.020Z,/plugins.json,304,true,0

@@ -1,0 +1,91 @@
+{
+  "issue": "https://github.com/dsh-market/dsh-market/issues/1181",
+  "officialBase": "88de9575946485c1dac5e1a5fbe57fa1f3c3988c",
+  "candidateCommit": "ceeea7db35159cc2cc3655e7fbea20d5c427255f",
+  "runtime": {
+    "host": "DSH 0.2.2-rc.3",
+    "system": "Windows",
+    "surface": "Web (Chromium headless)",
+    "marketVersion": "1.73.20",
+    "appAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae"
+  },
+  "catalogFixture": {
+    "entries": 10778,
+    "sha256": "cef07c7c663fb2c5ffb66091c025e5d52c3a1535498d2929da61efa0f451a00a",
+    "bodyBytes": 15067019,
+    "upstream": "Loopback HTTP replay of a frozen real catalog snapshot, uncompressed JSON"
+  },
+  "before": {
+    "archiveSha256": "fbf58ac3ff1de6da4d0ec547f15680f60ba4ad79f3a52a07eb0380fa0e9cc082",
+    "cold": {
+      "fullDownloads": 2,
+      "bytes": 30134038
+    },
+    "local": [
+      {
+        "method": "GET",
+        "path": "/dsh-market/registry",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/dsh-market/updates",
+        "status": 200
+      }
+    ],
+    "laterRead": {
+      "conditionHeader": "If-None-Match",
+      "upstreamStatus": 304,
+      "upstreamBodyBytes": 0,
+      "response": {
+        "status": 200,
+        "count": 10778
+      }
+    }
+  },
+  "after": {
+    "archiveSha256": "a6c33bdaeaef4a7761b05c86b7d3bfff10b5e9c67765cf23f2f40b860368d2fc",
+    "cold": {
+      "fullDownloads": 1,
+      "bytes": 15067019
+    },
+    "local": [
+      {
+        "method": "GET",
+        "path": "/dsh-market/registry",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/dsh-market/updates",
+        "status": 200
+      }
+    ],
+    "laterRead": {
+      "conditionHeader": "If-None-Match",
+      "upstreamStatus": 304,
+      "upstreamBodyBytes": 0,
+      "response": {
+        "status": 200,
+        "count": 10778
+      }
+    }
+  },
+  "stalledBodyAndFallback503": {
+    "fixtureEntries": 1,
+    "before": {
+      "attemptsToCatalogUrl": 4,
+      "attemptsToNpmFallback": 4,
+      "localStatus": 502,
+      "reportedAttemptsPerRead": 4,
+      "uiRetryStatus": 200
+    },
+    "after": {
+      "attemptsToCatalogUrl": 2,
+      "attemptsToNpmFallback": 2,
+      "localStatus": 502,
+      "reportedAttemptsPerRead": 4,
+      "uiRetryStatus": 200
+    }
+  }
+}
