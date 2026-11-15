@@ -1,0 +1,173 @@
+{
+  "desktop": "0.2.2-rc.1",
+  "market": "1.73.20",
+  "flavor": "official",
+  "records": [
+    {
+      "id": "sample-previous-host-1",
+      "name": "sample-cancelled-first",
+      "kind": "install"
+    },
+    {
+      "id": "sample-previous-host-2",
+      "name": "sample-cancelled-second",
+      "kind": "update"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "initial",
+      "ui": [
+        true,
+        true
+      ],
+      "host": {
+        "status": 200,
+        "rows": [
+          [
+            "sample-previous-host-1",
+            "cancelled"
+          ],
+          [
+            "sample-previous-host-2",
+            "cancelled"
+          ]
+        ]
+      },
+      "dismissed": null
+    },
+    {
+      "stage": "afterDismiss",
+      "ui": [
+        false,
+        true
+      ],
+      "host": {
+        "status": 200,
+        "rows": [
+          [
+            "sample-previous-host-1",
+            "cancelled"
+          ],
+          [
+            "sample-previous-host-2",
+            "cancelled"
+          ]
+        ]
+      },
+      "dismissed": null
+    },
+    {
+      "stage": "afterDismissReentry",
+      "ui": [
+        false,
+        true
+      ],
+      "host": {
+        "status": 200,
+        "rows": [
+          [
+            "sample-previous-host-1",
+            "cancelled"
+          ],
+          [
+            "sample-previous-host-2",
+            "cancelled"
+          ]
+        ]
+      },
+      "dismissed": null
+    },
+    {
+      "stage": "afterDismissReload",
+      "ui": [
+        true,
+        true
+      ],
+      "host": {
+        "status": 200,
+        "rows": [
+          [
+            "sample-previous-host-1",
+            "cancelled"
+          ],
+          [
+            "sample-previous-host-2",
+            "cancelled"
+          ]
+        ]
+      },
+      "dismissed": null
+    },
+    {
+      "stage": "afterClear",
+      "ui": [
+        false,
+        false
+      ],
+      "host": {
+        "status": 200,
+        "rows": [
+          [
+            "sample-previous-host-1",
+            "cancelled"
+          ],
+          [
+            "sample-previous-host-2",
+            "cancelled"
+          ]
+        ]
+      },
+      "dismissed": null
+    },
+    {
+      "stage": "afterClearReentry",
+      "ui": [
+        false,
+        false
+      ],
+      "host": {
+        "status": 200,
+        "rows": [
+          [
+            "sample-previous-host-1",
+            "cancelled"
+          ],
+          [
+            "sample-previous-host-2",
+            "cancelled"
+          ]
+        ]
+      },
+      "dismissed": null
+    },
+    {
+      "stage": "afterClearReload",
+      "ui": [
+        true,
+        true
+      ],
+      "host": {
+        "status": 200,
+        "rows": [
+          [
+            "sample-previous-host-1",
+            "cancelled"
+          ],
+          [
+            "sample-previous-host-2",
+            "cancelled"
+          ]
+        ]
+      },
+      "dismissed": null
+    }
+  ],
+  "hashes": {
+    "market": "fbf58ac3ff1de6da4d0ec547f15680f60ba4ad79f3a52a07eb0380fa0e9cc082",
+    "desktopAsar": "5fa8a6b21bceb8f3e99e30efa2270efd0cc773a11e42aa0488f804a64b34e637"
+  },
+  "journalBefore": "16d3b774e85bd55cf3cf1730fc3a76799d518a8c8157c072e249a156e6183326",
+  "journalAfter": "16d3b774e85bd55cf3cf1730fc3a76799d518a8c8157c072e249a156e6183326",
+  "outcome": "pass"
+}
