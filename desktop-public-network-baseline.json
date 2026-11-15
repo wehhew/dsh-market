@@ -1,0 +1,41 @@
+{
+  "market": "1.73.19",
+  "commit": "da774820fd49f4915461ff2031eedbef9b48dfe7",
+  "host": "0.2.2-rc.3",
+  "pnpm": "11.28.5",
+  "archiveSha256": "857e3ba8da5d6abdbace956f47e7d8c2333bdb38edc737928cde789cb6b097a0",
+  "marketSha256": "b7bb48acaa3ee0b1e172a007e533f57dd8ac1fc877c023bfa409c39f39e81ebd",
+  "desktopAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+  "before": {
+    "spec": "link:<isolated-run>/checkout",
+    "exists": true,
+    "junction": true,
+    "target": "<isolated-run>\\checkout",
+    "version": "1.1.1",
+    "lockfileHasPlugin": true
+  },
+  "actualRequest": {
+    "method": "POST",
+    "path": "/dsh-market/update",
+    "body": {
+      "restore": true,
+      "name": "dsh-chat-in-harness"
+    },
+    "progress": {
+      "ms": 16928,
+      "active": true,
+      "busy": true,
+      "target": "https://github.com/qcann/dsh-chat-in-harness/releases/download/v1.1.1/dsh-chat-in-harness.tgz",
+      "error": null,
+      "line": "桌面端的插件管理器正在处理 / The desktop app's plugin manager is working on it"
+    }
+  },
+  "after": {
+    "checkoutExists": true,
+    "checkoutEntries": 0,
+    "checkoutManifest": false,
+    "installedIsLink": false,
+    "installedSpec": "https://github.com/qcann/dsh-chat-in-harness/releases/download/v1.1.1/dsh-chat-in-harness.tgz",
+    "pnpmCompletion": "dependencies:\n+ dsh-chat-in-harness 1.1.1\n\nDone in 7m 8.5s using pnpm v11.28.5"
+  }
+}

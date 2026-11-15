@@ -1,0 +1,61 @@
+{
+  "platform": "win32",
+  "node": "24.21.0",
+  "electron": "44.7.0",
+  "variants": [
+    {
+      "label": "baseline",
+      "kind": "unowned-junction",
+      "checkoutShaBefore": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "checkoutShaAfter": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "linkStillPresent": true,
+      "slotExists": true,
+      "returnedTarget": false
+    },
+    {
+      "label": "baseline",
+      "kind": "owned-junction",
+      "checkoutShaBefore": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "checkoutShaAfter": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "linkStillPresent": true,
+      "slotExists": true,
+      "returnedTarget": false
+    },
+    {
+      "label": "baseline",
+      "kind": "directory",
+      "checkoutShaBefore": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "checkoutShaAfter": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "linkStillPresent": false,
+      "slotExists": true,
+      "returnedTarget": false
+    },
+    {
+      "label": "candidate",
+      "kind": "unowned-junction",
+      "checkoutShaBefore": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "checkoutShaAfter": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "linkStillPresent": false,
+      "slotExists": false,
+      "returnedTarget": true
+    },
+    {
+      "label": "candidate",
+      "kind": "owned-junction",
+      "checkoutShaBefore": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "checkoutShaAfter": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "linkStillPresent": true,
+      "slotExists": true,
+      "returnedTarget": false
+    },
+    {
+      "label": "candidate",
+      "kind": "directory",
+      "checkoutShaBefore": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "checkoutShaAfter": "7717e3576b11605814a0866c66dd3d31c457b5ce61b7685353cb72207699c8b0",
+      "linkStillPresent": false,
+      "slotExists": true,
+      "returnedTarget": false
+    }
+  ]
+}
