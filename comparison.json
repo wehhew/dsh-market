@@ -1,0 +1,253 @@
+{
+  "issue": "https://github.com/dsh-market/dsh-market/issues/1193",
+  "setup": {
+    "host": {
+      "version": "0.2.2-rc.3",
+      "os": "Windows",
+      "appAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae"
+    },
+    "market": {
+      "npmPublished": {
+        "version": "1.73.20",
+        "tagCommit": "88de9575946485c1dac5e1a5fbe57fa1f3c3988c",
+        "archiveSha256": "fbf58ac3ff1de6da4d0ec547f15680f60ba4ad79f3a52a07eb0380fa0e9cc082",
+        "clientSha256": "abfb83a67844237af66b0a1abfd49f48f11019c849a1c80d992ab1323fb469f7"
+      },
+      "candidate": {
+        "version": "1.73.20",
+        "archiveSha256": "c97c73dee7f1f96ecff37222003e3d77b5c88f784e3549ed7bfe70caff990df9",
+        "clientSha256": "bd284d8639d9183d4428a36ab81045dfc3142b96459de7379f44db925459acb7"
+      }
+    },
+    "sample": {
+      "name": "dsh-windows-mcp",
+      "source": "https://github.com/helloHub1212/dsh-windows-mcp",
+      "npmArchiveSha256": "d3769a58c34ed41e00431f679bd981dc6155bb81119ba17a145092b283d41651",
+      "installed": "0.2.7",
+      "npmLatest": "0.2.11"
+    },
+    "originalNotesSnapshot": {
+      "npm": "dsh-plugin-updates@2026.1114.20961",
+      "onlyReleaseTag": "v0.2.10",
+      "sampleAvailabilityMarker": "releaseHistory: true"
+    },
+    "producerFragment": {
+      "source": "two GitHub GraphQL release pages converted by the catalog build",
+      "repo": "hellohub1212/dsh-windows-mcp",
+      "sha256": "0f56b2c9a2a905d06a307bc6601192c4653bb6d30a506e7f6b01283f20645749",
+      "bytes": 23597,
+      "releases": 13,
+      "complete": true
+    },
+    "releaseAge": {
+      "webSelectionAppliesPolicy": false,
+      "desktopSelectionAppliesPolicy": true,
+      "calendarFrozen": false,
+      "requestedCutoffUtc": "2026-11-12T19:16:04.500Z",
+      "targetPublication": "2026-11-12T12:47:40.321Z",
+      "firstTooYoungPublication": "2026-11-13T01:44:28.680Z"
+    }
+  },
+  "web": {
+    "before": {
+      "versions": {
+        "installed": "0.2.7",
+        "latest": "0.2.11",
+        "updateTarget": "0.2.11",
+        "heldLatest": null
+      },
+      "updateButton": "更新",
+      "localNotes": {
+        "method": "GET",
+        "path": "/dsh-market/changelog?name=dsh-windows-mcp",
+        "status": 200,
+        "reopenedStatus": 200,
+        "composedHistory": [],
+        "expandedInitially": null,
+        "legacySnapshotRelease": "v0.2.10",
+        "separatePreview": null,
+        "beyondTarget": null,
+        "partial": null
+      },
+      "upstreamHistoryRequests": {
+        "beforeOpening": 0,
+        "afterFirstOpen": 0,
+        "afterReopening": 0,
+        "requests": []
+      },
+      "captures": [
+        {
+          "file": "web-before.png",
+          "sha256": "a876138151402751bdfe533c6f2b2134de299fb5725af978fd5ffd25349389a1"
+        }
+      ]
+    },
+    "after": {
+      "versions": {
+        "installed": "0.2.7",
+        "latest": "0.2.11",
+        "updateTarget": "0.2.11",
+        "heldLatest": null
+      },
+      "updateButton": "更新",
+      "localNotes": {
+        "method": "GET",
+        "path": "/dsh-market/changelog?name=dsh-windows-mcp&target=0.2.11",
+        "status": 200,
+        "reopenedStatus": 200,
+        "composedHistory": [
+          "v0.2.11",
+          "v0.2.10",
+          "v0.2.9",
+          "v0.2.8"
+        ],
+        "expandedInitially": "v0.2.11",
+        "legacySnapshotRelease": "v0.2.10",
+        "separatePreview": null,
+        "beyondTarget": null,
+        "partial": false
+      },
+      "upstreamHistoryRequests": {
+        "beforeOpening": 0,
+        "afterFirstOpen": 1,
+        "afterReopening": 1,
+        "requests": [
+          {
+            "method": "GET",
+            "path": "/release-history/v1/hellohub1212/dsh-windows-mcp.json",
+            "status": 200
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "web-after.png",
+          "sha256": "689d6f15b08cebd5d3977939bc6415312478df8fa5a6730408382157f35cbfbe"
+        }
+      ]
+    }
+  },
+  "desktop": {
+    "before": {
+      "versions": {
+        "installed": "0.2.7",
+        "latest": "0.2.11",
+        "updateTarget": "0.2.9",
+        "heldLatest": "0.2.11"
+      },
+      "updateButton": "更新 v0.2.9",
+      "minimumReleaseAgeMinutes": 4483,
+      "localNotes": {
+        "method": "GET",
+        "path": "/dsh-market/changelog?name=dsh-windows-mcp&target=0.2.9",
+        "status": 200,
+        "reopenedStatus": 200,
+        "composedHistory": [],
+        "expandedInitially": null,
+        "legacySnapshotRelease": "v0.2.10",
+        "separatePreview": null,
+        "beyondTarget": "0.2.9",
+        "partial": null
+      },
+      "upstreamHistoryRequests": {
+        "beforeOpening": 0,
+        "afterFirstOpen": 0,
+        "afterReopening": 0,
+        "requests": []
+      },
+      "captures": [
+        {
+          "file": "desktop-before.png",
+          "sha256": "615f01acd0f49f75e8cd8520b8b0e38583bb14a1fbc149f7fa092d5a46747593"
+        }
+      ]
+    },
+    "after": {
+      "versions": {
+        "installed": "0.2.7",
+        "latest": "0.2.11",
+        "updateTarget": "0.2.9",
+        "heldLatest": "0.2.11"
+      },
+      "updateButton": "更新 v0.2.9",
+      "minimumReleaseAgeMinutes": 4484,
+      "localNotes": {
+        "method": "GET",
+        "path": "/dsh-market/changelog?name=dsh-windows-mcp&target=0.2.9",
+        "status": 200,
+        "reopenedStatus": 200,
+        "composedHistory": [
+          "v0.2.9",
+          "v0.2.8"
+        ],
+        "expandedInitially": "v0.2.9",
+        "legacySnapshotRelease": null,
+        "separatePreview": "v0.2.11",
+        "beyondTarget": "0.2.9",
+        "partial": false
+      },
+      "upstreamHistoryRequests": {
+        "beforeOpening": 0,
+        "afterFirstOpen": 1,
+        "afterReopening": 1,
+        "requests": [
+          {
+            "method": "GET",
+            "path": "/release-history/v1/hellohub1212/dsh-windows-mcp.json",
+            "status": 200
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "desktop-after.png",
+          "sha256": "147cac163c5c5190c0c21bb2f0ba559ed9e5ff9e85356ce3d1c08e3405ae9da8"
+        },
+        {
+          "file": "desktop-after-target-expanded.png",
+          "sha256": "0c249f3f2294bc0480e611370963085138d008befc65739474b108c6f1bfd35d"
+        }
+      ]
+    },
+    "onMissingFragment": {
+      "versions": {
+        "installed": "0.2.7",
+        "latest": "0.2.11",
+        "updateTarget": "0.2.9",
+        "heldLatest": "0.2.11"
+      },
+      "updateButton": "更新 v0.2.9",
+      "minimumReleaseAgeMinutes": 4486,
+      "localNotes": {
+        "method": "GET",
+        "path": "/dsh-market/changelog?name=dsh-windows-mcp&target=0.2.9",
+        "status": 200,
+        "reopenedStatus": 200,
+        "composedHistory": [],
+        "expandedInitially": null,
+        "legacySnapshotRelease": null,
+        "separatePreview": "v0.2.10",
+        "beyondTarget": "0.2.9",
+        "partial": true
+      },
+      "upstreamHistoryRequests": {
+        "beforeOpening": 0,
+        "afterFirstOpen": 1,
+        "afterReopening": 1,
+        "requests": [
+          {
+            "method": "GET",
+            "path": "/release-history/v1/hellohub1212/dsh-windows-mcp.json",
+            "status": 404
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "desktop-missing-fragment.png",
+          "sha256": "bcd8370af6dce249afbfe3c0782b0bb7c8f98ab89f315a9f00cb1dfca69baa09"
+        }
+      ]
+    }
+  }
+}

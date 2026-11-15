@@ -1,0 +1,33 @@
+{
+  "source": "https://github.com/helloHub1212/dsh-windows-mcp",
+  "openMarketPRs": [
+    {
+      "number": 1217,
+      "title": "fix(restore): preserve linked checkouts when switching to a release",
+      "sha": "87d1f97e7f3c016bb85d2ea42cabb139460d4a20"
+    },
+    {
+      "number": 1215,
+      "title": "fix(hot): revalidate changed bundle patches",
+      "sha": "151f438e5415a05dc7452938c2b0402ee74802fa"
+    }
+  ],
+  "versions": [
+    "v0.2.11",
+    "v0.2.10",
+    "v0.2.9",
+    "v0.2.8",
+    "v0.2.7",
+    "v0.2.6",
+    "v0.2.5",
+    "v0.2.4",
+    "v0.2.3",
+    "v0.2.2",
+    "v0.2.1",
+    "v0.2.0",
+    "v0.1.0"
+  ],
+  "complete": true,
+  "bytes": 23597,
+  "sha256": "0f56b2c9a2a905d06a307bc6601192c4653bb6d30a506e7f6b01283f20645749"
+}
