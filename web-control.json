@@ -1,0 +1,9 @@
+{
+  "outcome": "pass",
+  "hostRuntime": "web",
+  "marketVersion": "1.73.20",
+  "installedClientSha256": "825613b8071d60101c82afd9e18a4dcb4f7f5c0706c6bb4abb19f8d9455889f9",
+  "statusCode": 200,
+  "startupRepairPresent": false,
+  "seededJournalUnchanged": true
+}
