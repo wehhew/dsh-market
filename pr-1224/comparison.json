@@ -1,0 +1,210 @@
+{
+  "host": "Official Windows Desktop 0.2.2-rc.3",
+  "stockCommit": "5364c03f200d900792a0c069d39f96ec9bbc062f",
+  "candidateCommit": "d8eb18a1564819cd5faf6ca56b7e2f8f5bcd44ad",
+  "stockSha256": "23b39e56c64453b28ba0f4dcfbd6cf983c4ea8ab1d84360ec21a1d1edd35708d",
+  "candidateSha256": "1dd00956196aaefab554f7a7d29c861d0280de212f37efa81cdfcd994bde0761",
+  "desktopAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+  "cases": {
+    "success": {
+      "stock": {
+        "image": "success-before.png",
+        "imageSha256": "fdcb51a35047ed40463164ea3b4d7f2d44d5d4aa50e7b5480e829122ee138e1f",
+        "clientSha256": "821fafe287159155304659f2b397af2939069407666782c9290cf39327abd3e8",
+        "label": "任务 · 启动恢复",
+        "heading": "启动时处理的中断更新",
+        "text": "启动时处理的中断更新\ndshmarket\n已核对，现有版本完整。",
+        "remaining": [],
+        "localVersion": null,
+        "status": {
+          "http": 200,
+          "checking": false,
+          "entries": [
+            {
+              "name": "dshmarket",
+              "state": "verified"
+            }
+          ]
+        },
+        "registryRequests": [],
+        "fixture": [
+          {
+            "name": "dshmarket",
+            "from": "1.73.20",
+            "to": "1.73.99",
+            "attempts": 0
+          }
+        ]
+      },
+      "candidate": {
+        "image": "success-after.png",
+        "imageSha256": "ac296618de7a573b3316a7bdbbbbd35d2ff42a0ea427c43937d436fc2877cfca",
+        "clientSha256": "9e22efe5e9566bc7eb2e865df597a0cb72243fc09242b270230eebf6d16da278",
+        "label": "任务",
+        "heading": "启动时处理的中断更新",
+        "text": "启动时处理的中断更新\ndshmarket\n已核对，现有版本完整。",
+        "remaining": [],
+        "localVersion": null,
+        "status": {
+          "http": 200,
+          "checking": false,
+          "entries": [
+            {
+              "name": "dshmarket",
+              "state": "verified"
+            }
+          ]
+        },
+        "registryRequests": [],
+        "fixture": [
+          {
+            "name": "dshmarket",
+            "from": "1.73.20",
+            "to": "1.73.99",
+            "attempts": 0
+          }
+        ]
+      }
+    },
+    "attention": {
+      "stock": {
+        "image": "attention-before.png",
+        "imageSha256": "ddf632735499b4bd7db3f7d8b4635429a5ea220f7acbb06be0428e012e0c2f20",
+        "clientSha256": "821fafe287159155304659f2b397af2939069407666782c9290cf39327abd3e8",
+        "label": "任务 · 启动恢复",
+        "heading": "启动时处理的中断更新",
+        "text": "启动时处理的中断更新\ndsh-1224-different-version\n现有版本与原计划不同。请到「已安装」核对。\ndsh-1224-missing-package\n桌面端拒绝重新安装。\n下次启动时会再试。\ndsh-1224-stop-retry\n已停止自动重试。请从「设置 → 插件」重新安装。",
+        "remaining": [
+          {
+            "name": "dsh-1224-different-version",
+            "attempts": 1
+          },
+          {
+            "name": "dsh-1224-missing-package",
+            "attempts": 1
+          },
+          {
+            "name": "dsh-1224-stop-retry",
+            "attempts": 3
+          }
+        ],
+        "localVersion": "1.5.0",
+        "status": {
+          "http": 200,
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-1224-different-version",
+              "cause": "version-changed",
+              "state": "pending"
+            },
+            {
+              "name": "dsh-1224-missing-package",
+              "cause": "refused",
+              "state": "pending"
+            },
+            {
+              "name": "dsh-1224-stop-retry",
+              "state": "abandoned"
+            }
+          ]
+        },
+        "registryRequests": [
+          {
+            "method": "GET",
+            "path": "package-metadata"
+          }
+        ],
+        "fixture": [
+          {
+            "name": "dsh-1224-different-version",
+            "from": "1.0.0",
+            "to": "2.0.0",
+            "attempts": 0
+          },
+          {
+            "name": "dsh-1224-missing-package",
+            "from": "1.0.0",
+            "to": "2.0.0",
+            "attempts": 0
+          },
+          {
+            "name": "dsh-1224-stop-retry",
+            "from": "1.0.0",
+            "to": "2.0.0",
+            "attempts": 3
+          }
+        ]
+      },
+      "candidate": {
+        "image": "attention-after.png",
+        "imageSha256": "6c27c242d429098abb2b171676f5b9751f0afd0d252e50411d503fd66b7d6b66",
+        "clientSha256": "9e22efe5e9566bc7eb2e865df597a0cb72243fc09242b270230eebf6d16da278",
+        "label": "任务 · 启动恢复",
+        "heading": "启动时处理的中断更新",
+        "text": "启动时处理的中断更新\ndsh-1224-different-version\n现有版本与原计划不同，已保留现有版本。下次启动时会重新核对。请到「已安装」检查。\ndsh-1224-missing-package\n桌面端拒绝重新安装。请到「设置 → 插件」检查是否可以安装该插件。\n下次启动时会检查是否还能重试。\ndsh-1224-stop-retry\n已停止自动重试。请从「设置 → 插件」重新安装。",
+        "remaining": [
+          {
+            "name": "dsh-1224-different-version",
+            "attempts": 1
+          },
+          {
+            "name": "dsh-1224-missing-package",
+            "attempts": 1
+          },
+          {
+            "name": "dsh-1224-stop-retry",
+            "attempts": 3
+          }
+        ],
+        "localVersion": "1.5.0",
+        "status": {
+          "http": 200,
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-1224-different-version",
+              "cause": "version-changed",
+              "state": "pending"
+            },
+            {
+              "name": "dsh-1224-missing-package",
+              "cause": "refused",
+              "state": "pending"
+            },
+            {
+              "name": "dsh-1224-stop-retry",
+              "state": "abandoned"
+            }
+          ]
+        },
+        "registryRequests": [
+          {
+            "method": "GET",
+            "path": "package-metadata"
+          }
+        ],
+        "fixture": [
+          {
+            "name": "dsh-1224-different-version",
+            "from": "1.0.0",
+            "to": "2.0.0",
+            "attempts": 0
+          },
+          {
+            "name": "dsh-1224-missing-package",
+            "from": "1.0.0",
+            "to": "2.0.0",
+            "attempts": 0
+          },
+          {
+            "name": "dsh-1224-stop-retry",
+            "from": "1.0.0",
+            "to": "2.0.0",
+            "attempts": 3
+          }
+        ]
+      }
+    }
+  }
+}

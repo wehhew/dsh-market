@@ -1,0 +1,253 @@
+{
+  "application": "Official Windows Desktop 0.2.2-rc.3",
+  "runtimeAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+  "package": "dsh-windows-mcp",
+  "stockSourceSha": "5364c03",
+  "stockHash": "23b39e56c64453b28ba0f4dcfbd6cf983c4ea8ab1d84360ec21a1d1edd35708d",
+  "sourceSha": "f278d6e26b0d64022b1629958c524dc0282cd05c",
+  "candidateHash": "e434ecbd6b4feb685650f6f949537f8b6f5251a0e75e52cdc6413555c28b07ac",
+  "requestStages": [
+    "Installed page before notes click",
+    "First open",
+    "Version disclosure toggled (if present)",
+    "Reopened"
+  ],
+  "cases": {
+    "partial": {
+      "backendPayloadUnchanged": true,
+      "installedEligibleLatest": {
+        "current": "0.2.7",
+        "eligibleVersion": "0.2.9",
+        "latest": "0.2.11"
+      },
+      "history": [
+        {
+          "version": "0.2.9",
+          "hasBody": true,
+          "defaultsExpanded": true
+        }
+      ],
+      "newerReleaseLabel": "暂不可安装 V0.2.11 · 2026-11-15",
+      "before": {
+        "screenshot": "partial-before.png",
+        "screenshotSha256": "e62bbe8c06b8d9a52838b73f71e32c724ce9ca7b4357f2a53244040479737c89",
+        "historySha256": "810cad3cad7c3c378433a7fcc5e59dcf5e7a1f8d48a19889f566503436a0f103",
+        "headings": [
+          "本次更新",
+          "暂不可安装"
+        ],
+        "historyRequests": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "showsPartialHistoryHint": true,
+        "emptyHistoryHint": false,
+        "targetMissingBodyHint": false,
+        "sourceLink": null,
+        "clientSha256": "821fafe287159155304659f2b397af2939069407666782c9290cf39327abd3e8"
+      },
+      "after": {
+        "screenshot": "partial-after.png",
+        "screenshotSha256": "4954983061746a18ea775bd87007eb2e05218f1119c8fc1a970df049a94a8ecb",
+        "historySha256": "810cad3cad7c3c378433a7fcc5e59dcf5e7a1f8d48a19889f566503436a0f103",
+        "headings": [
+          "本次更新",
+          "暂不可安装"
+        ],
+        "historyRequests": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "showsPartialHistoryHint": true,
+        "emptyHistoryHint": false,
+        "targetMissingBodyHint": false,
+        "sourceLink": {
+          "href": "https://github.com/helloHub1212/dsh-windows-mcp/releases",
+          "within": null
+        },
+        "clientSha256": "7180e0b5a456c5b240305f6569704e121ae404eadf8b066d8d93b7f3bda774ce"
+      }
+    },
+    "empty": {
+      "backendPayloadUnchanged": true,
+      "installedEligibleLatest": {
+        "current": "0.2.7",
+        "eligibleVersion": "0.2.9",
+        "latest": "0.2.11"
+      },
+      "history": [],
+      "newerReleaseLabel": "暂不可安装 V0.2.10 · 2026-11-13",
+      "before": {
+        "screenshot": "empty-before.png",
+        "screenshotSha256": "47f31e3627095520070bafbbbd4ec624078f42b52e2d8e6a511869161fea6bbf",
+        "historySha256": "c7b482617218bb09a805b424eb25cf2d2741c667a41114bfdfd47d48a03f90bb",
+        "headings": [
+          "本次更新",
+          "暂不可安装"
+        ],
+        "historyRequests": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "showsPartialHistoryHint": true,
+        "emptyHistoryHint": false,
+        "targetMissingBodyHint": false,
+        "sourceLink": null,
+        "clientSha256": "821fafe287159155304659f2b397af2939069407666782c9290cf39327abd3e8"
+      },
+      "after": {
+        "screenshot": "empty-after.png",
+        "screenshotSha256": "2ebde965633653398ba3f8affc4b636300bf4bbe6341eec62cd15dd70506de27",
+        "historySha256": "c7b482617218bb09a805b424eb25cf2d2741c667a41114bfdfd47d48a03f90bb",
+        "headings": [
+          "暂不可安装"
+        ],
+        "historyRequests": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "showsPartialHistoryHint": false,
+        "emptyHistoryHint": true,
+        "targetMissingBodyHint": false,
+        "sourceLink": {
+          "href": "https://github.com/helloHub1212/dsh-windows-mcp/releases",
+          "within": null
+        },
+        "clientSha256": "7180e0b5a456c5b240305f6569704e121ae404eadf8b066d8d93b7f3bda774ce"
+      }
+    },
+    "target-no-body": {
+      "backendPayloadUnchanged": true,
+      "installedEligibleLatest": {
+        "current": "0.2.7",
+        "eligibleVersion": "0.2.9",
+        "latest": "0.2.11"
+      },
+      "history": [
+        {
+          "version": "0.2.9",
+          "hasBody": false,
+          "defaultsExpanded": true
+        },
+        {
+          "version": "0.2.8",
+          "hasBody": true,
+          "defaultsExpanded": false
+        }
+      ],
+      "newerReleaseLabel": "暂不可安装 V0.2.11 · 2026-11-15",
+      "before": {
+        "screenshot": "target-no-body-before.png",
+        "screenshotSha256": "01032470fc3946272d0715a71240ab76aa5c001e5fd16d4c11980acfa3813a56",
+        "historySha256": "7be370ad2c27906e992d738ea13e0e8be98e361bef99389a5ce6e13136090ae4",
+        "headings": [
+          "本次更新",
+          "暂不可安装"
+        ],
+        "historyRequests": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "showsPartialHistoryHint": true,
+        "emptyHistoryHint": false,
+        "targetMissingBodyHint": true,
+        "sourceLink": null,
+        "clientSha256": "821fafe287159155304659f2b397af2939069407666782c9290cf39327abd3e8"
+      },
+      "after": {
+        "screenshot": "target-no-body-after.png",
+        "screenshotSha256": "ab15492fde5cb4fc8f0a4d8783e019636029936f97d3c94bc0b9696e7458885d",
+        "historySha256": "7be370ad2c27906e992d738ea13e0e8be98e361bef99389a5ce6e13136090ae4",
+        "headings": [
+          "本次更新",
+          "暂不可安装"
+        ],
+        "historyRequests": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "showsPartialHistoryHint": false,
+        "emptyHistoryHint": false,
+        "targetMissingBodyHint": true,
+        "sourceLink": {
+          "href": "https://github.com/helloHub1212/dsh-windows-mcp/releases/tag/v0.2.9",
+          "within": "v0.2.9"
+        },
+        "clientSha256": "7180e0b5a456c5b240305f6569704e121ae404eadf8b066d8d93b7f3bda774ce"
+      }
+    },
+    "complete": {
+      "backendPayloadUnchanged": true,
+      "installedEligibleLatest": {
+        "current": "0.2.7",
+        "eligibleVersion": "0.2.9",
+        "latest": "0.2.11"
+      },
+      "history": [
+        {
+          "version": "0.2.9",
+          "hasBody": true,
+          "defaultsExpanded": true
+        },
+        {
+          "version": "0.2.8",
+          "hasBody": true,
+          "defaultsExpanded": false
+        }
+      ],
+      "newerReleaseLabel": "暂不可安装 V0.2.11 · 2026-11-15",
+      "before": {
+        "screenshot": "complete-before.png",
+        "screenshotSha256": "1935cc24ed6027d387aa0a058b8c471fed5d325516bd126b29d4fdcccbda37bd",
+        "historySha256": "0f56b2c9a2a905d06a307bc6601192c4653bb6d30a506e7f6b01283f20645749",
+        "headings": [
+          "本次更新",
+          "暂不可安装"
+        ],
+        "historyRequests": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "showsPartialHistoryHint": false,
+        "emptyHistoryHint": false,
+        "targetMissingBodyHint": false,
+        "sourceLink": null,
+        "clientSha256": "821fafe287159155304659f2b397af2939069407666782c9290cf39327abd3e8"
+      },
+      "after": {
+        "screenshot": "complete-after.png",
+        "screenshotSha256": "1935cc24ed6027d387aa0a058b8c471fed5d325516bd126b29d4fdcccbda37bd",
+        "historySha256": "0f56b2c9a2a905d06a307bc6601192c4653bb6d30a506e7f6b01283f20645749",
+        "headings": [
+          "本次更新",
+          "暂不可安装"
+        ],
+        "historyRequests": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "showsPartialHistoryHint": false,
+        "emptyHistoryHint": false,
+        "targetMissingBodyHint": false,
+        "sourceLink": null,
+        "clientSha256": "7180e0b5a456c5b240305f6569704e121ae404eadf8b066d8d93b7f3bda774ce"
+      }
+    }
+  }
+}

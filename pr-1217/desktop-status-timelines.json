@@ -1,0 +1,3858 @@
+{
+  "stock-writer": [
+    {
+      "stage": "blocked-at-launch",
+      "ageMs": 4962,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 6581,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 7593,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 8607,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 9628,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-5",
+      "ageMs": 10647,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-6",
+      "ageMs": 11665,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-7",
+      "ageMs": 12679,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-8",
+      "ageMs": 13688,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-9",
+      "ageMs": 14697,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-10",
+      "ageMs": 15716,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-11",
+      "ageMs": 16728,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-12",
+      "ageMs": 17738,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-13",
+      "ageMs": 18760,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-14",
+      "ageMs": 19775,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-15",
+      "ageMs": 20788,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-16",
+      "ageMs": 21800,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-17",
+      "ageMs": 22811,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-18",
+      "ageMs": 23828,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-19",
+      "ageMs": 24841,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-20",
+      "ageMs": 25858,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-21",
+      "ageMs": 26866,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-22",
+      "ageMs": 27878,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-23",
+      "ageMs": 28892,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-24",
+      "ageMs": 29904,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-25",
+      "ageMs": 30923,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-26",
+      "ageMs": 31935,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-27",
+      "ageMs": 32945,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-28",
+      "ageMs": 33958,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-29",
+      "ageMs": 34974,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-30",
+      "ageMs": 35987,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-31",
+      "ageMs": 37006,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "before-release",
+      "ageMs": 37014,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "390aeb5a5595e784e462f7349314e94e34d006d661e9654661d813d9bb5a2807",
+      "blockerPresent": true,
+      "blockerHash": "3a96fc6b2483a360d2b94658b7fe747b8f1d183267f16f3960e8047fe2933c59",
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 43933,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 44944,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 45957,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 46980,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-5",
+      "ageMs": 47994,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "after-release",
+      "ageMs": 48000,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "a6a298e31009b4cf133821cad012ff67551d2e62710befe0327240b58c764305",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    }
+  ],
+  "candidate-writer": [
+    {
+      "stage": "blocked-at-launch",
+      "ageMs": 5083,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 19790,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 20818,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 21832,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 22857,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-5",
+      "ageMs": 23869,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-6",
+      "ageMs": 24883,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-7",
+      "ageMs": 25892,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-8",
+      "ageMs": 26910,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-9",
+      "ageMs": 27921,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-10",
+      "ageMs": 28932,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-11",
+      "ageMs": 29947,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-12",
+      "ageMs": 30959,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-13",
+      "ageMs": 31971,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-14",
+      "ageMs": 32989,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-15",
+      "ageMs": 34001,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-16",
+      "ageMs": 35021,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-17",
+      "ageMs": 36039,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-18",
+      "ageMs": 37063,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-19",
+      "ageMs": 38075,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-20",
+      "ageMs": 39083,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-21",
+      "ageMs": 40095,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "before-release",
+      "ageMs": 40116,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": true,
+      "blockerHash": "2339e9a5f0105596384aca17831cf413f7e6351f00dd5f0f80cf582a22a43d58",
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 51159,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 52169,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 53180,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 54195,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-5",
+      "ageMs": 55203,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "after-release",
+      "ageMs": 55212,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "after-market-reload",
+      "ageMs": 67476,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "60baaa3db038b61765573a35c896c1162920aafedaa00102c9dc30e1f33783ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "writer-lock",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 75235,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 76257,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 77277,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 78297,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "after-desktop-restart",
+      "ageMs": 78312,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "e83e35d29bd2ebf1dd7c82c862cda722b7180575ad908195c284fac398f84306",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    }
+  ],
+  "stock-bad-run": [
+    {
+      "stage": "blocked-at-launch",
+      "ageMs": 5312,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 7356,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 8383,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 9400,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 10411,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-5",
+      "ageMs": 11422,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-6",
+      "ageMs": 12445,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-7",
+      "ageMs": 13465,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-8",
+      "ageMs": 14481,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-9",
+      "ageMs": 15495,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-10",
+      "ageMs": 16506,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-11",
+      "ageMs": 17527,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-12",
+      "ageMs": 18537,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-13",
+      "ageMs": 19556,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-14",
+      "ageMs": 20568,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-15",
+      "ageMs": 21579,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-16",
+      "ageMs": 22591,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-17",
+      "ageMs": 23601,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-18",
+      "ageMs": 24615,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-19",
+      "ageMs": 25638,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-20",
+      "ageMs": 26664,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-21",
+      "ageMs": 27676,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-22",
+      "ageMs": 28688,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-23",
+      "ageMs": 29705,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-24",
+      "ageMs": 30718,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-25",
+      "ageMs": 31739,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-26",
+      "ageMs": 32749,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-27",
+      "ageMs": 33760,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-28",
+      "ageMs": 34780,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-29",
+      "ageMs": 35791,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-30",
+      "ageMs": 36814,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-31",
+      "ageMs": 37837,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "before-release",
+      "ageMs": 37846,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "3039d9e5822c3e658f40f6448942dd90c62c555ea0b9e219de57f8f5d0062560",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 44966,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 45984,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 47011,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 48029,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-5",
+      "ageMs": 49045,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "after-release",
+      "ageMs": 49052,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "06bee31b9841e6a2636f3dbd9e35b079eedbc70263082ea9e93f847c434d7737",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    }
+  ],
+  "candidate-bad-run": [
+    {
+      "stage": "blocked-at-launch",
+      "ageMs": 5857,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 14115,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 15135,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 16149,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 17168,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-5",
+      "ageMs": 18184,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-6",
+      "ageMs": 19204,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-7",
+      "ageMs": 20215,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-8",
+      "ageMs": 21232,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-9",
+      "ageMs": 22245,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-10",
+      "ageMs": 23256,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-11",
+      "ageMs": 24274,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-12",
+      "ageMs": 25299,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-13",
+      "ageMs": 26323,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-14",
+      "ageMs": 27335,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-15",
+      "ageMs": 28347,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-16",
+      "ageMs": 29364,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-17",
+      "ageMs": 30374,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-18",
+      "ageMs": 31388,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-19",
+      "ageMs": 32409,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-20",
+      "ageMs": 33425,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-21",
+      "ageMs": 34444,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-22",
+      "ageMs": 35456,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-23",
+      "ageMs": 36475,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-24",
+      "ageMs": 37497,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-25",
+      "ageMs": 38505,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-26",
+      "ageMs": 39514,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-27",
+      "ageMs": 40528,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "before-release",
+      "ageMs": 40548,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": true,
+      "blockerHash": "33b8a8db63e33374cdd28c546d5af81594318e93449907bbd3d4ba97b595ba97",
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 51604,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 52616,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 53630,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 54645,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-5",
+      "ageMs": 55654,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "after-release",
+      "ageMs": 55664,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "after-market-reload",
+      "ageMs": 68030,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "7abab024a6c7896d56e7373ced45999df160a5781cdd50021f47a624cd77a6ad",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": false,
+          "entries": [
+            {
+              "name": "dsh-fixture-1217-checkout",
+              "reason": "package-run",
+              "sourceExists": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 78457,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 79692,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 80715,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 81745,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "after-desktop-restart",
+      "ageMs": 81760,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "43eaf34aa8bd7e218383feb1fe6f2625382351cd2c35087695fa045862706f49",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    }
+  ],
+  "candidate-early": [
+    {
+      "stage": "blocked-at-launch",
+      "ageMs": 5627,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "9ecc6168f9600470da9a92f79c44b087e66410981b8c3e156332dea00a200a65",
+      "blockerPresent": true,
+      "blockerHash": "223843945a0d0c55b06b1f5d484e429dfa782fea3888eacdea5eada4dff7c1e6",
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 7140,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "9ecc6168f9600470da9a92f79c44b087e66410981b8c3e156332dea00a200a65",
+      "blockerPresent": true,
+      "blockerHash": "223843945a0d0c55b06b1f5d484e429dfa782fea3888eacdea5eada4dff7c1e6",
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 8167,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "9ecc6168f9600470da9a92f79c44b087e66410981b8c3e156332dea00a200a65",
+      "blockerPresent": true,
+      "blockerHash": "223843945a0d0c55b06b1f5d484e429dfa782fea3888eacdea5eada4dff7c1e6",
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 9207,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "9ecc6168f9600470da9a92f79c44b087e66410981b8c3e156332dea00a200a65",
+      "blockerPresent": true,
+      "blockerHash": "223843945a0d0c55b06b1f5d484e429dfa782fea3888eacdea5eada4dff7c1e6",
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "before-release",
+      "ageMs": 9220,
+      "connected": false,
+      "occupied": false,
+      "pendingCount": 1,
+      "journalHash": "9ecc6168f9600470da9a92f79c44b087e66410981b8c3e156332dea00a200a65",
+      "blockerPresent": true,
+      "blockerHash": "223843945a0d0c55b06b1f5d484e429dfa782fea3888eacdea5eada4dff7c1e6",
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": {
+          "checking": true,
+          "entries": []
+        }
+      }
+    },
+    {
+      "stage": "sample-1",
+      "ageMs": 10247,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-2",
+      "ageMs": 11258,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-3",
+      "ageMs": 12280,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-4",
+      "ageMs": 13297,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "sample-5",
+      "ageMs": 14321,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    },
+    {
+      "stage": "after-release",
+      "ageMs": 14332,
+      "connected": true,
+      "occupied": true,
+      "pendingCount": 0,
+      "journalHash": "ba008b3ff2e64fd0f721e62a4159d1068da4c3f8ca432bf40a0414c167013059",
+      "blockerPresent": false,
+      "blockerHash": null,
+      "lockfileHash": "c202fef41e2787781b420e1312a80d34fe1ccd869ee5dea7c8d2775d1302a204",
+      "sourceHashes": {
+        "package.json": "7d34264690b7f897520c1b61140420fc820e7cebf6b3de3084dd2b54541834b3",
+        "index.js": "5b2df8275a78de7a341e1ec852d93a8d31e85501c46f9359e8136d7e3033bbef",
+        "README.md": "be9c6c4d4502268ccf2d0cdb015f41f9069e4d506011a35484078d89e1ef835b"
+      },
+      "status": {
+        "http": 200,
+        "busy": false,
+        "checkoutRecovery": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "testCommit": "c672ae544a2a63597dc183d3fbe3a03d06e88eca",
+  "cases": {
+    "ordinary": {
+      "baseline": {
+        "packSha256": "23b39e56c64453b28ba0f4dcfbd6cf983c4ea8ab1d84360ec21a1d1edd35708d",
+        "clientSha256": "821fafe287159155304659f2b397af2939069407666782c9290cf39327abd3e8",
+        "hostSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+        "firstBoot": {
+          "mode": "ordinary",
+          "refusal": {
+            "status": 200,
+            "ok": true,
+            "restart": true,
+            "disabled": true,
+            "live": false,
+            "patchWrite": {
+              "ok": false,
+              "reason": "补丁层文件写不进去：文件不可写（只读或被系统保护） / the patch file could not be written: it is read-only"
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "retry": {
+            "status": 200,
+            "ok": true,
+            "restart": false,
+            "disabled": true,
+            "live": false,
+            "patchWrite": {
+              "ok": true,
+              "reason": null
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "back": {
+            "status": 200,
+            "ok": true,
+            "reason": "这个包有一行被关掉了(disabled),热挂载不重放开关行;重启后按原样加载,那一行仍然是关的 / one of its rows is switched off (disabled); hot-mount does not replay switch rows — a restart loads the bundle as written and that row stays off",
+            "restart": true,
+            "disabled": false,
+            "live": false,
+            "patchWrite": {
+              "ok": true,
+              "reason": null
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "reason",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "onBefore": true,
+          "onAfterRefusal": false,
+          "heldAfterRefusal": true,
+          "exactBundleOrderAfterRefusal": false,
+          "exactPatchAfterRefusal": true,
+          "offAfterRetry": true,
+          "restoresOriginalPatch": false
+        },
+        "afterRestart": {
+          "mode": "ordinary",
+          "restoredMain": true,
+          "heldComponentRunning": true,
+          "expressionRunning": false,
+          "exactOriginalPatch": false
+        },
+        "screenshot": {
+          "path": "ordinary-before-write-refusal.png",
+          "sha256": "73eafabbf6a7f770c0a44735a5d27ea3f901c04ebf9a7ad33703d4f89ea53eab"
+        }
+      },
+      "actual": {
+        "packSha256": "3094201d0711ed75c986bf8290a047a9911a74748c67fd2ce16af663fdf36e91",
+        "clientSha256": "727f743c09a3c7417a4dc5936866b54a51e224e6096daa122ddba5ac57d47b5e",
+        "hostSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+        "firstBoot": {
+          "mode": "ordinary",
+          "refusal": {
+            "status": 502,
+            "ok": false,
+            "reason": "补丁层文件写不进去：文件不可写。解除只读或检查权限后重试 / the patch file could not be written: it is read-only. Check permissions and retry.",
+            "restart": false,
+            "disabled": false,
+            "live": false,
+            "patchWrite": {
+              "ok": false,
+              "reason": "补丁层文件写不进去：文件不可写。解除只读或检查权限后重试 / the patch file could not be written: it is read-only. Check permissions and retry."
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "reason",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "retry": {
+            "status": 200,
+            "ok": true,
+            "restart": true,
+            "disabled": true,
+            "live": false,
+            "patchWrite": {
+              "ok": true,
+              "reason": null
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "back": {
+            "status": 200,
+            "ok": true,
+            "restart": false,
+            "disabled": false,
+            "live": false,
+            "patchWrite": {
+              "ok": true,
+              "reason": null
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "onBefore": true,
+          "onAfterRefusal": true,
+          "heldAfterRefusal": false,
+          "exactBundleOrderAfterRefusal": true,
+          "exactPatchAfterRefusal": true,
+          "offAfterRetry": true,
+          "restoresOriginalPatch": true
+        },
+        "afterRestart": {
+          "mode": "ordinary",
+          "restoredMain": true,
+          "heldComponentRunning": false,
+          "expressionRunning": false,
+          "exactOriginalPatch": true
+        },
+        "screenshot": {
+          "path": "ordinary-after-write-refusal.png",
+          "sha256": "874e96bacfd1bee80c1937c7aaab828d8addd7092094b7dbef7c53211dd2e986"
+        }
+      }
+    },
+    "carrier": {
+      "baseline": {
+        "packSha256": "23b39e56c64453b28ba0f4dcfbd6cf983c4ea8ab1d84360ec21a1d1edd35708d",
+        "clientSha256": "821fafe287159155304659f2b397af2939069407666782c9290cf39327abd3e8",
+        "hostSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+        "firstBoot": {
+          "mode": "carrier",
+          "refusal": {
+            "status": 200,
+            "ok": true,
+            "restart": true,
+            "disabled": true,
+            "live": false,
+            "patchWrite": {
+              "ok": false,
+              "reason": "补丁层文件写不进去：文件不可写（只读或被系统保护） / the patch file could not be written: it is read-only"
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "retry": {
+            "status": 200,
+            "ok": true,
+            "restart": true,
+            "disabled": true,
+            "live": false,
+            "patchWrite": {
+              "ok": true,
+              "reason": null
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "back": {
+            "status": 200,
+            "ok": true,
+            "restart": true,
+            "disabled": false,
+            "live": false,
+            "patchWrite": {
+              "ok": true,
+              "reason": null
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "onBefore": true,
+          "onAfterRefusal": true,
+          "heldAfterRefusal": true,
+          "exactBundleOrderAfterRefusal": false,
+          "exactPatchAfterRefusal": true,
+          "offAfterRetry": true,
+          "restoresOriginalPatch": false
+        },
+        "afterRestart": {
+          "mode": "carrier",
+          "restoredMain": true,
+          "heldComponentRunning": true,
+          "expressionRunning": false,
+          "exactOriginalPatch": false
+        },
+        "screenshot": {
+          "path": "carrier-before-write-refusal.png",
+          "sha256": "7d31872c296db176b41bbe8681dd8ba6bf5a84d842155fbd242581dbe069e691"
+        }
+      },
+      "actual": {
+        "packSha256": "3094201d0711ed75c986bf8290a047a9911a74748c67fd2ce16af663fdf36e91",
+        "clientSha256": "727f743c09a3c7417a4dc5936866b54a51e224e6096daa122ddba5ac57d47b5e",
+        "hostSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+        "firstBoot": {
+          "mode": "carrier",
+          "refusal": {
+            "status": 502,
+            "ok": false,
+            "reason": "补丁层文件写不进去：文件不可写。解除只读或检查权限后重试 / the patch file could not be written: it is read-only. Check permissions and retry.",
+            "restart": false,
+            "disabled": false,
+            "live": false,
+            "patchWrite": {
+              "ok": false,
+              "reason": "补丁层文件写不进去：文件不可写。解除只读或检查权限后重试 / the patch file could not be written: it is read-only. Check permissions and retry."
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "reason",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "retry": {
+            "status": 200,
+            "ok": true,
+            "restart": true,
+            "disabled": true,
+            "live": false,
+            "patchWrite": {
+              "ok": true,
+              "reason": null
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "back": {
+            "status": 200,
+            "ok": true,
+            "restart": true,
+            "disabled": false,
+            "live": false,
+            "patchWrite": {
+              "ok": true,
+              "reason": null
+            },
+            "shape": [
+              "ok",
+              "name",
+              "enabled",
+              "disabled",
+              "live",
+              "activation",
+              "patchRows",
+              "patchWrite",
+              "carrier",
+              "bundleSwitch",
+              "restart",
+              "refresh"
+            ]
+          },
+          "onBefore": true,
+          "onAfterRefusal": true,
+          "heldAfterRefusal": false,
+          "exactBundleOrderAfterRefusal": true,
+          "exactPatchAfterRefusal": true,
+          "offAfterRetry": true,
+          "restoresOriginalPatch": true
+        },
+        "afterRestart": {
+          "mode": "carrier",
+          "restoredMain": true,
+          "heldComponentRunning": false,
+          "expressionRunning": false,
+          "exactOriginalPatch": true
+        },
+        "screenshot": {
+          "path": "carrier-after-write-refusal.png",
+          "sha256": "f80f0f4ee9ccca4b9f694cceee13928f21e98d08c14d3ce23eb2621503767d68"
+        }
+      }
+    }
+  }
+}

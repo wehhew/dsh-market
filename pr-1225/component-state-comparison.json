@@ -1,0 +1,1338 @@
+{
+  "baselineCommit": "5364c03f200d900792a0c069d39f96ec9bbc062f",
+  "baselinePackageSha256": "23b39e56c64453b28ba0f4dcfbd6cf983c4ea8ab1d84360ec21a1d1edd35708d",
+  "candidatePackageSha256": "3094201d0711ed75c986bf8290a047a9911a74748c67fd2ce16af663fdf36e91",
+  "host": "Official DSH Desktop 0.2.2-rc.3 on Windows",
+  "runtimeAsarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae",
+  "detail": "Screens show package and group status. The actual Loader start/stop records establish component state.",
+  "cases": {
+    "numeric-on": {
+      "stock": {
+        "actions": {
+          "off": {
+            "method": "ui",
+            "code": 200,
+            "ok": true
+          },
+          "on": {
+            "method": "ui",
+            "code": 200,
+            "ok": true
+          }
+        },
+        "stages": [
+          {
+            "step": "01-initial",
+            "active": {
+              "42": true,
+              "numeric-primary": true
+            },
+            "patchSha256": "8932ea51fd7fb4d689600bac0e5c8627993d810098d5f964fbc5fd7ffc62c49d",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-on"
+            ]
+          },
+          {
+            "step": "02-package-off",
+            "active": {
+              "42": false,
+              "numeric-primary": false
+            },
+            "patchSha256": "2e778039606d142b99b0d0b69d82e8ac44a5f241879cf569d67387dd18fe0a0e",
+            "persistentDisabled": [
+              "dsh-fixture-numeric-on"
+            ],
+            "bundled": []
+          },
+          {
+            "step": "03-package-on",
+            "active": {
+              "42": false,
+              "numeric-primary": true
+            },
+            "patchSha256": "8932ea51fd7fb4d689600bac0e5c8627993d810098d5f964fbc5fd7ffc62c49d",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-on"
+            ]
+          },
+          {
+            "step": "06-after-desktop-restart",
+            "active": {
+              "42": true,
+              "numeric-primary": true
+            },
+            "patchSha256": "8932ea51fd7fb4d689600bac0e5c8627993d810098d5f964fbc5fd7ffc62c49d",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-on"
+            ]
+          }
+        ],
+        "screenshot": {
+          "path": "numeric-on-before.png",
+          "sha256": "4d6fa448e30edd20190d913b20395cbc4c6e752180328af321afa8d408f44f57"
+        }
+      },
+      "candidate": {
+        "clientSha256": "727f743c09a3c7417a4dc5936866b54a51e224e6096daa122ddba5ac57d47b5e",
+        "acceptance": {
+          "packageToggleSucceeded": true,
+          "liveChoicePreserved": true,
+          "settledChoicePreserved": true,
+          "choiceSurvivedRestart": true,
+          "userPatchVerbatim": true,
+          "noDuplicateRuntimeComponents": true,
+          "hotNumericConfigPreserved": true,
+          "bootNumericConfigPreserved": true,
+          "enableAcknowledgedTheLiveRuntime": true
+        },
+        "actions": {
+          "off": {
+            "method": "ui",
+            "code": 200,
+            "ok": true,
+            "restart": true,
+            "activation": "disabled",
+            "error": null
+          },
+          "on": {
+            "method": "ui",
+            "code": 200,
+            "ok": true,
+            "restart": false,
+            "activation": "live",
+            "error": null
+          }
+        },
+        "stages": [
+          {
+            "step": "01-initial",
+            "active": {
+              "42": true,
+              "numeric-primary": true
+            },
+            "instances": {
+              "42": 1,
+              "numeric-primary": 1
+            },
+            "peak": {
+              "42": 1,
+              "numeric-primary": 1
+            },
+            "patchSha256": "8932ea51fd7fb4d689600bac0e5c8627993d810098d5f964fbc5fd7ffc62c49d",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-on"
+            ]
+          },
+          {
+            "step": "02-package-off",
+            "active": {
+              "42": false,
+              "numeric-primary": false
+            },
+            "instances": {
+              "42": 0,
+              "numeric-primary": 0
+            },
+            "peak": {
+              "42": 1,
+              "numeric-primary": 1
+            },
+            "patchSha256": "2e778039606d142b99b0d0b69d82e8ac44a5f241879cf569d67387dd18fe0a0e",
+            "persistentDisabled": [
+              "dsh-fixture-numeric-on"
+            ],
+            "bundled": []
+          },
+          {
+            "step": "03-package-on",
+            "active": {
+              "42": true,
+              "numeric-primary": true
+            },
+            "instances": {
+              "42": 1,
+              "numeric-primary": 1
+            },
+            "peak": {
+              "42": 1,
+              "numeric-primary": 1
+            },
+            "patchSha256": "8932ea51fd7fb4d689600bac0e5c8627993d810098d5f964fbc5fd7ffc62c49d",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-on"
+            ]
+          },
+          {
+            "step": "04-after-host-settled",
+            "active": {
+              "42": true,
+              "numeric-primary": true
+            },
+            "instances": {
+              "42": 1,
+              "numeric-primary": 1
+            },
+            "peak": {
+              "42": 1,
+              "numeric-primary": 1
+            },
+            "patchSha256": "8932ea51fd7fb4d689600bac0e5c8627993d810098d5f964fbc5fd7ffc62c49d",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-on"
+            ]
+          },
+          {
+            "step": "06-after-desktop-restart",
+            "active": {
+              "42": true,
+              "numeric-primary": true
+            },
+            "instances": {
+              "42": 1,
+              "numeric-primary": 1
+            },
+            "peak": {
+              "42": 1,
+              "numeric-primary": 1
+            },
+            "patchSha256": "8932ea51fd7fb4d689600bac0e5c8627993d810098d5f964fbc5fd7ffc62c49d",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-on"
+            ]
+          }
+        ],
+        "runtimeWitness": {
+          "source": "candidate-actual-numeric-on-1794817791978/result.json",
+          "peakByComponent": {
+            "42": 1,
+            "numeric-primary": 1
+          }
+        },
+        "screenshot": {
+          "path": "numeric-on-after.png",
+          "sha256": "2e5dd616fcafab40dd48084b398d565c45b268d96bfcf66d41125cba5e23c826"
+        }
+      },
+      "actualNumericApplyConfig": {
+        "stock": {
+          "report": "stock-config-numeric-on-1794816892981/result.json",
+          "preferencesByStage": {
+            "01-initial": [
+              {
+                "entryId": null,
+                "fixturePreference": "keep-numeric"
+              }
+            ],
+            "03-package-on": [
+              {
+                "entryId": null,
+                "fixturePreference": "keep-numeric"
+              }
+            ],
+            "06-after-desktop-restart": [
+              {
+                "entryId": null,
+                "fixturePreference": "keep-numeric"
+              }
+            ]
+          }
+        },
+        "candidate": {
+          "report": "candidate-actual-numeric-on-1794817791978/result.json",
+          "preferencesByStage": {
+            "01-initial": [
+              {
+                "entryId": "include:42",
+                "fixturePreference": "keep-numeric"
+              }
+            ],
+            "03-package-on": [
+              {
+                "entryId": "include:42",
+                "fixturePreference": "keep-numeric"
+              },
+              {
+                "entryId": "include:42",
+                "fixturePreference": "keep-numeric"
+              }
+            ],
+            "04-after-host-settled": [
+              {
+                "entryId": "include:42",
+                "fixturePreference": "keep-numeric"
+              },
+              {
+                "entryId": "include:42",
+                "fixturePreference": "keep-numeric"
+              }
+            ],
+            "06-after-desktop-restart": [
+              {
+                "entryId": "include:42",
+                "fixturePreference": "keep-numeric"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "numeric-off": {
+      "stock": {
+        "actions": {
+          "off": {
+            "method": "ui",
+            "code": 200,
+            "ok": true
+          },
+          "on": {
+            "method": "ui",
+            "code": 200,
+            "ok": true
+          }
+        },
+        "stages": [
+          {
+            "step": "01-initial",
+            "active": {
+              "42": false,
+              "numeric-primary": true
+            },
+            "patchSha256": "ca47e42838c3a5985476b99706078b889d135ba18b6f85205508e2c6aee9a5c7",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-off"
+            ]
+          },
+          {
+            "step": "02-package-off",
+            "active": {
+              "42": false,
+              "numeric-primary": false
+            },
+            "patchSha256": "7b58b30ec4b1d761a6c2fd76ba76fc013d2c7eafb7e153cd1b89dff7ae86a1d1",
+            "persistentDisabled": [
+              "dsh-fixture-numeric-off"
+            ],
+            "bundled": []
+          },
+          {
+            "step": "03-package-on",
+            "active": {
+              "42": true,
+              "numeric-primary": true
+            },
+            "patchSha256": "b653135bca0fec358c7cfa3fa1558ce6398e41664fe85266280def11580495d8",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-off"
+            ]
+          },
+          {
+            "step": "06-after-desktop-restart",
+            "active": {
+              "42": true,
+              "numeric-primary": true
+            },
+            "patchSha256": "b653135bca0fec358c7cfa3fa1558ce6398e41664fe85266280def11580495d8",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-off"
+            ]
+          }
+        ],
+        "screenshot": {
+          "path": "numeric-off-before.png",
+          "sha256": "ece87c35ee7e4c1276bc25e8631eb836d89fb3999d06c0298ebeeacb8e2b45c5"
+        }
+      },
+      "candidate": {
+        "clientSha256": "727f743c09a3c7417a4dc5936866b54a51e224e6096daa122ddba5ac57d47b5e",
+        "acceptance": {
+          "packageToggleSucceeded": true,
+          "liveChoicePreserved": true,
+          "settledChoicePreserved": true,
+          "choiceSurvivedRestart": true,
+          "userPatchVerbatim": true,
+          "noDuplicateRuntimeComponents": true
+        },
+        "actions": {
+          "off": {
+            "method": "ui",
+            "code": 200,
+            "ok": true,
+            "restart": true,
+            "activation": "disabled",
+            "error": null
+          },
+          "on": {
+            "method": "ui",
+            "code": 200,
+            "ok": true,
+            "restart": false,
+            "activation": "live",
+            "error": null
+          }
+        },
+        "stages": [
+          {
+            "step": "01-initial",
+            "active": {
+              "42": false,
+              "numeric-primary": true
+            },
+            "instances": {
+              "42": 0,
+              "numeric-primary": 1
+            },
+            "peak": {
+              "42": 0,
+              "numeric-primary": 1
+            },
+            "patchSha256": "ca47e42838c3a5985476b99706078b889d135ba18b6f85205508e2c6aee9a5c7",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-off"
+            ]
+          },
+          {
+            "step": "02-package-off",
+            "active": {
+              "42": false,
+              "numeric-primary": false
+            },
+            "instances": {
+              "42": 0,
+              "numeric-primary": 0
+            },
+            "peak": {
+              "42": 0,
+              "numeric-primary": 1
+            },
+            "patchSha256": "9c0fe115cdd0bcef0dd552db7005068a1c5ee348ca4a61d79645736c87a9f3c7",
+            "persistentDisabled": [
+              "dsh-fixture-numeric-off"
+            ],
+            "bundled": []
+          },
+          {
+            "step": "03-package-on",
+            "active": {
+              "42": false,
+              "numeric-primary": true
+            },
+            "instances": {
+              "42": 0,
+              "numeric-primary": 1
+            },
+            "peak": {
+              "42": 0,
+              "numeric-primary": 1
+            },
+            "patchSha256": "ca47e42838c3a5985476b99706078b889d135ba18b6f85205508e2c6aee9a5c7",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-off"
+            ]
+          },
+          {
+            "step": "04-after-host-settled",
+            "active": {
+              "42": false,
+              "numeric-primary": true
+            },
+            "instances": {
+              "42": 0,
+              "numeric-primary": 1
+            },
+            "peak": {
+              "42": 0,
+              "numeric-primary": 1
+            },
+            "patchSha256": "ca47e42838c3a5985476b99706078b889d135ba18b6f85205508e2c6aee9a5c7",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-off"
+            ]
+          },
+          {
+            "step": "06-after-desktop-restart",
+            "active": {
+              "42": false,
+              "numeric-primary": true
+            },
+            "instances": {
+              "42": 0,
+              "numeric-primary": 1
+            },
+            "peak": {
+              "42": 0,
+              "numeric-primary": 1
+            },
+            "patchSha256": "ca47e42838c3a5985476b99706078b889d135ba18b6f85205508e2c6aee9a5c7",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-numeric-off"
+            ]
+          }
+        ],
+        "runtimeWitness": {
+          "source": "candidate-actual-numeric-off-1794817724758/result.json",
+          "peakByComponent": {
+            "42": 0,
+            "numeric-primary": 1
+          }
+        },
+        "screenshot": {
+          "path": "numeric-off-after.png",
+          "sha256": "ece87c35ee7e4c1276bc25e8631eb836d89fb3999d06c0298ebeeacb8e2b45c5"
+        }
+      }
+    },
+    "all-off-with-user-config": {
+      "stock": {
+        "actions": {
+          "singleOn": {
+            "method": "ui",
+            "code": 200,
+            "ok": true
+          },
+          "groupOff": {
+            "method": "renderer-http",
+            "code": 200,
+            "ok": true
+          },
+          "groupOn": {
+            "method": "ui",
+            "code": 200,
+            "ok": true
+          },
+          "legacyOn": {
+            "method": "renderer-http",
+            "code": 200,
+            "ok": true
+          }
+        },
+        "stages": [
+          {
+            "step": "01-initial",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "patchSha256": "bd29676882cf72ec55b6642107b5d72c9620f41c4962175dc7b7df657481cecc",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "02-single-enable-while-all-explicit-off",
+            "active": {
+              "user-alloff-primary": true,
+              "user-alloff-extra": true,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "patchSha256": "500bcbd5acb34d0023ab980bc0c5bb6c6befdecc7b94e2186974dd9215aeb3e9",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "03-group-off",
+            "active": {
+              "user-alloff-primary": true,
+              "user-alloff-extra": true,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "patchSha256": "500bcbd5acb34d0023ab980bc0c5bb6c6befdecc7b94e2186974dd9215aeb3e9",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled",
+              "dsh-fixture-group-alloff"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "04-group-on",
+            "active": {
+              "user-alloff-primary": true,
+              "user-alloff-extra": true,
+              "group-alloff-primary": true,
+              "group-alloff-extra": true,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "patchSha256": "a035544ad30e4b787263d202e2591be3e8bb55bf535c86d78d969aca4b5504c8",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-old-disabled",
+              "dsh-fixture-group-alloff"
+            ]
+          },
+          {
+            "step": "05-legacy-enable",
+            "active": {
+              "user-alloff-primary": true,
+              "user-alloff-extra": true,
+              "group-alloff-primary": true,
+              "group-alloff-extra": true,
+              "legacy-primary": true,
+              "legacy-extra": true
+            },
+            "patchSha256": "ddd7e85a43d0d0ea77d93bcec577a08af58911c2025b55f798e56aaef06bb246",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-old-disabled",
+              "dsh-fixture-group-alloff"
+            ]
+          },
+          {
+            "step": "06-after-desktop-restart",
+            "active": {
+              "user-alloff-primary": true,
+              "user-alloff-extra": true,
+              "group-alloff-primary": true,
+              "group-alloff-extra": true,
+              "legacy-primary": true,
+              "legacy-extra": true
+            },
+            "patchSha256": "ddd7e85a43d0d0ea77d93bcec577a08af58911c2025b55f798e56aaef06bb246",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-old-disabled",
+              "dsh-fixture-group-alloff"
+            ]
+          }
+        ]
+      },
+      "candidate": {
+        "clientSha256": "727f743c09a3c7417a4dc5936866b54a51e224e6096daa122ddba5ac57d47b5e",
+        "acceptance": {
+          "singleEnableKeptBothOff": true,
+          "groupEnableKeptBothOff": true,
+          "groupOffPreservedUserAttribution": true,
+          "legacyBothRestored": true,
+          "choicesSurvivedRestart": true,
+          "userPatchVerbatim": true,
+          "noDuplicateRuntimeComponents": true
+        },
+        "actions": {
+          "singleOn": {
+            "method": "ui",
+            "code": 502,
+            "ok": false,
+            "restart": false,
+            "activation": "disabled",
+            "error": "所有组件都已关闭。请到官方插件页开启插件，再选择所需组件 / All components are off. Enable the plugin and turn on the components you want on the DSH Plugins page."
+          },
+          "groupOff": {
+            "method": "renderer-http",
+            "code": 200,
+            "ok": true,
+            "restart": null,
+            "activation": null,
+            "error": null
+          },
+          "groupOn": {
+            "method": "ui",
+            "code": 400,
+            "ok": false,
+            "restart": null,
+            "activation": null,
+            "error": "无法启用 dsh-fixture-group-alloff。所有组件都已关闭。请到官方插件页开启插件，再选择所需组件 / Could not enable dsh-fixture-group-alloff. All components are off. Enable the plugin and turn on the components you want on the DSH Plugins page."
+          },
+          "legacyOn": {
+            "method": "renderer-http",
+            "code": 200,
+            "ok": true,
+            "restart": false,
+            "activation": "live",
+            "error": null
+          }
+        },
+        "stages": [
+          {
+            "step": "01-initial",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "patchSha256": "bd29676882cf72ec55b6642107b5d72c9620f41c4962175dc7b7df657481cecc",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "02-single-enable-while-all-explicit-off",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "patchSha256": "bd29676882cf72ec55b6642107b5d72c9620f41c4962175dc7b7df657481cecc",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "03-group-off",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "patchSha256": "bd29676882cf72ec55b6642107b5d72c9620f41c4962175dc7b7df657481cecc",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "04-group-on",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "patchSha256": "bd29676882cf72ec55b6642107b5d72c9620f41c4962175dc7b7df657481cecc",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "05-legacy-enable",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": true,
+              "legacy-extra": true
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 1,
+              "legacy-extra": 1
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 1,
+              "legacy-extra": 1
+            },
+            "patchSha256": "28296eba50ec6348f93a00278f6be03a054ab9c16e192d3be9e678365c02e55c",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "06-after-desktop-restart",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": true,
+              "legacy-extra": true
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 1,
+              "legacy-extra": 1
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 1,
+              "legacy-extra": 1
+            },
+            "patchSha256": "28296eba50ec6348f93a00278f6be03a054ab9c16e192d3be9e678365c02e55c",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          }
+        ],
+        "runtimeWitness": {
+          "source": "candidate-actual-all-off-1794817865087/result.json",
+          "peakByComponent": {
+            "user-alloff-primary": 0,
+            "user-alloff-extra": 0,
+            "group-alloff-primary": 0,
+            "group-alloff-extra": 0,
+            "legacy-primary": 1,
+            "legacy-extra": 1
+          }
+        }
+      }
+    },
+    "all-off-bare": {
+      "stock": {
+        "actions": {
+          "singleOn": {
+            "method": "ui",
+            "code": 200,
+            "ok": true
+          },
+          "groupOff": {
+            "method": "renderer-http",
+            "code": 200,
+            "ok": true
+          },
+          "groupOn": {
+            "method": "ui",
+            "code": 200,
+            "ok": true
+          },
+          "legacyOn": {
+            "method": "renderer-http",
+            "code": 200,
+            "ok": true
+          }
+        },
+        "stages": [
+          {
+            "step": "01-initial",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "patchSha256": "9b4f80c3af253a110f11b064a1e61ea890b3599b0d9e855edd5b18f924738b72",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "02-single-enable-while-all-explicit-off",
+            "active": {
+              "user-alloff-primary": true,
+              "user-alloff-extra": true,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "patchSha256": "cab9069be605dd9553a4cf2ad4f1483e78e8bff6c6c364189600a6d6e0c04977",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "03-group-off",
+            "active": {
+              "user-alloff-primary": true,
+              "user-alloff-extra": true,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "patchSha256": "4d15c2cb2c4fb9444db631eef1358d5bf9e31c06c801c8b27449e4faf8d568ac",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled",
+              "dsh-fixture-group-alloff"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "04-group-on",
+            "active": {
+              "user-alloff-primary": true,
+              "user-alloff-extra": true,
+              "group-alloff-primary": true,
+              "group-alloff-extra": true,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "patchSha256": "0991ae6f4aebcdc398e1bee66d5beee399a4689ca891b219dc9dbecd889c59c8",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-old-disabled",
+              "dsh-fixture-group-alloff"
+            ]
+          },
+          {
+            "step": "05-legacy-enable",
+            "active": {
+              "user-alloff-primary": true,
+              "user-alloff-extra": true,
+              "group-alloff-primary": true,
+              "group-alloff-extra": true,
+              "legacy-primary": true,
+              "legacy-extra": true
+            },
+            "patchSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-old-disabled",
+              "dsh-fixture-group-alloff"
+            ]
+          },
+          {
+            "step": "06-after-desktop-restart",
+            "active": {
+              "user-alloff-primary": true,
+              "user-alloff-extra": true,
+              "group-alloff-primary": true,
+              "group-alloff-extra": true,
+              "legacy-primary": true,
+              "legacy-extra": true
+            },
+            "patchSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-old-disabled",
+              "dsh-fixture-group-alloff"
+            ]
+          }
+        ],
+        "screenshot": {
+          "path": "all-off-bare-before.png",
+          "sha256": "a223e29a7e276147f692103fd46b1747d2525a1aa570849f767146d457cdedc8"
+        }
+      },
+      "candidate": {
+        "clientSha256": "727f743c09a3c7417a4dc5936866b54a51e224e6096daa122ddba5ac57d47b5e",
+        "acceptance": {
+          "singleEnableKeptBothOff": true,
+          "groupEnableKeptBothOff": true,
+          "groupOffPreservedUserAttribution": true,
+          "legacyBothRestored": true,
+          "choicesSurvivedRestart": true,
+          "userPatchVerbatim": true,
+          "noDuplicateRuntimeComponents": true
+        },
+        "actions": {
+          "singleOn": {
+            "method": "ui",
+            "code": 502,
+            "ok": false,
+            "restart": false,
+            "activation": "disabled",
+            "error": "所有组件都已关闭。请到官方插件页开启插件，再选择所需组件 / All components are off. Enable the plugin and turn on the components you want on the DSH Plugins page."
+          },
+          "groupOff": {
+            "method": "renderer-http",
+            "code": 200,
+            "ok": true,
+            "restart": null,
+            "activation": null,
+            "error": null
+          },
+          "groupOn": {
+            "method": "ui",
+            "code": 400,
+            "ok": false,
+            "restart": null,
+            "activation": null,
+            "error": "无法启用 dsh-fixture-group-alloff。所有组件都已关闭。请到官方插件页开启插件，再选择所需组件 / Could not enable dsh-fixture-group-alloff. All components are off. Enable the plugin and turn on the components you want on the DSH Plugins page."
+          },
+          "legacyOn": {
+            "method": "renderer-http",
+            "code": 200,
+            "ok": true,
+            "restart": false,
+            "activation": "live",
+            "error": null
+          }
+        },
+        "stages": [
+          {
+            "step": "01-initial",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "patchSha256": "9b4f80c3af253a110f11b064a1e61ea890b3599b0d9e855edd5b18f924738b72",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "02-single-enable-while-all-explicit-off",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "patchSha256": "9b4f80c3af253a110f11b064a1e61ea890b3599b0d9e855edd5b18f924738b72",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "03-group-off",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "patchSha256": "9b4f80c3af253a110f11b064a1e61ea890b3599b0d9e855edd5b18f924738b72",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "04-group-on",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": false,
+              "legacy-extra": false
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 0,
+              "legacy-extra": 0
+            },
+            "patchSha256": "9b4f80c3af253a110f11b064a1e61ea890b3599b0d9e855edd5b18f924738b72",
+            "persistentDisabled": [
+              "dsh-fixture-old-disabled"
+            ],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "05-legacy-enable",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": true,
+              "legacy-extra": true
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 1,
+              "legacy-extra": 1
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 1,
+              "legacy-extra": 1
+            },
+            "patchSha256": "f850ae0a8245c19aa4adb8fd5ec9691f5fa77ced3146cbfa44b328bfafcebe75",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          },
+          {
+            "step": "06-after-desktop-restart",
+            "active": {
+              "user-alloff-primary": false,
+              "user-alloff-extra": false,
+              "group-alloff-primary": false,
+              "group-alloff-extra": false,
+              "legacy-primary": true,
+              "legacy-extra": true
+            },
+            "instances": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 1,
+              "legacy-extra": 1
+            },
+            "peak": {
+              "user-alloff-primary": 0,
+              "user-alloff-extra": 0,
+              "group-alloff-primary": 0,
+              "group-alloff-extra": 0,
+              "legacy-primary": 1,
+              "legacy-extra": 1
+            },
+            "patchSha256": "f850ae0a8245c19aa4adb8fd5ec9691f5fa77ced3146cbfa44b328bfafcebe75",
+            "persistentDisabled": [],
+            "bundled": [
+              "dsh-fixture-user-alloff",
+              "dsh-fixture-group-alloff",
+              "dsh-fixture-old-disabled"
+            ]
+          }
+        ],
+        "runtimeWitness": {
+          "source": "candidate-actual-all-off-bare-1794817933978/result.json",
+          "peakByComponent": {
+            "user-alloff-primary": 0,
+            "user-alloff-extra": 0,
+            "group-alloff-primary": 0,
+            "group-alloff-extra": 0,
+            "legacy-primary": 1,
+            "legacy-extra": 1
+          }
+        },
+        "screenshot": {
+          "path": "all-off-bare-after.png",
+          "sha256": "c152c1892c07423ac117dc2459581dbe613968136d75932f5aa2ee4c269672a4"
+        }
+      }
+    }
+  },
+  "testCommit": "c672ae544a2a63597dc183d3fbe3a03d06e88eca"
+}

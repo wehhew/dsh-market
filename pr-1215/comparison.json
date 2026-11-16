@@ -1,0 +1,73 @@
+{
+  "host": "Official DSH Web 0.2.2-rc.1 on Windows",
+  "fixture": "In two independent browsers switch A→B, reactivate A while B is waiting, then let B fail. Real UI/HTTP/Cordis; two synthetic themes and a pass-through registration observer.",
+  "cleanup": "First A is disposed while switching to B. A second stop proves that deactivation shut down the healthy A installed by browser two.",
+  "runs": {
+    "nightly": {
+      "commit": "5364c03f200d900792a0c069d39f96ec9bbc062f",
+      "packSha256": "23b39e56c64453b28ba0f4dcfbd6cf983c4ea8ab1d84360ec21a1d1edd35708d",
+      "installedHotJsSha256": "794784f58318b4d47a710c76a4fa28b8f4b76f02472f454584ee4c0fe8eecc28",
+      "aFirstHttpStatus": 200,
+      "aSecondHttpStatus": 200,
+      "failingBHttpStatus": 502,
+      "mountCalls": 3,
+      "themeAStarts": 2,
+      "themeAActive": 2,
+      "themeAStops": 2,
+      "themeAReportedLiveAfterRollback": true,
+      "reportedActivationAfterRollback": "live",
+      "deactivateMethod": "ui",
+      "deactivateHttpStatus": 200,
+      "themeAReportedLiveAfterDeactivate": false,
+      "duplicateServiceError": false,
+      "screenshot": "nightly-after-rollback.png",
+      "screenshotSha256": "be27f9f094a0dc07d14ed6db6de530793727c6937c37dacd64cfec0bbf383876"
+    },
+    "candidate": {
+      "commit": "151f438e5415a05dc7452938c2b0402ee74802fa",
+      "packSha256": "a6ffa0069929453f26d4f6064c5787d1a87219eb8f6f4c451726812a105c70d6",
+      "installedHotJsSha256": "0e13050572130104d11cf9fdf3991a68b0d0667e5f716c339a669dfe80ed4f86",
+      "aFirstHttpStatus": 200,
+      "aSecondHttpStatus": 200,
+      "failingBHttpStatus": 502,
+      "mountCalls": 4,
+      "themeAStarts": 3,
+      "themeAActive": 2,
+      "themeAStops": 1,
+      "themeAReportedLiveAfterRollback": false,
+      "reportedActivationAfterRollback": "disabled",
+      "deactivateMethod": "same-origin API because the card did not offer Deactivate",
+      "deactivateHttpStatus": 200,
+      "themeAReportedLiveAfterDeactivate": false,
+      "duplicateServiceError": true,
+      "screenshot": "before-after-rollback.png",
+      "screenshotSha256": "871e4417d1d09bf7ff82e755687535b4e657e679f56178c952a3959c71aa15fd"
+    },
+    "integrated": {
+      "commit": "a15584f167d5bef959e4266483d3a7b48342cf41",
+      "packSha256": "2d00a47a44e109aa08cbd928a5137af81ae7f8d7370bf58ab1883e0a257536ea",
+      "installedHotJsSha256": "bbf04b03b8ed1886b480ba3cfddea43c844857b399faa87242b3621cc711a601",
+      "aFirstHttpStatus": 200,
+      "aSecondHttpStatus": 200,
+      "failingBHttpStatus": 502,
+      "mountCalls": 3,
+      "themeAStarts": 2,
+      "themeAActive": 2,
+      "themeAStops": 2,
+      "themeAReportedLiveAfterRollback": true,
+      "reportedActivationAfterRollback": "live",
+      "deactivateMethod": "ui",
+      "deactivateHttpStatus": 200,
+      "themeAReportedLiveAfterDeactivate": false,
+      "duplicateServiceError": false,
+      "screenshot": "after-rollback.png",
+      "screenshotSha256": "10da189d942a6c257ea1cce8d96ed70e4c3803d045acd8014b19c708c2af9361"
+    }
+  },
+  "groupControlsWebE2E": {
+    "commit": "2f42eaa52f557671eab34a7c537cf07fda963c6e",
+    "command": "npm run test:web -- tests/web/group-controls.e2e.ts",
+    "result": "1 passed, 0 skipped"
+  },
+  "testCommit": "a15584f167d5bef959e4266483d3a7b48342cf41"
+}

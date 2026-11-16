@@ -1,0 +1,188 @@
+{
+  "host": {
+    "desktop": "0.2.2-rc.3",
+    "electron": "44.7.0",
+    "node": "24.21.0",
+    "asarSha256": "14cfd81c9135bf0afb89417543c94f9ecfe09266574452a9b106890c698725ae"
+  },
+  "actualRoute": "/dsh-market/status",
+  "fixturePackage": "dsh-chat-in-harness@1.1.1",
+  "fixtureArchiveSha256": "857e3ba8da5d6abdbace956f47e7d8c2333bdb38edc737928cde789cb6b097a0",
+  "fixtureMethod": "Official embedded Electron Node and Cordis Loader; exact packaged market; fresh C: profiles and real NTFS junction. The missing-helper cases use a scoped module resolver fixture without the export. A recording wrapper forwards the actual Node lock-open calls.",
+  "cases": [
+    {
+      "marketTag": "stock",
+      "marketArchiveSha256": "23b39e56c64453b28ba0f4dcfbd6cf983c4ea8ab1d84360ec21a1d1edd35708d",
+      "routesSha256": "bfe7dd2cd377083fd5ec055849b03c4bf58f572aea99eba8c82431174b7c560d",
+      "scenario": "missing-stale",
+      "helperAvailable": false,
+      "firstSampleMs": 39,
+      "testReleasedOldLockAtMs": 44716,
+      "finalSampleMs": 60014,
+      "attempts": 46,
+      "attemptsAfterDeadline": 16,
+      "lastAttemptMs": 45375,
+      "restoredExactly": true,
+      "pendingJournalEntries": 0,
+      "status": null,
+      "helperUnavailableWarnings": 0,
+      "deadlineWarnings": 0,
+      "originalManifestLockfileAndSourceIdentical": true,
+      "sourceFiles": 12
+    },
+    {
+      "marketTag": "candidate",
+      "marketArchiveSha256": "6c11dd1e84463ac4923c566dc15a880af4edb2371d65a8230dec67d83f8ce894",
+      "routesSha256": "f05fb906e71dabd739de1bd2bc76ac4530057343dff5cca3fde1db148dd7afd6",
+      "scenario": "missing-stale",
+      "helperAvailable": false,
+      "firstSampleMs": 55,
+      "testReleasedOldLockAtMs": 44721,
+      "finalSampleMs": 60014,
+      "attempts": 30,
+      "attemptsAfterDeadline": 0,
+      "lastAttemptMs": 29274,
+      "restoredExactly": false,
+      "pendingJournalEntries": 1,
+      "status": {
+        "checking": false,
+        "entries": [
+          {
+            "name": "dsh-chat-in-harness",
+            "reason": "writer-lock",
+            "sourceExists": true
+          }
+        ]
+      },
+      "helperUnavailableWarnings": 1,
+      "deadlineWarnings": 1,
+      "originalManifestLockfileAndSourceIdentical": true,
+      "sourceFiles": 12
+    },
+    {
+      "marketTag": "candidate-long",
+      "marketArchiveSha256": "6c11dd1e84463ac4923c566dc15a880af4edb2371d65a8230dec67d83f8ce894",
+      "routesSha256": "f05fb906e71dabd739de1bd2bc76ac4530057343dff5cca3fde1db148dd7afd6",
+      "scenario": "missing-stale",
+      "helperAvailable": false,
+      "firstSampleMs": 55,
+      "testReleasedOldLockAtMs": 44732,
+      "finalSampleMs": 150017,
+      "attempts": 30,
+      "attemptsAfterDeadline": 0,
+      "lastAttemptMs": 29285,
+      "restoredExactly": false,
+      "pendingJournalEntries": 1,
+      "status": {
+        "checking": false,
+        "entries": [
+          {
+            "name": "dsh-chat-in-harness",
+            "reason": "writer-lock",
+            "sourceExists": true
+          }
+        ]
+      },
+      "helperUnavailableWarnings": 1,
+      "deadlineWarnings": 1,
+      "originalManifestLockfileAndSourceIdentical": true,
+      "sourceFiles": 12
+    },
+    {
+      "marketTag": "stock",
+      "marketArchiveSha256": "23b39e56c64453b28ba0f4dcfbd6cf983c4ea8ab1d84360ec21a1d1edd35708d",
+      "routesSha256": "bfe7dd2cd377083fd5ec055849b03c4bf58f572aea99eba8c82431174b7c560d",
+      "scenario": "missing-idle",
+      "helperAvailable": false,
+      "firstSampleMs": 56,
+      "testReleasedOldLockAtMs": null,
+      "finalSampleMs": 5005,
+      "attempts": 1,
+      "attemptsAfterDeadline": 0,
+      "lastAttemptMs": 21,
+      "restoredExactly": true,
+      "pendingJournalEntries": 0,
+      "status": null,
+      "helperUnavailableWarnings": 0,
+      "deadlineWarnings": 0,
+      "originalManifestLockfileAndSourceIdentical": true,
+      "sourceFiles": 12
+    },
+    {
+      "marketTag": "candidate",
+      "marketArchiveSha256": "6c11dd1e84463ac4923c566dc15a880af4edb2371d65a8230dec67d83f8ce894",
+      "routesSha256": "f05fb906e71dabd739de1bd2bc76ac4530057343dff5cca3fde1db148dd7afd6",
+      "scenario": "missing-idle",
+      "helperAvailable": false,
+      "firstSampleMs": 106,
+      "testReleasedOldLockAtMs": null,
+      "finalSampleMs": 5006,
+      "attempts": 1,
+      "attemptsAfterDeadline": 0,
+      "lastAttemptMs": 30,
+      "restoredExactly": true,
+      "pendingJournalEntries": 0,
+      "status": null,
+      "helperUnavailableWarnings": 0,
+      "deadlineWarnings": 0,
+      "originalManifestLockfileAndSourceIdentical": true,
+      "sourceFiles": 12
+    },
+    {
+      "marketTag": "stock",
+      "marketArchiveSha256": "23b39e56c64453b28ba0f4dcfbd6cf983c4ea8ab1d84360ec21a1d1edd35708d",
+      "routesSha256": "bfe7dd2cd377083fd5ec055849b03c4bf58f572aea99eba8c82431174b7c560d",
+      "scenario": "host-stale",
+      "helperAvailable": true,
+      "firstSampleMs": 40,
+      "testReleasedOldLockAtMs": null,
+      "finalSampleMs": 5012,
+      "attempts": 1,
+      "attemptsAfterDeadline": 0,
+      "lastAttemptMs": 17,
+      "restoredExactly": true,
+      "pendingJournalEntries": 0,
+      "status": null,
+      "helperUnavailableWarnings": 0,
+      "deadlineWarnings": 0,
+      "originalManifestLockfileAndSourceIdentical": true,
+      "sourceFiles": 12
+    },
+    {
+      "marketTag": "candidate",
+      "marketArchiveSha256": "6c11dd1e84463ac4923c566dc15a880af4edb2371d65a8230dec67d83f8ce894",
+      "routesSha256": "f05fb906e71dabd739de1bd2bc76ac4530057343dff5cca3fde1db148dd7afd6",
+      "scenario": "host-stale",
+      "helperAvailable": true,
+      "firstSampleMs": 54,
+      "testReleasedOldLockAtMs": null,
+      "finalSampleMs": 5010,
+      "attempts": 1,
+      "attemptsAfterDeadline": 0,
+      "lastAttemptMs": 23,
+      "restoredExactly": true,
+      "pendingJournalEntries": 0,
+      "status": null,
+      "helperUnavailableWarnings": 0,
+      "deadlineWarnings": 0,
+      "originalManifestLockfileAndSourceIdentical": true,
+      "sourceFiles": 12
+    }
+  ],
+  "testCommit": "3f538c4f4b0477ca05e143ce1331c5e53135615f",
+  "screenshots": [
+    {
+      "variant": "stock",
+      "phase": "at deadline, before the blocker is released",
+      "path": "stock-at-deadline.png",
+      "sha256": "2c0fa3c6ad7a481c0a0d2b27c8acb997cb7353faba99b5b100502c5d3cddd198"
+    },
+    {
+      "variant": "candidate",
+      "phase": "after desktop restart, when recovery may run again",
+      "path": "candidate-after-restart.png",
+      "sha256": "552b37f8cee5e6ad213391d73c36cd4be66a30f43dc986accc4ee3358abab6df"
+    }
+  ],
+  "screenshotLimit": "The candidate deadline screenshot was a black frame. The state and timing are recorded in the timelines and helper comparison."
+}
